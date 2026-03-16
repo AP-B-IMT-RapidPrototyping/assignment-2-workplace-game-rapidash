@@ -11,6 +11,7 @@ public partial class PlayerControl : CharacterBody3D
     [Export] private float _jumpVelocity = 4.5f;
 
 	private float _cameraRotationX = 0f;
+	private float _cameraPitch = 0f;
 
     public override void _Ready()
     {
@@ -63,7 +64,7 @@ public partial class PlayerControl : CharacterBody3D
 
             // Voorkom dat de camera omdraait (clamp tussen -86° en +86°, of -1.5 en 1.5 radialen)
             Vector3 cameraRotation = _camera.Rotation;
-            cameraRotation.X = Mathf.Clamp(cameraRotation.X, -2f, 2f);
+            cameraRotation.X = Mathf.Clamp(cameraRotation.X, -1.8f, 1.8f);
             _camera.Rotation = cameraRotation;
         }
     }

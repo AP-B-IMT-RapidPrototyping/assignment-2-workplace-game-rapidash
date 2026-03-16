@@ -4,9 +4,9 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_pbejf"]
 
-[node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("_cam")]
+[node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("_camera")]
 script = ExtResource("1_dnjej")
-_cam = NodePath("Camera3D")
+_camera = NodePath("Camera3D")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
