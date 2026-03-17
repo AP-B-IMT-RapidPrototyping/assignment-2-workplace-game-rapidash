@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://be23uxje4upp5"
-path="res://.godot/imported/crate_lettuce.fbx-cc655acb3b69c8f3ce31a06099cb7317.scn"
+path="res://.godot/imported/crate_lettuce.fbx-7d0e8d2f6f536b6303917173ccf2be2e.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/crate_lettuce.fbx"
-dest_files=["res://.godot/imported/crate_lettuce.fbx-cc655acb3b69c8f3ce31a06099cb7317.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/crate_lettuce.fbx"
+dest_files=["res://.godot/imported/crate_lettuce.fbx-7d0e8d2f6f536b6303917173ccf2be2e.scn"]
 
 [params]
 

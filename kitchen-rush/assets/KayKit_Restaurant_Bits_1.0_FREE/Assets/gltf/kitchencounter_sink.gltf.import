@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://qgok1neb6qx0"
-path="res://.godot/imported/kitchencounter_sink.gltf-be9dd6423eb50ec8d1cec2cff205568e.scn"
+path="res://.godot/imported/kitchencounter_sink.gltf-7acc34862d9252316aa58d64353903f2.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_sink.gltf"
-dest_files=["res://.godot/imported/kitchencounter_sink.gltf-be9dd6423eb50ec8d1cec2cff205568e.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_sink.gltf"
+dest_files=["res://.godot/imported/kitchencounter_sink.gltf-7acc34862d9252316aa58d64353903f2.scn"]
 
 [params]
 

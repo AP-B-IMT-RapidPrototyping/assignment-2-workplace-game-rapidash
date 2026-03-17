@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://20aafymo48bi"
-path="res://.godot/imported/wall_orderwindow.fbx-b41770808901dda8169c685af080f9a6.scn"
+path="res://.godot/imported/wall_orderwindow.fbx-8081efb3ca8e45b9a9771c8cb3ea7f1d.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/wall_orderwindow.fbx"
-dest_files=["res://.godot/imported/wall_orderwindow.fbx-b41770808901dda8169c685af080f9a6.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/wall_orderwindow.fbx"
+dest_files=["res://.godot/imported/wall_orderwindow.fbx-8081efb3ca8e45b9a9771c8cb3ea7f1d.scn"]
 
 [params]
 

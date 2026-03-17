@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dthq2idettrjd"
-path="res://.godot/imported/food_ingredient_vegetableburger_cooked.gltf-ebb6b01047c5b333115ed2271ffa4322.scn"
+path="res://.godot/imported/food_ingredient_vegetableburger_cooked.gltf-c37ad378502f27c803468ccd32c168ed.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_vegetableburger_cooked.gltf"
-dest_files=["res://.godot/imported/food_ingredient_vegetableburger_cooked.gltf-ebb6b01047c5b333115ed2271ffa4322.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_vegetableburger_cooked.gltf"
+dest_files=["res://.godot/imported/food_ingredient_vegetableburger_cooked.gltf-c37ad378502f27c803468ccd32c168ed.scn"]
 
 [params]
 

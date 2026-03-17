@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://brobho8gb5esy"
-path="res://.godot/imported/kitchencabinet_half.gltf-19086bcf6659f13f1ca1ff422aefc771.scn"
+path="res://.godot/imported/kitchencabinet_half.gltf-a3f39c767399dece16e298c383370a1e.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencabinet_half.gltf"
-dest_files=["res://.godot/imported/kitchencabinet_half.gltf-19086bcf6659f13f1ca1ff422aefc771.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencabinet_half.gltf"
+dest_files=["res://.godot/imported/kitchencabinet_half.gltf-a3f39c767399dece16e298c383370a1e.scn"]
 
 [params]
 

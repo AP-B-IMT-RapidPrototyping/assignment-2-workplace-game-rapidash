@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dvvgfdv8yrv5n"
-path="res://.godot/imported/jar_D_small.gltf-f9bb7558da4d68ac7a7f92329f9ea8f7.scn"
+path="res://.godot/imported/jar_D_small.gltf-f23251c52ba56f37517d56f52c3e5c7c.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/jar_D_small.gltf"
-dest_files=["res://.godot/imported/jar_D_small.gltf-f9bb7558da4d68ac7a7f92329f9ea8f7.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/jar_D_small.gltf"
+dest_files=["res://.godot/imported/jar_D_small.gltf-f23251c52ba56f37517d56f52c3e5c7c.scn"]
 
 [params]
 

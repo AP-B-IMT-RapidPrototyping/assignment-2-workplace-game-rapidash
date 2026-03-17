@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://10cw4axk3ok5"
-path="res://.godot/imported/food_ingredient_burger_trash.gltf-7d40b6b68c6b121a230aee376457cea1.scn"
+path="res://.godot/imported/food_ingredient_burger_trash.gltf-688165f2f0e9273ff35502e7a4053831.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_burger_trash.gltf"
-dest_files=["res://.godot/imported/food_ingredient_burger_trash.gltf-7d40b6b68c6b121a230aee376457cea1.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_burger_trash.gltf"
+dest_files=["res://.godot/imported/food_ingredient_burger_trash.gltf-688165f2f0e9273ff35502e7a4053831.scn"]
 
 [params]
 

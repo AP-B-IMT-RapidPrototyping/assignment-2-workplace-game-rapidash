@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c83d0nikeh61l"
-path="res://.godot/imported/kitchentable_sink_large_decorated.fbx-94e0d1cba74e06c55d360695a18c844c.scn"
+path="res://.godot/imported/kitchentable_sink_large_decorated.fbx-563f45b61f42d6fae09964e38995d820.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchentable_sink_large_decorated.fbx"
-dest_files=["res://.godot/imported/kitchentable_sink_large_decorated.fbx-94e0d1cba74e06c55d360695a18c844c.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchentable_sink_large_decorated.fbx"
+dest_files=["res://.godot/imported/kitchentable_sink_large_decorated.fbx-563f45b61f42d6fae09964e38995d820.scn"]
 
 [params]
 

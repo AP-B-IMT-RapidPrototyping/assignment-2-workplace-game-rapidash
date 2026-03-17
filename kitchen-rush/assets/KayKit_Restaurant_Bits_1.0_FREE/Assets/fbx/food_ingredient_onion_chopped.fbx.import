@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dduy4jk4k0udg"
-path="res://.godot/imported/food_ingredient_onion_chopped.fbx-632e34f5cab0ee7f2375808b6dae38aa.scn"
+path="res://.godot/imported/food_ingredient_onion_chopped.fbx-7742eb1f3b01d4d381be74437c405823.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_onion_chopped.fbx"
-dest_files=["res://.godot/imported/food_ingredient_onion_chopped.fbx-632e34f5cab0ee7f2375808b6dae38aa.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_onion_chopped.fbx"
+dest_files=["res://.godot/imported/food_ingredient_onion_chopped.fbx-7742eb1f3b01d4d381be74437c405823.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ch06fenjtpnaq"
-path="res://.godot/imported/pan_A.obj-b6226871bae36e9104442ca31f0f9383.mesh"
+path="res://.godot/imported/pan_A.obj-79ddbe33efca51f96a1e03ea5bbd4bd5.mesh"
 
 [deps]
 
-files=["res://.godot/imported/pan_A.obj-b6226871bae36e9104442ca31f0f9383.mesh"]
+files=["res://.godot/imported/pan_A.obj-79ddbe33efca51f96a1e03ea5bbd4bd5.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pan_A.obj"
-dest_files=["res://.godot/imported/pan_A.obj-b6226871bae36e9104442ca31f0f9383.mesh", "res://.godot/imported/pan_A.obj-b6226871bae36e9104442ca31f0f9383.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pan_A.obj"
+dest_files=["res://.godot/imported/pan_A.obj-79ddbe33efca51f96a1e03ea5bbd4bd5.mesh", "res://.godot/imported/pan_A.obj-79ddbe33efca51f96a1e03ea5bbd4bd5.mesh"]
 
 [params]
 

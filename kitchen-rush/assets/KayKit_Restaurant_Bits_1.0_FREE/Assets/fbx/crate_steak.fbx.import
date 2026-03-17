@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bcskawdyhp0uu"
-path="res://.godot/imported/crate_steak.fbx-7f023783eb03df89705cc63d2801361c.scn"
+path="res://.godot/imported/crate_steak.fbx-ae3f5af725ee418cf3b6b017f655d8b3.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/crate_steak.fbx"
-dest_files=["res://.godot/imported/crate_steak.fbx-7f023783eb03df89705cc63d2801361c.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/crate_steak.fbx"
+dest_files=["res://.godot/imported/crate_steak.fbx-ae3f5af725ee418cf3b6b017f655d8b3.scn"]
 
 [params]
 

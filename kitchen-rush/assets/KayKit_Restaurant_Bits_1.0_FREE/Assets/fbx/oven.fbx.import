@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b4nymp0qkagsf"
-path="res://.godot/imported/oven.fbx-958f729b86d42e2ea63990c9c08683a6.scn"
+path="res://.godot/imported/oven.fbx-bcc439bf9835fb2b03b0fd5041faed74.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/oven.fbx"
-dest_files=["res://.godot/imported/oven.fbx-958f729b86d42e2ea63990c9c08683a6.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/oven.fbx"
+dest_files=["res://.godot/imported/oven.fbx-bcc439bf9835fb2b03b0fd5041faed74.scn"]
 
 [params]
 

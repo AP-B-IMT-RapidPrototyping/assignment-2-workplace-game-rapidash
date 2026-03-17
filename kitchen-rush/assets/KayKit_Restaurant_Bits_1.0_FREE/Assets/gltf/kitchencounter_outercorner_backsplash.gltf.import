@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bk056jlnmcgc"
-path="res://.godot/imported/kitchencounter_outercorner_backsplash.gltf-90409b087fae914d79d9fb0e63dc96b4.scn"
+path="res://.godot/imported/kitchencounter_outercorner_backsplash.gltf-15e8ab9dbbfde290448bfe463fe39e48.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_outercorner_backsplash.gltf"
-dest_files=["res://.godot/imported/kitchencounter_outercorner_backsplash.gltf-90409b087fae914d79d9fb0e63dc96b4.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_outercorner_backsplash.gltf"
+dest_files=["res://.godot/imported/kitchencounter_outercorner_backsplash.gltf-15e8ab9dbbfde290448bfe463fe39e48.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dmuf6p7471ij3"
-path="res://.godot/imported/plate_dirty.fbx-f22097de000c57f075d81665426f1c81.scn"
+path="res://.godot/imported/plate_dirty.fbx-23fc3550d92beff92b4ac6a592a298e3.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/plate_dirty.fbx"
-dest_files=["res://.godot/imported/plate_dirty.fbx-f22097de000c57f075d81665426f1c81.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/plate_dirty.fbx"
+dest_files=["res://.godot/imported/plate_dirty.fbx-23fc3550d92beff92b4ac6a592a298e3.scn"]
 
 [params]
 

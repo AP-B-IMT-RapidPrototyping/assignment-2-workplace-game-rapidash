@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cirxqmsxq8g1i"
-path="res://.godot/imported/crate_buns.fbx-f1d8b515dd5e3ec0bf21b86f711b688b.scn"
+path="res://.godot/imported/crate_buns.fbx-07298d9849c32c171936c7572deed843.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/crate_buns.fbx"
-dest_files=["res://.godot/imported/crate_buns.fbx-f1d8b515dd5e3ec0bf21b86f711b688b.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/crate_buns.fbx"
+dest_files=["res://.godot/imported/crate_buns.fbx-07298d9849c32c171936c7572deed843.scn"]
 
 [params]
 

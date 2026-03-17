@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b3glj6ayojdyq"
-path="res://.godot/imported/food_ingredient_ham_cooked.gltf-e458abb9228446d89dac5b656fcac8b7.scn"
+path="res://.godot/imported/food_ingredient_ham_cooked.gltf-63e646e3bc580c091594d4623d3c2ae9.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_ham_cooked.gltf"
-dest_files=["res://.godot/imported/food_ingredient_ham_cooked.gltf-e458abb9228446d89dac5b656fcac8b7.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_ham_cooked.gltf"
+dest_files=["res://.godot/imported/food_ingredient_ham_cooked.gltf-63e646e3bc580c091594d4623d3c2ae9.scn"]
 
 [params]
 

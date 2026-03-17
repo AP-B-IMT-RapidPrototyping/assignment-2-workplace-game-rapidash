@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cgy4c330bmss6"
-path="res://.godot/imported/extractorhood.gltf-8f4b1a40eae4591704abb2645ae24d9c.scn"
+path="res://.godot/imported/extractorhood.gltf-8e838ebc3b58a02ce0df7fdd389774fb.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/extractorhood.gltf"
-dest_files=["res://.godot/imported/extractorhood.gltf-8f4b1a40eae4591704abb2645ae24d9c.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/extractorhood.gltf"
+dest_files=["res://.godot/imported/extractorhood.gltf-8e838ebc3b58a02ce0df7fdd389774fb.scn"]
 
 [params]
 

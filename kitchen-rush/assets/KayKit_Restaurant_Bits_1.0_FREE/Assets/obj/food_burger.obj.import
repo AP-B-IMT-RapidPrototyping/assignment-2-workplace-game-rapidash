@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://fh2c78is3ytf"
-path="res://.godot/imported/food_burger.obj-9c5b4d14bd87f523a2d00faf23d32fbc.mesh"
+path="res://.godot/imported/food_burger.obj-66bbb3d2836dd68df4ff307b9917c185.mesh"
 
 [deps]
 
-files=["res://.godot/imported/food_burger.obj-9c5b4d14bd87f523a2d00faf23d32fbc.mesh"]
+files=["res://.godot/imported/food_burger.obj-66bbb3d2836dd68df4ff307b9917c185.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_burger.obj"
-dest_files=["res://.godot/imported/food_burger.obj-9c5b4d14bd87f523a2d00faf23d32fbc.mesh", "res://.godot/imported/food_burger.obj-9c5b4d14bd87f523a2d00faf23d32fbc.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_burger.obj"
+dest_files=["res://.godot/imported/food_burger.obj-66bbb3d2836dd68df4ff307b9917c185.mesh", "res://.godot/imported/food_burger.obj-66bbb3d2836dd68df4ff307b9917c185.mesh"]
 
 [params]
 

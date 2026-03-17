@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b8hd70klpqac0"
-path="res://.godot/imported/kitchentable_sink_large.obj-c897d72d4bb62da62688b89fbd583d76.mesh"
+path="res://.godot/imported/kitchentable_sink_large.obj-98a77ea61cab218a4e5828c811609319.mesh"
 
 [deps]
 
-files=["res://.godot/imported/kitchentable_sink_large.obj-c897d72d4bb62da62688b89fbd583d76.mesh"]
+files=["res://.godot/imported/kitchentable_sink_large.obj-98a77ea61cab218a4e5828c811609319.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchentable_sink_large.obj"
-dest_files=["res://.godot/imported/kitchentable_sink_large.obj-c897d72d4bb62da62688b89fbd583d76.mesh", "res://.godot/imported/kitchentable_sink_large.obj-c897d72d4bb62da62688b89fbd583d76.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchentable_sink_large.obj"
+dest_files=["res://.godot/imported/kitchentable_sink_large.obj-98a77ea61cab218a4e5828c811609319.mesh", "res://.godot/imported/kitchentable_sink_large.obj-98a77ea61cab218a4e5828c811609319.mesh"]
 
 [params]
 

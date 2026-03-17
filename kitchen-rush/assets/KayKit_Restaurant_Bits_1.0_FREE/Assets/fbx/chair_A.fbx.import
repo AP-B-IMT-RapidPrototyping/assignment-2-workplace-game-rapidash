@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c1xyvy1xo61ya"
-path="res://.godot/imported/chair_A.fbx-7c0e6627ef96c1dff23b51ddf5c20524.scn"
+path="res://.godot/imported/chair_A.fbx-e1908354fb0a5cb74377b342ba168ff9.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/chair_A.fbx"
-dest_files=["res://.godot/imported/chair_A.fbx-7c0e6627ef96c1dff23b51ddf5c20524.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/chair_A.fbx"
+dest_files=["res://.godot/imported/chair_A.fbx-e1908354fb0a5cb74377b342ba168ff9.scn"]
 
 [params]
 

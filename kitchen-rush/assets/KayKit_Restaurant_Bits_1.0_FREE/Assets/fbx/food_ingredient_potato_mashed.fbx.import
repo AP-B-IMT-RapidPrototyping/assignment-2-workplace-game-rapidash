@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cv4gneliwen45"
-path="res://.godot/imported/food_ingredient_potato_mashed.fbx-6f25a823df305995ec508e7219a5ba0d.scn"
+path="res://.godot/imported/food_ingredient_potato_mashed.fbx-e4686014874192cadfe809539ebe222b.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_potato_mashed.fbx"
-dest_files=["res://.godot/imported/food_ingredient_potato_mashed.fbx-6f25a823df305995ec508e7219a5ba0d.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_potato_mashed.fbx"
+dest_files=["res://.godot/imported/food_ingredient_potato_mashed.fbx-e4686014874192cadfe809539ebe222b.scn"]
 
 [params]
 

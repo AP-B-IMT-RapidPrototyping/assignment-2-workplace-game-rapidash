@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://baevmmnilgk7f"
-path="res://.godot/imported/pillar_A.fbx-dc461b279131b0dd665f03c40d2ddbd4.scn"
+path="res://.godot/imported/pillar_A.fbx-aa0129bb35d5307446bea905430b6d1f.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/pillar_A.fbx"
-dest_files=["res://.godot/imported/pillar_A.fbx-dc461b279131b0dd665f03c40d2ddbd4.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/pillar_A.fbx"
+dest_files=["res://.godot/imported/pillar_A.fbx-aa0129bb35d5307446bea905430b6d1f.scn"]
 
 [params]
 

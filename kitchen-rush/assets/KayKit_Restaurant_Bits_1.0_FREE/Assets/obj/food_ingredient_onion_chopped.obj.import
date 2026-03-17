@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bi370q1db8fls"
-path="res://.godot/imported/food_ingredient_onion_chopped.obj-60d4d2128ebadf011a9b6047de81f32a.mesh"
+path="res://.godot/imported/food_ingredient_onion_chopped.obj-a62313301895ca261117c302791ac907.mesh"
 
 [deps]
 
-files=["res://.godot/imported/food_ingredient_onion_chopped.obj-60d4d2128ebadf011a9b6047de81f32a.mesh"]
+files=["res://.godot/imported/food_ingredient_onion_chopped.obj-a62313301895ca261117c302791ac907.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_onion_chopped.obj"
-dest_files=["res://.godot/imported/food_ingredient_onion_chopped.obj-60d4d2128ebadf011a9b6047de81f32a.mesh", "res://.godot/imported/food_ingredient_onion_chopped.obj-60d4d2128ebadf011a9b6047de81f32a.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_onion_chopped.obj"
+dest_files=["res://.godot/imported/food_ingredient_onion_chopped.obj-a62313301895ca261117c302791ac907.mesh", "res://.godot/imported/food_ingredient_onion_chopped.obj-a62313301895ca261117c302791ac907.mesh"]
 
 [params]
 

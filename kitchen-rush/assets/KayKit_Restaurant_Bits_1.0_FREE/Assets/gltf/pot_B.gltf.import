@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://feggo2n6ynnc"
-path="res://.godot/imported/pot_B.gltf-b555722708cba67472ca5acfae0710ff.scn"
+path="res://.godot/imported/pot_B.gltf-88f89195ce4fc75498db40c0c9da3563.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/pot_B.gltf"
-dest_files=["res://.godot/imported/pot_B.gltf-b555722708cba67472ca5acfae0710ff.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/pot_B.gltf"
+dest_files=["res://.godot/imported/pot_B.gltf-88f89195ce4fc75498db40c0c9da3563.scn"]
 
 [params]
 

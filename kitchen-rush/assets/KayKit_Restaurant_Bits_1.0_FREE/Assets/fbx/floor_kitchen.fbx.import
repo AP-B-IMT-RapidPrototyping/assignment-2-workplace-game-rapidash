@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ctrs05dq2tvc"
-path="res://.godot/imported/floor_kitchen.fbx-932a0f492fb190594de2f09eb1492709.scn"
+path="res://.godot/imported/floor_kitchen.fbx-7d1586369f73085d8e148e774e8ce9fa.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/floor_kitchen.fbx"
-dest_files=["res://.godot/imported/floor_kitchen.fbx-932a0f492fb190594de2f09eb1492709.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/floor_kitchen.fbx"
+dest_files=["res://.godot/imported/floor_kitchen.fbx-7d1586369f73085d8e148e774e8ce9fa.scn"]
 
 [params]
 

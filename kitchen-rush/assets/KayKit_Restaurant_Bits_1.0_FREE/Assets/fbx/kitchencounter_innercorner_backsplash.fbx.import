@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://se1ca1evbx0i"
-path="res://.godot/imported/kitchencounter_innercorner_backsplash.fbx-9e1b881f8af09ef310b5ce7507f56acb.scn"
+path="res://.godot/imported/kitchencounter_innercorner_backsplash.fbx-59e5422ae1327a088f4c0650bb52ee69.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_innercorner_backsplash.fbx"
-dest_files=["res://.godot/imported/kitchencounter_innercorner_backsplash.fbx-9e1b881f8af09ef310b5ce7507f56acb.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_innercorner_backsplash.fbx"
+dest_files=["res://.godot/imported/kitchencounter_innercorner_backsplash.fbx-59e5422ae1327a088f4c0650bb52ee69.scn"]
 
 [params]
 

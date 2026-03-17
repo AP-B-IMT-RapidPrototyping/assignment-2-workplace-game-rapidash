@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://biml1tf1s5njn"
-path="res://.godot/imported/food_vegetableburger.fbx-ab15b9dd1e4d0bd949ada24d9bfeb92f.scn"
+path="res://.godot/imported/food_vegetableburger.fbx-c548747d6e5a64ea26f43e7553e556f5.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_vegetableburger.fbx"
-dest_files=["res://.godot/imported/food_vegetableburger.fbx-ab15b9dd1e4d0bd949ada24d9bfeb92f.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_vegetableburger.fbx"
+dest_files=["res://.godot/imported/food_vegetableburger.fbx-c548747d6e5a64ea26f43e7553e556f5.scn"]
 
 [params]
 

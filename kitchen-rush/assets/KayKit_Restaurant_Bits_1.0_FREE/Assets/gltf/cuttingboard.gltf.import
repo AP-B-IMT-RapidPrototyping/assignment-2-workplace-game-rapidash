@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cwxhtqleyl165"
-path="res://.godot/imported/cuttingboard.gltf-cca6d53739ec941b4238fd6546bb8c0d.scn"
+path="res://.godot/imported/cuttingboard.gltf-8efff5cec074885128eabff68dd6cb43.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/cuttingboard.gltf"
-dest_files=["res://.godot/imported/cuttingboard.gltf-cca6d53739ec941b4238fd6546bb8c0d.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/cuttingboard.gltf"
+dest_files=["res://.godot/imported/cuttingboard.gltf-8efff5cec074885128eabff68dd6cb43.scn"]
 
 [params]
 

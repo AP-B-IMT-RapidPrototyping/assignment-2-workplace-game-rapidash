@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cwe1o8t8nfse4"
-path="res://.godot/imported/food_ingredient_tomato_slices.fbx-9c4df2f52e573f49e2a9ee579eee0ff1.scn"
+path="res://.godot/imported/food_ingredient_tomato_slices.fbx-5dc63ec7bd1d024776788b33268ef91e.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_tomato_slices.fbx"
-dest_files=["res://.godot/imported/food_ingredient_tomato_slices.fbx-9c4df2f52e573f49e2a9ee579eee0ff1.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_tomato_slices.fbx"
+dest_files=["res://.godot/imported/food_ingredient_tomato_slices.fbx-5dc63ec7bd1d024776788b33268ef91e.scn"]
 
 [params]
 

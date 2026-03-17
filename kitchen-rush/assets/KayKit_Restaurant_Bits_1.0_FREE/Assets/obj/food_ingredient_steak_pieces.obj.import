@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://r8q8m1704q8k"
-path="res://.godot/imported/food_ingredient_steak_pieces.obj-2294584bfc937a159b4f1c3ddd497581.mesh"
+path="res://.godot/imported/food_ingredient_steak_pieces.obj-e814a80dfee27668dea52f4b73348df3.mesh"
 
 [deps]
 
-files=["res://.godot/imported/food_ingredient_steak_pieces.obj-2294584bfc937a159b4f1c3ddd497581.mesh"]
+files=["res://.godot/imported/food_ingredient_steak_pieces.obj-e814a80dfee27668dea52f4b73348df3.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_steak_pieces.obj"
-dest_files=["res://.godot/imported/food_ingredient_steak_pieces.obj-2294584bfc937a159b4f1c3ddd497581.mesh", "res://.godot/imported/food_ingredient_steak_pieces.obj-2294584bfc937a159b4f1c3ddd497581.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_steak_pieces.obj"
+dest_files=["res://.godot/imported/food_ingredient_steak_pieces.obj-e814a80dfee27668dea52f4b73348df3.mesh", "res://.godot/imported/food_ingredient_steak_pieces.obj-e814a80dfee27668dea52f4b73348df3.mesh"]
 
 [params]
 

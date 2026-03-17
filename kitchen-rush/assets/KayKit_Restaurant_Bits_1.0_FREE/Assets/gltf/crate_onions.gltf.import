@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmlm1i37qnu7p"
-path="res://.godot/imported/crate_onions.gltf-992440f90a4b5cf4e03773bb775dc25a.scn"
+path="res://.godot/imported/crate_onions.gltf-ccaa6dace47f2d437a1629b2d233b394.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/crate_onions.gltf"
-dest_files=["res://.godot/imported/crate_onions.gltf-992440f90a4b5cf4e03773bb775dc25a.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/crate_onions.gltf"
+dest_files=["res://.godot/imported/crate_onions.gltf-ccaa6dace47f2d437a1629b2d233b394.scn"]
 
 [params]
 

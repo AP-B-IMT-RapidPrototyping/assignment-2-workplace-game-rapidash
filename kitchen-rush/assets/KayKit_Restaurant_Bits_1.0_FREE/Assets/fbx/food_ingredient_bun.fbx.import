@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bdsm3ngqxaxar"
-path="res://.godot/imported/food_ingredient_bun.fbx-7571d019b6ba7ad87adc5093166e71fa.scn"
+path="res://.godot/imported/food_ingredient_bun.fbx-5f82712dad98c231102826e539f2ab12.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_bun.fbx"
-dest_files=["res://.godot/imported/food_ingredient_bun.fbx-7571d019b6ba7ad87adc5093166e71fa.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_bun.fbx"
+dest_files=["res://.godot/imported/food_ingredient_bun.fbx-5f82712dad98c231102826e539f2ab12.scn"]
 
 [params]
 

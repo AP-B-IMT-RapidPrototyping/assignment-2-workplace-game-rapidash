@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dux1qp5buv1lp"
-path="res://.godot/imported/pot_large.fbx-1de70687aaeee64896e0ea192548d0ba.scn"
+path="res://.godot/imported/pot_large.fbx-1e4ba0d48653fe293b2356879becd30f.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/pot_large.fbx"
-dest_files=["res://.godot/imported/pot_large.fbx-1de70687aaeee64896e0ea192548d0ba.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/pot_large.fbx"
+dest_files=["res://.godot/imported/pot_large.fbx-1e4ba0d48653fe293b2356879becd30f.scn"]
 
 [params]
 

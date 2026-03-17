@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dg5qpndldqc6"
-path="res://.godot/imported/food_ingredient_onion_rings.gltf-5e78563bdd08a6e29d83e0174fc235db.scn"
+path="res://.godot/imported/food_ingredient_onion_rings.gltf-54aeb854d0549e7af08fd533bb9c6f6a.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_onion_rings.gltf"
-dest_files=["res://.godot/imported/food_ingredient_onion_rings.gltf-5e78563bdd08a6e29d83e0174fc235db.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_onion_rings.gltf"
+dest_files=["res://.godot/imported/food_ingredient_onion_rings.gltf-54aeb854d0549e7af08fd533bb9c6f6a.scn"]
 
 [params]
 

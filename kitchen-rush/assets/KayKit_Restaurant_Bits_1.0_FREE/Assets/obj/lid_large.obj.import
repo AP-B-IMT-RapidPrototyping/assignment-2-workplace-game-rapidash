@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cnboj4ds211in"
-path="res://.godot/imported/lid_large.obj-c07a1bfcd87a0fcf63236f8961a17dbf.mesh"
+path="res://.godot/imported/lid_large.obj-1ed7d238fd04afe85648a6ef230a0f9c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/lid_large.obj-c07a1bfcd87a0fcf63236f8961a17dbf.mesh"]
+files=["res://.godot/imported/lid_large.obj-1ed7d238fd04afe85648a6ef230a0f9c.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/lid_large.obj"
-dest_files=["res://.godot/imported/lid_large.obj-c07a1bfcd87a0fcf63236f8961a17dbf.mesh", "res://.godot/imported/lid_large.obj-c07a1bfcd87a0fcf63236f8961a17dbf.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/lid_large.obj"
+dest_files=["res://.godot/imported/lid_large.obj-1ed7d238fd04afe85648a6ef230a0f9c.mesh", "res://.godot/imported/lid_large.obj-1ed7d238fd04afe85648a6ef230a0f9c.mesh"]
 
 [params]
 

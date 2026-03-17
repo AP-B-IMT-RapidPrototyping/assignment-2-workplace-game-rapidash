@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bmttynhwxjgxf"
-path="res://.godot/imported/dishrack_plates.obj-4ea0f13858cf3e5f527d15dfbe553c74.mesh"
+path="res://.godot/imported/dishrack_plates.obj-4d75463e8ef3dd6e23dc20723fb10cf3.mesh"
 
 [deps]
 
-files=["res://.godot/imported/dishrack_plates.obj-4ea0f13858cf3e5f527d15dfbe553c74.mesh"]
+files=["res://.godot/imported/dishrack_plates.obj-4d75463e8ef3dd6e23dc20723fb10cf3.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/dishrack_plates.obj"
-dest_files=["res://.godot/imported/dishrack_plates.obj-4ea0f13858cf3e5f527d15dfbe553c74.mesh", "res://.godot/imported/dishrack_plates.obj-4ea0f13858cf3e5f527d15dfbe553c74.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/dishrack_plates.obj"
+dest_files=["res://.godot/imported/dishrack_plates.obj-4d75463e8ef3dd6e23dc20723fb10cf3.mesh", "res://.godot/imported/dishrack_plates.obj-4d75463e8ef3dd6e23dc20723fb10cf3.mesh"]
 
 [params]
 

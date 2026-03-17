@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dnvpdddoaevbb"
-path="res://.godot/imported/jar_C_medium.obj-57e80029df0b47b76420715a4eed3c46.mesh"
+path="res://.godot/imported/jar_C_medium.obj-0dd13f4b62d775d66a93ac9f693fac49.mesh"
 
 [deps]
 
-files=["res://.godot/imported/jar_C_medium.obj-57e80029df0b47b76420715a4eed3c46.mesh"]
+files=["res://.godot/imported/jar_C_medium.obj-0dd13f4b62d775d66a93ac9f693fac49.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_C_medium.obj"
-dest_files=["res://.godot/imported/jar_C_medium.obj-57e80029df0b47b76420715a4eed3c46.mesh", "res://.godot/imported/jar_C_medium.obj-57e80029df0b47b76420715a4eed3c46.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_C_medium.obj"
+dest_files=["res://.godot/imported/jar_C_medium.obj-0dd13f4b62d775d66a93ac9f693fac49.mesh", "res://.godot/imported/jar_C_medium.obj-0dd13f4b62d775d66a93ac9f693fac49.mesh"]
 
 [params]
 

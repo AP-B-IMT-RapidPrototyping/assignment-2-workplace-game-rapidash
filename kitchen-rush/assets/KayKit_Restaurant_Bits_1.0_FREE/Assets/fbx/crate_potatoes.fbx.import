@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ch1yqgv28d01l"
-path="res://.godot/imported/crate_potatoes.fbx-e0e2052a233ba979cd7ff35c58f5443f.scn"
+path="res://.godot/imported/crate_potatoes.fbx-7c4b31a8800a4c309f9c66a5b4721d7e.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/crate_potatoes.fbx"
-dest_files=["res://.godot/imported/crate_potatoes.fbx-e0e2052a233ba979cd7ff35c58f5443f.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/crate_potatoes.fbx"
+dest_files=["res://.godot/imported/crate_potatoes.fbx-7c4b31a8800a4c309f9c66a5b4721d7e.scn"]
 
 [params]
 

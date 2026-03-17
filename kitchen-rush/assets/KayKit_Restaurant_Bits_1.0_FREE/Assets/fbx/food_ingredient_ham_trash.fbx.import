@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://h8uxdg3qxtvs"
-path="res://.godot/imported/food_ingredient_ham_trash.fbx-3d6810a297fc49fa089e77f7868e4395.scn"
+path="res://.godot/imported/food_ingredient_ham_trash.fbx-2c1dbf56e57ba179d1a8d6bf26f00612.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_ham_trash.fbx"
-dest_files=["res://.godot/imported/food_ingredient_ham_trash.fbx-3d6810a297fc49fa089e77f7868e4395.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_ham_trash.fbx"
+dest_files=["res://.godot/imported/food_ingredient_ham_trash.fbx-2c1dbf56e57ba179d1a8d6bf26f00612.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bthsd274h0agf"
-path="res://.godot/imported/dishrack_plates.gltf-322d8a70121fb0f5e2162f70e87b6aed.scn"
+path="res://.godot/imported/dishrack_plates.gltf-d4655b415a3c8e0f53567d9499a87549.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/dishrack_plates.gltf"
-dest_files=["res://.godot/imported/dishrack_plates.gltf-322d8a70121fb0f5e2162f70e87b6aed.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/dishrack_plates.gltf"
+dest_files=["res://.godot/imported/dishrack_plates.gltf-d4655b415a3c8e0f53567d9499a87549.scn"]
 
 [params]
 

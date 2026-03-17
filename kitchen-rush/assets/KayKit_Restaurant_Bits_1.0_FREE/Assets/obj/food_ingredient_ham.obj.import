@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://doe56glmmkkpq"
-path="res://.godot/imported/food_ingredient_ham.obj-15684b05bb9c24b676fe5251eac42ae4.mesh"
+path="res://.godot/imported/food_ingredient_ham.obj-0201c55683639492c97075f4759619f5.mesh"
 
 [deps]
 
-files=["res://.godot/imported/food_ingredient_ham.obj-15684b05bb9c24b676fe5251eac42ae4.mesh"]
+files=["res://.godot/imported/food_ingredient_ham.obj-0201c55683639492c97075f4759619f5.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_ham.obj"
-dest_files=["res://.godot/imported/food_ingredient_ham.obj-15684b05bb9c24b676fe5251eac42ae4.mesh", "res://.godot/imported/food_ingredient_ham.obj-15684b05bb9c24b676fe5251eac42ae4.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_ham.obj"
+dest_files=["res://.godot/imported/food_ingredient_ham.obj-0201c55683639492c97075f4759619f5.mesh", "res://.godot/imported/food_ingredient_ham.obj-0201c55683639492c97075f4759619f5.mesh"]
 
 [params]
 

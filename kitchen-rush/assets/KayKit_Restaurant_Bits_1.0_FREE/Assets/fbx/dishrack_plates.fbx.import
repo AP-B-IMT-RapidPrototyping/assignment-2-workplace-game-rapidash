@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c6aeqndqvyqun"
-path="res://.godot/imported/dishrack_plates.fbx-b874f92cc2878915bf0c4e88e1e4620b.scn"
+path="res://.godot/imported/dishrack_plates.fbx-cd6bc5fff304d3440da20f2c873a317a.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/dishrack_plates.fbx"
-dest_files=["res://.godot/imported/dishrack_plates.fbx-b874f92cc2878915bf0c4e88e1e4620b.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/dishrack_plates.fbx"
+dest_files=["res://.godot/imported/dishrack_plates.fbx-cd6bc5fff304d3440da20f2c873a317a.scn"]
 
 [params]
 

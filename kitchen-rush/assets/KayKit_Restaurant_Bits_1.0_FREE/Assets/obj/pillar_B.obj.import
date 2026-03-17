@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cstfmnp8apttb"
-path="res://.godot/imported/pillar_B.obj-9ecc772d960135651342f9bc7022c07c.mesh"
+path="res://.godot/imported/pillar_B.obj-ba17d740b3dcc667f8a7741563fb4ca8.mesh"
 
 [deps]
 
-files=["res://.godot/imported/pillar_B.obj-9ecc772d960135651342f9bc7022c07c.mesh"]
+files=["res://.godot/imported/pillar_B.obj-ba17d740b3dcc667f8a7741563fb4ca8.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pillar_B.obj"
-dest_files=["res://.godot/imported/pillar_B.obj-9ecc772d960135651342f9bc7022c07c.mesh", "res://.godot/imported/pillar_B.obj-9ecc772d960135651342f9bc7022c07c.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/pillar_B.obj"
+dest_files=["res://.godot/imported/pillar_B.obj-ba17d740b3dcc667f8a7741563fb4ca8.mesh", "res://.godot/imported/pillar_B.obj-ba17d740b3dcc667f8a7741563fb4ca8.mesh"]
 
 [params]
 

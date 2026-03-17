@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bs4wqxqyk5tli"
-path="res://.godot/imported/stove_single.gltf-e8cf4ef3210dd104356072354725e3a3.scn"
+path="res://.godot/imported/stove_single.gltf-3ca1992fb9d5ace19a39f696d90ae707.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/stove_single.gltf"
-dest_files=["res://.godot/imported/stove_single.gltf-e8cf4ef3210dd104356072354725e3a3.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/stove_single.gltf"
+dest_files=["res://.godot/imported/stove_single.gltf-3ca1992fb9d5ace19a39f696d90ae707.scn"]
 
 [params]
 

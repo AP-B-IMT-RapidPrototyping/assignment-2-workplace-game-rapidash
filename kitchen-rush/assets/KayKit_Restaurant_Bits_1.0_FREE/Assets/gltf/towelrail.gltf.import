@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://uu6oiti26wxp"
-path="res://.godot/imported/towelrail.gltf-ca5c115fabee7716d886437c22828a38.scn"
+path="res://.godot/imported/towelrail.gltf-b8f3743af0cc7bb0575aded92b90e6b4.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/towelrail.gltf"
-dest_files=["res://.godot/imported/towelrail.gltf-ca5c115fabee7716d886437c22828a38.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/towelrail.gltf"
+dest_files=["res://.godot/imported/towelrail.gltf-b8f3743af0cc7bb0575aded92b90e6b4.scn"]
 
 [params]
 

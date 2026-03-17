@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c6qcouvr3skec"
-path="res://.godot/imported/food_ingredient_cheese_chopped.gltf-03af127b23181f07832a70e56bfc231c.scn"
+path="res://.godot/imported/food_ingredient_cheese_chopped.gltf-e939e24694effa2f391aec5acac0e70a.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_cheese_chopped.gltf"
-dest_files=["res://.godot/imported/food_ingredient_cheese_chopped.gltf-03af127b23181f07832a70e56bfc231c.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_cheese_chopped.gltf"
+dest_files=["res://.godot/imported/food_ingredient_cheese_chopped.gltf-e939e24694effa2f391aec5acac0e70a.scn"]
 
 [params]
 

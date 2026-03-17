@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://n1vefe81ffls"
-path="res://.godot/imported/crate_cheese.gltf-126f569a3f183474989a025cc14d274f.scn"
+path="res://.godot/imported/crate_cheese.gltf-94b8e9d5c85bf9c805d0ff8825f42d50.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/crate_cheese.gltf"
-dest_files=["res://.godot/imported/crate_cheese.gltf-126f569a3f183474989a025cc14d274f.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/crate_cheese.gltf"
+dest_files=["res://.godot/imported/crate_cheese.gltf-94b8e9d5c85bf9c805d0ff8825f42d50.scn"]
 
 [params]
 

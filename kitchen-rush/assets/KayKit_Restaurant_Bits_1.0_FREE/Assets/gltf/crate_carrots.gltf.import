@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d0hx3x03pkx2d"
-path="res://.godot/imported/crate_carrots.gltf-85f3c13fa28b9f113ec755a3cf9c85e1.scn"
+path="res://.godot/imported/crate_carrots.gltf-c6f1faccfa36259c3df2f63440da2de8.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/crate_carrots.gltf"
-dest_files=["res://.godot/imported/crate_carrots.gltf-85f3c13fa28b9f113ec755a3cf9c85e1.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/crate_carrots.gltf"
+dest_files=["res://.godot/imported/crate_carrots.gltf-c6f1faccfa36259c3df2f63440da2de8.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bgr5vs02nm0gt"
-path="res://.godot/imported/knife.gltf-5a28d68ab17afbc918bcb031ee1b99b2.scn"
+path="res://.godot/imported/knife.gltf-5f5e694babe9c3d67a0dbfcee053bd61.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/knife.gltf"
-dest_files=["res://.godot/imported/knife.gltf-5a28d68ab17afbc918bcb031ee1b99b2.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/knife.gltf"
+dest_files=["res://.godot/imported/knife.gltf-5f5e694babe9c3d67a0dbfcee053bd61.scn"]
 
 [params]
 

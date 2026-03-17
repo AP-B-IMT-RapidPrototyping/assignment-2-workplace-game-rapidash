@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://de2xrjyeim4l2"
-path="res://.godot/imported/stove_multi_countertop.fbx-4d732d377b9b69e0f5c81e1df11d3d5b.scn"
+path="res://.godot/imported/stove_multi_countertop.fbx-9dae26632ce3183b679d048832b6cada.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/stove_multi_countertop.fbx"
-dest_files=["res://.godot/imported/stove_multi_countertop.fbx-4d732d377b9b69e0f5c81e1df11d3d5b.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/stove_multi_countertop.fbx"
+dest_files=["res://.godot/imported/stove_multi_countertop.fbx-9dae26632ce3183b679d048832b6cada.scn"]
 
 [params]
 

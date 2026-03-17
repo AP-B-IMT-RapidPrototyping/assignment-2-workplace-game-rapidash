@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bnm56ysp4g6ki"
-path="res://.godot/imported/wall_half.gltf-ea25dcf966efbd594ffb30f6d35c97ab.scn"
+path="res://.godot/imported/wall_half.gltf-e24d5c6a04aefbb4686eeb5fc83b62c9.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/wall_half.gltf"
-dest_files=["res://.godot/imported/wall_half.gltf-ea25dcf966efbd594ffb30f6d35c97ab.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/wall_half.gltf"
+dest_files=["res://.godot/imported/wall_half.gltf-e24d5c6a04aefbb4686eeb5fc83b62c9.scn"]
 
 [params]
 

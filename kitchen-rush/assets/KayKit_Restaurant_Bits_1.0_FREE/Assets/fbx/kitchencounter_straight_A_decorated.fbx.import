@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cw4au8plr6c7"
-path="res://.godot/imported/kitchencounter_straight_A_decorated.fbx-7e1c3868bbdc319a36e4544d9808eb06.scn"
+path="res://.godot/imported/kitchencounter_straight_A_decorated.fbx-33ef8bcf5f962fd863cbf97daf718a15.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_straight_A_decorated.fbx"
-dest_files=["res://.godot/imported/kitchencounter_straight_A_decorated.fbx-7e1c3868bbdc319a36e4544d9808eb06.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_straight_A_decorated.fbx"
+dest_files=["res://.godot/imported/kitchencounter_straight_A_decorated.fbx-33ef8bcf5f962fd863cbf97daf718a15.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://d0sbl0js0yqr3"
-path="res://.godot/imported/food_ingredient_lettuce_slice.obj-21e117cf9996035b5e8357fc8a22e3c6.mesh"
+path="res://.godot/imported/food_ingredient_lettuce_slice.obj-4f1ce9c5a183e35dac136e432ba4796d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/food_ingredient_lettuce_slice.obj-21e117cf9996035b5e8357fc8a22e3c6.mesh"]
+files=["res://.godot/imported/food_ingredient_lettuce_slice.obj-4f1ce9c5a183e35dac136e432ba4796d.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_lettuce_slice.obj"
-dest_files=["res://.godot/imported/food_ingredient_lettuce_slice.obj-21e117cf9996035b5e8357fc8a22e3c6.mesh", "res://.godot/imported/food_ingredient_lettuce_slice.obj-21e117cf9996035b5e8357fc8a22e3c6.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_lettuce_slice.obj"
+dest_files=["res://.godot/imported/food_ingredient_lettuce_slice.obj-4f1ce9c5a183e35dac136e432ba4796d.mesh", "res://.godot/imported/food_ingredient_lettuce_slice.obj-4f1ce9c5a183e35dac136e432ba4796d.mesh"]
 
 [params]
 

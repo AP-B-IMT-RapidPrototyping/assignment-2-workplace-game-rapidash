@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dhepxb6tpc0t4"
-path="res://.godot/imported/crate_carrots.obj-1b00f01a4ff5638ffd7a6156031ec70e.mesh"
+path="res://.godot/imported/crate_carrots.obj-1a6667af23f3f512a67348e46d301ec6.mesh"
 
 [deps]
 
-files=["res://.godot/imported/crate_carrots.obj-1b00f01a4ff5638ffd7a6156031ec70e.mesh"]
+files=["res://.godot/imported/crate_carrots.obj-1a6667af23f3f512a67348e46d301ec6.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate_carrots.obj"
-dest_files=["res://.godot/imported/crate_carrots.obj-1b00f01a4ff5638ffd7a6156031ec70e.mesh", "res://.godot/imported/crate_carrots.obj-1b00f01a4ff5638ffd7a6156031ec70e.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate_carrots.obj"
+dest_files=["res://.godot/imported/crate_carrots.obj-1a6667af23f3f512a67348e46d301ec6.mesh", "res://.godot/imported/crate_carrots.obj-1a6667af23f3f512a67348e46d301ec6.mesh"]
 
 [params]
 

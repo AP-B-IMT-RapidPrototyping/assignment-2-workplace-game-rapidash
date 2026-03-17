@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b0vqbtbsaxywb"
-path="res://.godot/imported/kitchencounter_straight_A.obj-6f34b30a27d75ebe6f81d650f9d6804d.mesh"
+path="res://.godot/imported/kitchencounter_straight_A.obj-007dd6326d2910d1256c53fc5a662bba.mesh"
 
 [deps]
 
-files=["res://.godot/imported/kitchencounter_straight_A.obj-6f34b30a27d75ebe6f81d650f9d6804d.mesh"]
+files=["res://.godot/imported/kitchencounter_straight_A.obj-007dd6326d2910d1256c53fc5a662bba.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_A.obj"
-dest_files=["res://.godot/imported/kitchencounter_straight_A.obj-6f34b30a27d75ebe6f81d650f9d6804d.mesh", "res://.godot/imported/kitchencounter_straight_A.obj-6f34b30a27d75ebe6f81d650f9d6804d.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/kitchencounter_straight_A.obj"
+dest_files=["res://.godot/imported/kitchencounter_straight_A.obj-007dd6326d2910d1256c53fc5a662bba.mesh", "res://.godot/imported/kitchencounter_straight_A.obj-007dd6326d2910d1256c53fc5a662bba.mesh"]
 
 [params]
 

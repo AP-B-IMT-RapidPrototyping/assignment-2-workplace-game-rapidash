@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d02vdlvlf6r1n"
-path="res://.godot/imported/food_ingredient_burger_uncooked.gltf-ff624487299ae18db93fa4391403fa9e.scn"
+path="res://.godot/imported/food_ingredient_burger_uncooked.gltf-25e634c3148f7ebce05d184f73c017c6.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_burger_uncooked.gltf"
-dest_files=["res://.godot/imported/food_ingredient_burger_uncooked.gltf-ff624487299ae18db93fa4391403fa9e.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_burger_uncooked.gltf"
+dest_files=["res://.godot/imported/food_ingredient_burger_uncooked.gltf-25e634c3148f7ebce05d184f73c017c6.scn"]
 
 [params]
 

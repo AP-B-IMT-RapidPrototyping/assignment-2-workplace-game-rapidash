@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://denhv1g3ir6ku"
-path="res://.godot/imported/food_ingredient_cheese.obj-fa8de11a47df043b79d4a23373b71ba2.mesh"
+path="res://.godot/imported/food_ingredient_cheese.obj-03dc7599e0f0d0eae858b84e6863872f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/food_ingredient_cheese.obj-fa8de11a47df043b79d4a23373b71ba2.mesh"]
+files=["res://.godot/imported/food_ingredient_cheese.obj-03dc7599e0f0d0eae858b84e6863872f.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_cheese.obj"
-dest_files=["res://.godot/imported/food_ingredient_cheese.obj-fa8de11a47df043b79d4a23373b71ba2.mesh", "res://.godot/imported/food_ingredient_cheese.obj-fa8de11a47df043b79d4a23373b71ba2.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_cheese.obj"
+dest_files=["res://.godot/imported/food_ingredient_cheese.obj-03dc7599e0f0d0eae858b84e6863872f.mesh", "res://.godot/imported/food_ingredient_cheese.obj-03dc7599e0f0d0eae858b84e6863872f.mesh"]
 
 [params]
 

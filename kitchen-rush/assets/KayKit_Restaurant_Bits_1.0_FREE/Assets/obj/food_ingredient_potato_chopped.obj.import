@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cdikyitkwk4oi"
-path="res://.godot/imported/food_ingredient_potato_chopped.obj-0a1287463e732c6f65f3053e9534713d.mesh"
+path="res://.godot/imported/food_ingredient_potato_chopped.obj-1dabd11da979664125b426c00b357fa2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/food_ingredient_potato_chopped.obj-0a1287463e732c6f65f3053e9534713d.mesh"]
+files=["res://.godot/imported/food_ingredient_potato_chopped.obj-1dabd11da979664125b426c00b357fa2.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_potato_chopped.obj"
-dest_files=["res://.godot/imported/food_ingredient_potato_chopped.obj-0a1287463e732c6f65f3053e9534713d.mesh", "res://.godot/imported/food_ingredient_potato_chopped.obj-0a1287463e732c6f65f3053e9534713d.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_potato_chopped.obj"
+dest_files=["res://.godot/imported/food_ingredient_potato_chopped.obj-1dabd11da979664125b426c00b357fa2.mesh", "res://.godot/imported/food_ingredient_potato_chopped.obj-1dabd11da979664125b426c00b357fa2.mesh"]
 
 [params]
 

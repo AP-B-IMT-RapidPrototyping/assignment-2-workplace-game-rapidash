@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c3cs1kdbx2m2l"
-path="res://.godot/imported/table_round_A_small_decorated.obj-a800c574ff2d94edc37c1921d4e6f94a.mesh"
+path="res://.godot/imported/table_round_A_small_decorated.obj-ec83b65c1e1c87456dc9b391f9a0ebf6.mesh"
 
 [deps]
 
-files=["res://.godot/imported/table_round_A_small_decorated.obj-a800c574ff2d94edc37c1921d4e6f94a.mesh"]
+files=["res://.godot/imported/table_round_A_small_decorated.obj-ec83b65c1e1c87456dc9b391f9a0ebf6.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/table_round_A_small_decorated.obj"
-dest_files=["res://.godot/imported/table_round_A_small_decorated.obj-a800c574ff2d94edc37c1921d4e6f94a.mesh", "res://.godot/imported/table_round_A_small_decorated.obj-a800c574ff2d94edc37c1921d4e6f94a.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/table_round_A_small_decorated.obj"
+dest_files=["res://.godot/imported/table_round_A_small_decorated.obj-ec83b65c1e1c87456dc9b391f9a0ebf6.mesh", "res://.godot/imported/table_round_A_small_decorated.obj-ec83b65c1e1c87456dc9b391f9a0ebf6.mesh"]
 
 [params]
 

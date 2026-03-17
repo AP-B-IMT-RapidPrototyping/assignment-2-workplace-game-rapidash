@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://duad6xkbwf0pu"
-path="res://.godot/imported/table_round_B.gltf-f11a72939ae7f1f898933bddf0fcd6fd.scn"
+path="res://.godot/imported/table_round_B.gltf-21898e3541246d6dfe4652c0cf7859a6.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/table_round_B.gltf"
-dest_files=["res://.godot/imported/table_round_B.gltf-f11a72939ae7f1f898933bddf0fcd6fd.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/table_round_B.gltf"
+dest_files=["res://.godot/imported/table_round_B.gltf-21898e3541246d6dfe4652c0cf7859a6.scn"]
 
 [params]
 

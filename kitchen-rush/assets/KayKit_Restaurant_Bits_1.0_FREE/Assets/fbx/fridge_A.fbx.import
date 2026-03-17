@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://0dd58jshcjrt"
-path="res://.godot/imported/fridge_A.fbx-e27bf359e27b58d5c95a419eee314b8d.scn"
+path="res://.godot/imported/fridge_A.fbx-e597d40241d748604ac0cd5ceb0efec6.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/fridge_A.fbx"
-dest_files=["res://.godot/imported/fridge_A.fbx-e27bf359e27b58d5c95a419eee314b8d.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/fridge_A.fbx"
+dest_files=["res://.godot/imported/fridge_A.fbx-e597d40241d748604ac0cd5ceb0efec6.scn"]
 
 [params]
 

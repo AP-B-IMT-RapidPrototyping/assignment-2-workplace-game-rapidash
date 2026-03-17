@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cycrbjd7xmvng"
-path="res://.godot/imported/fridge_A_decorated_door_bottom.obj-f268b50554d1cabc48a5bcc7ca8f25bb.mesh"
+path="res://.godot/imported/fridge_A_decorated_door_bottom.obj-d7152e17fbe1b2e3d344a4a1c03b0f9b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/fridge_A_decorated_door_bottom.obj-f268b50554d1cabc48a5bcc7ca8f25bb.mesh"]
+files=["res://.godot/imported/fridge_A_decorated_door_bottom.obj-d7152e17fbe1b2e3d344a4a1c03b0f9b.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_A_decorated_door_bottom.obj"
-dest_files=["res://.godot/imported/fridge_A_decorated_door_bottom.obj-f268b50554d1cabc48a5bcc7ca8f25bb.mesh", "res://.godot/imported/fridge_A_decorated_door_bottom.obj-f268b50554d1cabc48a5bcc7ca8f25bb.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_A_decorated_door_bottom.obj"
+dest_files=["res://.godot/imported/fridge_A_decorated_door_bottom.obj-d7152e17fbe1b2e3d344a4a1c03b0f9b.mesh", "res://.godot/imported/fridge_A_decorated_door_bottom.obj-d7152e17fbe1b2e3d344a4a1c03b0f9b.mesh"]
 
 [params]
 

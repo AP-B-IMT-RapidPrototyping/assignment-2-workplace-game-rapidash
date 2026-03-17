@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://du8kjrqige64h"
-path="res://.godot/imported/towelrail.obj-4ae438891df2f7a52616ec1a07846b2b.mesh"
+path="res://.godot/imported/towelrail.obj-35384e3061c47e9cf0652635c6c08ded.mesh"
 
 [deps]
 
-files=["res://.godot/imported/towelrail.obj-4ae438891df2f7a52616ec1a07846b2b.mesh"]
+files=["res://.godot/imported/towelrail.obj-35384e3061c47e9cf0652635c6c08ded.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/towelrail.obj"
-dest_files=["res://.godot/imported/towelrail.obj-4ae438891df2f7a52616ec1a07846b2b.mesh", "res://.godot/imported/towelrail.obj-4ae438891df2f7a52616ec1a07846b2b.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/towelrail.obj"
+dest_files=["res://.godot/imported/towelrail.obj-35384e3061c47e9cf0652635c6c08ded.mesh", "res://.godot/imported/towelrail.obj-35384e3061c47e9cf0652635c6c08ded.mesh"]
 
 [params]
 

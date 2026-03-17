@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d1ojiubpqyhsq"
-path="res://.godot/imported/food_ingredient_carrot_pieces.gltf-09037fb2c56b798627fa6e9261e2422c.scn"
+path="res://.godot/imported/food_ingredient_carrot_pieces.gltf-3088ea1997ffc4bf809ea66935a5c62c.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_carrot_pieces.gltf"
-dest_files=["res://.godot/imported/food_ingredient_carrot_pieces.gltf-09037fb2c56b798627fa6e9261e2422c.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_carrot_pieces.gltf"
+dest_files=["res://.godot/imported/food_ingredient_carrot_pieces.gltf-3088ea1997ffc4bf809ea66935a5c62c.scn"]
 
 [params]
 

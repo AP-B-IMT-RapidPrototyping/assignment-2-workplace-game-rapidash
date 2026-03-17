@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b4ulbats06oq5"
-path="res://.godot/imported/crate.obj-5276a718e35862df73706f8dbf121918.mesh"
+path="res://.godot/imported/crate.obj-e423f5233d1c9de76870c57ac4cbb404.mesh"
 
 [deps]
 
-files=["res://.godot/imported/crate.obj-5276a718e35862df73706f8dbf121918.mesh"]
+files=["res://.godot/imported/crate.obj-e423f5233d1c9de76870c57ac4cbb404.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate.obj"
-dest_files=["res://.godot/imported/crate.obj-5276a718e35862df73706f8dbf121918.mesh", "res://.godot/imported/crate.obj-5276a718e35862df73706f8dbf121918.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate.obj"
+dest_files=["res://.godot/imported/crate.obj-e423f5233d1c9de76870c57ac4cbb404.mesh", "res://.godot/imported/crate.obj-e423f5233d1c9de76870c57ac4cbb404.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cot4a41th7ppn"
-path="res://.godot/imported/pillar_A.gltf-4ec474a17707a881454a19832e0d10fc.scn"
+path="res://.godot/imported/pillar_A.gltf-cc1712c9420d58ef7cf1e02453d805e4.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/pillar_A.gltf"
-dest_files=["res://.godot/imported/pillar_A.gltf-4ec474a17707a881454a19832e0d10fc.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/pillar_A.gltf"
+dest_files=["res://.godot/imported/pillar_A.gltf-cc1712c9420d58ef7cf1e02453d805e4.scn"]
 
 [params]
 

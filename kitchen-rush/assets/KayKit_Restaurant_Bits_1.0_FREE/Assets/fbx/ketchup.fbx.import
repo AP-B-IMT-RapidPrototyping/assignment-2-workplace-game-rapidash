@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cn62piqhs1cqq"
-path="res://.godot/imported/ketchup.fbx-cc9a7b3223feb73ed160954f3edf8572.scn"
+path="res://.godot/imported/ketchup.fbx-f0ab0783733f469c0bc6650a115d3c60.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/ketchup.fbx"
-dest_files=["res://.godot/imported/ketchup.fbx-cc9a7b3223feb73ed160954f3edf8572.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/ketchup.fbx"
+dest_files=["res://.godot/imported/ketchup.fbx-f0ab0783733f469c0bc6650a115d3c60.scn"]
 
 [params]
 

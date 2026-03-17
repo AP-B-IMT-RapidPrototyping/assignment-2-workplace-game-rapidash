@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://d4m4hsi86w8vj"
-path="res://.godot/imported/wall_doorway.obj-6271e3421cf541e9f38a6f64bdd88613.mesh"
+path="res://.godot/imported/wall_doorway.obj-648d2265c68666d969fc02f80c844ffb.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_doorway.obj-6271e3421cf541e9f38a6f64bdd88613.mesh"]
+files=["res://.godot/imported/wall_doorway.obj-648d2265c68666d969fc02f80c844ffb.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/wall_doorway.obj"
-dest_files=["res://.godot/imported/wall_doorway.obj-6271e3421cf541e9f38a6f64bdd88613.mesh", "res://.godot/imported/wall_doorway.obj-6271e3421cf541e9f38a6f64bdd88613.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/wall_doorway.obj"
+dest_files=["res://.godot/imported/wall_doorway.obj-648d2265c68666d969fc02f80c844ffb.mesh", "res://.godot/imported/wall_doorway.obj-648d2265c68666d969fc02f80c844ffb.mesh"]
 
 [params]
 

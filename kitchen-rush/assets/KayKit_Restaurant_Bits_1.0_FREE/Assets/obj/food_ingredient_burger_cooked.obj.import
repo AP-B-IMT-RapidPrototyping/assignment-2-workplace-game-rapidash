@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://eyx6amv55kgc"
-path="res://.godot/imported/food_ingredient_burger_cooked.obj-d51f11189b050e346baf07db06dd8701.mesh"
+path="res://.godot/imported/food_ingredient_burger_cooked.obj-6e6fac15cd7de111ba2bc536c8e1b747.mesh"
 
 [deps]
 
-files=["res://.godot/imported/food_ingredient_burger_cooked.obj-d51f11189b050e346baf07db06dd8701.mesh"]
+files=["res://.godot/imported/food_ingredient_burger_cooked.obj-6e6fac15cd7de111ba2bc536c8e1b747.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_burger_cooked.obj"
-dest_files=["res://.godot/imported/food_ingredient_burger_cooked.obj-d51f11189b050e346baf07db06dd8701.mesh", "res://.godot/imported/food_ingredient_burger_cooked.obj-d51f11189b050e346baf07db06dd8701.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_burger_cooked.obj"
+dest_files=["res://.godot/imported/food_ingredient_burger_cooked.obj-6e6fac15cd7de111ba2bc536c8e1b747.mesh", "res://.godot/imported/food_ingredient_burger_cooked.obj-6e6fac15cd7de111ba2bc536c8e1b747.mesh"]
 
 [params]
 

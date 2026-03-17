@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://diyuxjvrnevyq"
-path="res://.godot/imported/crate_lettuce.obj-5e5428d8bfba08048ffb7212c6ca1da0.mesh"
+path="res://.godot/imported/crate_lettuce.obj-c56b2cb40f465ad7a95417d642e38669.mesh"
 
 [deps]
 
-files=["res://.godot/imported/crate_lettuce.obj-5e5428d8bfba08048ffb7212c6ca1da0.mesh"]
+files=["res://.godot/imported/crate_lettuce.obj-c56b2cb40f465ad7a95417d642e38669.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate_lettuce.obj"
-dest_files=["res://.godot/imported/crate_lettuce.obj-5e5428d8bfba08048ffb7212c6ca1da0.mesh", "res://.godot/imported/crate_lettuce.obj-5e5428d8bfba08048ffb7212c6ca1da0.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/crate_lettuce.obj"
+dest_files=["res://.godot/imported/crate_lettuce.obj-c56b2cb40f465ad7a95417d642e38669.mesh", "res://.godot/imported/crate_lettuce.obj-c56b2cb40f465ad7a95417d642e38669.mesh"]
 
 [params]
 

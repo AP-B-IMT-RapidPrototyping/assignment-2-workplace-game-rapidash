@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b2hi1lxoxvysq"
-path="res://.godot/imported/food_ingredient_lettuce_chopped.fbx-f73a8c599bc5dd40a4e4ea657c52287a.scn"
+path="res://.godot/imported/food_ingredient_lettuce_chopped.fbx-322a9036cc39dc9e3a676214e041fc63.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_lettuce_chopped.fbx"
-dest_files=["res://.godot/imported/food_ingredient_lettuce_chopped.fbx-f73a8c599bc5dd40a4e4ea657c52287a.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_lettuce_chopped.fbx"
+dest_files=["res://.godot/imported/food_ingredient_lettuce_chopped.fbx-322a9036cc39dc9e3a676214e041fc63.scn"]
 
 [params]
 

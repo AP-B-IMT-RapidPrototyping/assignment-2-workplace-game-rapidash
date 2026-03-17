@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dpb42c0fmhxn8"
-path="res://.godot/imported/mustard.obj-5ee83baf06c5bb55c7b8a178ef7e7edb.mesh"
+path="res://.godot/imported/mustard.obj-6b906aa064e3032557c9bb04bd5de9d1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/mustard.obj-5ee83baf06c5bb55c7b8a178ef7e7edb.mesh"]
+files=["res://.godot/imported/mustard.obj-6b906aa064e3032557c9bb04bd5de9d1.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/mustard.obj"
-dest_files=["res://.godot/imported/mustard.obj-5ee83baf06c5bb55c7b8a178ef7e7edb.mesh", "res://.godot/imported/mustard.obj-5ee83baf06c5bb55c7b8a178ef7e7edb.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/mustard.obj"
+dest_files=["res://.godot/imported/mustard.obj-6b906aa064e3032557c9bb04bd5de9d1.mesh", "res://.godot/imported/mustard.obj-6b906aa064e3032557c9bb04bd5de9d1.mesh"]
 
 [params]
 

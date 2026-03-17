@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://0cv18gy2rqqn"
-path="res://.godot/imported/kitchentable_A_large.gltf-eef09316eb7f4e5d4b37a1a987d1f279.scn"
+path="res://.godot/imported/kitchentable_A_large.gltf-fcbba1eb576a9570f6effce0b58c9de4.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchentable_A_large.gltf"
-dest_files=["res://.godot/imported/kitchentable_A_large.gltf-eef09316eb7f4e5d4b37a1a987d1f279.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchentable_A_large.gltf"
+dest_files=["res://.godot/imported/kitchentable_A_large.gltf-fcbba1eb576a9570f6effce0b58c9de4.scn"]
 
 [params]
 

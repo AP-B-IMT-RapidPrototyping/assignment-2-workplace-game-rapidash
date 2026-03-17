@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dkf42rf0ouh35"
-path="res://.godot/imported/fridge_B_door.obj-75e2fb15975f877123cf2af707d6b1d8.mesh"
+path="res://.godot/imported/fridge_B_door.obj-9e371df20a8aecf897ec30c6acdd8363.mesh"
 
 [deps]
 
-files=["res://.godot/imported/fridge_B_door.obj-75e2fb15975f877123cf2af707d6b1d8.mesh"]
+files=["res://.godot/imported/fridge_B_door.obj-9e371df20a8aecf897ec30c6acdd8363.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_B_door.obj"
-dest_files=["res://.godot/imported/fridge_B_door.obj-75e2fb15975f877123cf2af707d6b1d8.mesh", "res://.godot/imported/fridge_B_door.obj-75e2fb15975f877123cf2af707d6b1d8.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/fridge_B_door.obj"
+dest_files=["res://.godot/imported/fridge_B_door.obj-9e371df20a8aecf897ec30c6acdd8363.mesh", "res://.godot/imported/fridge_B_door.obj-9e371df20a8aecf897ec30c6acdd8363.mesh"]
 
 [params]
 

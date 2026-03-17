@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://d15i175ck8khk"
-path="res://.godot/imported/table_round_B.obj-189c126ce4e39064c82b57c926b4735d.mesh"
+path="res://.godot/imported/table_round_B.obj-37501047695fdb1ed6d390acecc41a80.mesh"
 
 [deps]
 
-files=["res://.godot/imported/table_round_B.obj-189c126ce4e39064c82b57c926b4735d.mesh"]
+files=["res://.godot/imported/table_round_B.obj-37501047695fdb1ed6d390acecc41a80.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/table_round_B.obj"
-dest_files=["res://.godot/imported/table_round_B.obj-189c126ce4e39064c82b57c926b4735d.mesh", "res://.godot/imported/table_round_B.obj-189c126ce4e39064c82b57c926b4735d.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/table_round_B.obj"
+dest_files=["res://.godot/imported/table_round_B.obj-37501047695fdb1ed6d390acecc41a80.mesh", "res://.godot/imported/table_round_B.obj-37501047695fdb1ed6d390acecc41a80.mesh"]
 
 [params]
 

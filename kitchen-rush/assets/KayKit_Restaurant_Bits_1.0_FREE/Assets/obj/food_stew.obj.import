@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cylfwwqx25k5h"
-path="res://.godot/imported/food_stew.obj-86c4d87fdf0dbcad0ca7c6ab0cd1c0b9.mesh"
+path="res://.godot/imported/food_stew.obj-b80c7fc88e7c4dc1a19914142db631ab.mesh"
 
 [deps]
 
-files=["res://.godot/imported/food_stew.obj-86c4d87fdf0dbcad0ca7c6ab0cd1c0b9.mesh"]
+files=["res://.godot/imported/food_stew.obj-b80c7fc88e7c4dc1a19914142db631ab.mesh"]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_stew.obj"
-dest_files=["res://.godot/imported/food_stew.obj-86c4d87fdf0dbcad0ca7c6ab0cd1c0b9.mesh", "res://.godot/imported/food_stew.obj-86c4d87fdf0dbcad0ca7c6ab0cd1c0b9.mesh"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_stew.obj"
+dest_files=["res://.godot/imported/food_stew.obj-b80c7fc88e7c4dc1a19914142db631ab.mesh", "res://.godot/imported/food_stew.obj-b80c7fc88e7c4dc1a19914142db631ab.mesh"]
 
 [params]
 

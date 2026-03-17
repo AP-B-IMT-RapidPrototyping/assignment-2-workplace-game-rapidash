@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://04d3omn3p2tj"
-path="res://.godot/imported/crate_tomatoes.gltf-54a3cb5fdeb6e573defa7ba3452993b3.scn"
+path="res://.godot/imported/crate_tomatoes.gltf-037a1e11668526bab6c79f2ae5bacf24.scn"
 
 [deps]
 
-source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/crate_tomatoes.gltf"
-dest_files=["res://.godot/imported/crate_tomatoes.gltf-54a3cb5fdeb6e573defa7ba3452993b3.scn"]
+source_file="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/crate_tomatoes.gltf"
+dest_files=["res://.godot/imported/crate_tomatoes.gltf-037a1e11668526bab6c79f2ae5bacf24.scn"]
 
 [params]
 
