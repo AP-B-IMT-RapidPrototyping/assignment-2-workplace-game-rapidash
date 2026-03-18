@@ -1,0 +1,7 @@
+# Godot
+.import/
+export.cfg
+export_presets.cfg
+
+# Extra lokale map (indien nog aanwezig)
+kitchen-rush-(4.5)/
