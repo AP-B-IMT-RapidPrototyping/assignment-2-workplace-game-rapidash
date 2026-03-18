@@ -15,12 +15,8 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 [application]
 
 config/name="Kitchen Rush"
-<<<<<<< HEAD
-config/features=PackedStringArray("4.6", "Forward Plus")
-=======
 run/main_scene="uid://0100ul7k3e68"
-config/features=PackedStringArray("4.5", "C#", "Forward Plus")
->>>>>>> e752747bec2b2b9d99d81f71c88ab7909eb352b7
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
