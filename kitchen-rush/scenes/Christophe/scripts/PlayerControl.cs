@@ -10,6 +10,10 @@ public partial class PlayerControl : CharacterBody3D
     [Export] private float _speed = 5.0f;
     [Export] private float _jumpVelocity = 4.5f;
 
+    private Node3D heldObject = null;
+
+    [Export] public Node3D HoldPoint;
+
 	private float _cameraRotationX = 0f;
 	private float _cameraPitch = 0f;
 
@@ -68,4 +72,33 @@ public partial class PlayerControl : CharacterBody3D
             _camera.Rotation = cameraRotation;
         }
     }
+
+    //Hold object from here on:
+
+    // public bool HasObject()
+    // {
+    //     return heldObject != null;
+    // }
+
+    // public void HoldObject(Node3D obj)
+    // {
+    //     heldObject = obj;
+
+    //     obj.GetParent().RemoveChild(obj);
+    //     HoldPoint.AddChild(obj);
+
+    //     obj.Position = Vector3.Zero;
+    //     obj.Rotation = Vector3.Zero;
+    // }
+
+    // public void DropObject()
+    // {
+    //     if (heldObject == null)
+    //         return;
+
+    //     GetParent().AddChild(heldObject);
+    //     heldObject.GlobalTransform = HoldPoint.GlobalTransform;
+
+    //     heldObject = null;
+    // }
 }
