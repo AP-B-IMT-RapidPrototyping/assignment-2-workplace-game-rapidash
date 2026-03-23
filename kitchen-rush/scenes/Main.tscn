@@ -1,11 +1,12 @@
 [gd_scene format=3 uid="uid://c7ebr88epy7al"]
 
-[ext_resource type="PackedScene" uid="uid://egct7btbn3ri" path="res://scenes/Mohmad/Kitchen.tscn" id="1_rvslj"]
 [ext_resource type="PackedScene" uid="uid://ji5dy40s6720" path="res://scenes/Christophe/player.tscn" id="2_0bbpv"]
+[ext_resource type="PackedScene" uid="uid://u745aawgderb" path="res://scenes/kitchen.tscn" id="2_rvslj"]
 
 [node name="Main" type="Node3D" unique_id=910306744]
 
-[node name="Kitchen" parent="." unique_id=536580448 instance=ExtResource("1_rvslj")]
-
 [node name="Player" parent="." unique_id=1055635860 instance=ExtResource("2_0bbpv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.078061, 2.1845555, -7.776503)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.153475, 3.201727, -1.3415205)
+
+[node name="Kitchen" parent="." unique_id=739600251 instance=ExtResource("2_rvslj")]
+transform = Transform3D(1.0004983, 0, 0, 0, 1.0004983, 0, 0, 0, 1.0004983, -0.21455002, 0.19245195, -0.08479118)
