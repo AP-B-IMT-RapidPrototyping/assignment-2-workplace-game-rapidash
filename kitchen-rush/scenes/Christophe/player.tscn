@@ -4,16 +4,21 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_pbejf"]
 
-[node name="Player" type="CharacterBody3D" unique_id=468757 node_paths=PackedStringArray("_camera")]
+[node name="Player" type="CharacterBody3D" unique_id=468757 node_paths=PackedStringArray("_camera", "_raycast", "HoldPoint")]
 script = ExtResource("1_dnjej")
 _camera = NodePath("Camera3D")
+_raycast = NodePath("Camera3D/RayCast3D")
+HoldPoint = NodePath("HoldPoint")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=2009384993]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+
+[node name="RayCast3D" type="RayCast3D" parent="Camera3D" unique_id=1742559066]
+target_position = Vector3(0, 0, -3)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1846486340]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 shape = SubResource("CapsuleShape3D_pbejf")
 
-[node name="Node3D" type="Node3D" parent="." unique_id=1083875408]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -1.5)
+[node name="HoldPoint" type="Node3D" parent="." unique_id=1083875408]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, -1.5)

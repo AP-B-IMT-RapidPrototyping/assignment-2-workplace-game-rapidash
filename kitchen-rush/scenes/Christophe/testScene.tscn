@@ -2,6 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://ji5dy40s6720" path="res://scenes/Christophe/player.tscn" id="1_418kg"]
 [ext_resource type="PackedScene" uid="uid://cqeo8swb0ipyb" path="res://scenes/Christophe/prototype_floor.tscn" id="2_on2uo"]
+[ext_resource type="PackedScene" uid="uid://dvb6l6gyxbf2i" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/stove_multi.gltf" id="3_q603m"]
+[ext_resource type="Script" uid="uid://d110k7wumefb2" path="res://scenes/Christophe/scripts/Stove.cs" id="4_6fevo"]
+[ext_resource type="PackedScene" uid="uid://bcosge2udxt07" path="res://scenes/Christophe/burger.tscn" id="5_6fevo"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1gcxa"]
 albedo_color = Color(1, 0, 0, 1)
@@ -9,6 +12,9 @@ metallic = 1.0
 
 [sub_resource type="BoxMesh" id="BoxMesh_on2uo"]
 material = SubResource("StandardMaterial3D_1gcxa")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_q603m"]
+size = Vector3(2.1345215, 1.7626343, 2.5960693)
 
 [node name="TestScene" type="Node3D" unique_id=1441735256]
 
@@ -32,3 +38,15 @@ transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545
 shadow_enabled = true
 
 [node name="player" parent="." unique_id=1101764302 instance=ExtResource("1_418kg")]
+
+[node name="stove_multi2" parent="." unique_id=1552971719 instance=ExtResource("3_q603m")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -5.7740574, 0, -10.991183)
+script = ExtResource("4_6fevo")
+BurgerScene = ExtResource("5_6fevo")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="stove_multi2" unique_id=1339262334]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -10.991183, 0, 5.774057)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="stove_multi2/StaticBody3D" unique_id=207944938]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -5.9672337, 0.38131714, -11.016208)
+shape = SubResource("BoxShape3D_q603m")
