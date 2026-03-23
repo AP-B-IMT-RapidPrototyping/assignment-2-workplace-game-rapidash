@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dty3rva2ioyit"]
+
+[ext_resource type="Script" uid="uid://burtd3al2kp6" path="res://scenes/Christophe/scripts/Ingredient.cs" id="1_ngoqo"]
+[ext_resource type="PackedScene" uid="uid://centv0cm1em8y" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_bun_bottom.gltf" id="2_y4c3s"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_ngoqo"]
+height = 0.12133789
+radius = 0.34716797
+
+[node name="Node3D" type="Node3D" unique_id=1953542161]
+script = ExtResource("1_ngoqo")
+Type = 1
+
+[node name="food_ingredient_bun_bottom2" parent="." unique_id=1675200802 instance=ExtResource("2_y4c3s")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="food_ingredient_bun_bottom2" unique_id=1239777936]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="food_ingredient_bun_bottom2/StaticBody3D" unique_id=1467824166]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14489746, 0)
+shape = SubResource("CylinderShape3D_ngoqo")
