@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://yisa3o53iog4"
+path="res://.godot/imported/food_ingredient_burger_trash.obj-d948c89d846c0e71ec7d7249183bf1fe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/food_ingredient_burger_trash.obj-d948c89d846c0e71ec7d7249183bf1fe.mesh"]
+
+source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/food_ingredient_burger_trash.obj"
+dest_files=["res://.godot/imported/food_ingredient_burger_trash.obj-d948c89d846c0e71ec7d7249183bf1fe.mesh", "res://.godot/imported/food_ingredient_burger_trash.obj-d948c89d846c0e71ec7d7249183bf1fe.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

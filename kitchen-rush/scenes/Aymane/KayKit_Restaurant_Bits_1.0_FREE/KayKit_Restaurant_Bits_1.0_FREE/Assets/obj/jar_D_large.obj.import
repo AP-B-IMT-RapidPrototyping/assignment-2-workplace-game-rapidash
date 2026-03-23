@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dccdyaap5fipb"
+path="res://.godot/imported/jar_D_large.obj-3196a5fbd24cda99d0a4c8a8610eb01a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/jar_D_large.obj-3196a5fbd24cda99d0a4c8a8610eb01a.mesh"]
+
+source_file="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/KayKit_Restaurant_Bits_1.0_FREE/Assets/obj/jar_D_large.obj"
+dest_files=["res://.godot/imported/jar_D_large.obj-3196a5fbd24cda99d0a4c8a8610eb01a.mesh", "res://.godot/imported/jar_D_large.obj-3196a5fbd24cda99d0a4c8a8610eb01a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
