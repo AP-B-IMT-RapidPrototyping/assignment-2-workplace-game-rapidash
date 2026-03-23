@@ -10,8 +10,16 @@ public partial class PlayerControl : CharacterBody3D
     [Export] private float _speed = 5.0f;
     [Export] private float _jumpVelocity = 4.5f;
 
+    [Export] private RayCast3D _raycast;
+
+    private Node3D heldObject = null;
+
+    [Export] public Node3D HoldPoint;
+
 	private float _cameraRotationX = 0f;
 	private float _cameraPitch = 0f;
+
+    private Node3D currentInteractable = null;
 
     public override void _Ready()
     {
@@ -50,6 +58,31 @@ public partial class PlayerControl : CharacterBody3D
 
         Velocity = velocity;
         MoveAndSlide();
+
+        if (Input.IsActionJustPressed("interact") && _raycast.IsColliding())
+        {
+            var collider = _raycast.GetCollider();
+
+            if (collider is Node node)
+            {
+                Node current = node;
+
+                // Loop omhoog in de tree tot we Stove vinden
+                while (current != null)
+                {
+                    GD.Print("Check: ", current, " | Type: ", current.GetType());
+
+                    if (current is Stove stove)
+                    {
+                        GD.Print("🔥 STOVE GEVONDEN!");
+                        stove.Interact(this);
+                        break;
+                    }
+
+                    current = current.GetParent();
+                }
+            }
+        }
     }
 
     public override void _Input(InputEvent @event)
@@ -67,5 +100,40 @@ public partial class PlayerControl : CharacterBody3D
             cameraRotation.X = Mathf.Clamp(cameraRotation.X, -1.8f, 1.8f);
             _camera.Rotation = cameraRotation;
         }
+    }
+
+    //Hold object from here on:
+
+    public bool HasObject()
+    {
+        return heldObject != null;
+    }
+
+    public void HoldObject(Node3D obj)
+    {
+        heldObject = obj;
+
+        // Verwijder uit huidige parent als die er is
+        obj.GetParent()?.RemoveChild(obj);
+
+        // Voeg toe aan HoldPoint
+        HoldPoint.AddChild(obj);
+
+        // Zet positie en schaal zodat je hem ziet
+        obj.Position = new Vector3(0, 0, 0);  // midden van HoldPoint
+        obj.Rotation = Vector3.Zero;
+        obj.Scale = Vector3.One;              // of pas aan naar de juiste grootte
+
+        GD.Print("🎉 Object in handen: ", obj.Name);
+    }
+
+    public void DropObject()
+    {
+        if (heldObject == null)
+            return;
+
+        GetParent().AddChild(heldObject);
+        heldObject.GlobalTransform = HoldPoint.GlobalTransform;
+        heldObject = null;
     }
 }

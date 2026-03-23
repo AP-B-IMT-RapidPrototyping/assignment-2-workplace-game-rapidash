@@ -1,4 +1,4 @@
-[gd_resource type="MeshLibrary" load_steps=655 format=4 uid="uid://q0dyv5s781mb"]
+[gd_resource type="MeshLibrary" format=4 uid="uid://q0dyv5s781mb"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1a5ub"]
 resource_name = "colormap-col.007"
