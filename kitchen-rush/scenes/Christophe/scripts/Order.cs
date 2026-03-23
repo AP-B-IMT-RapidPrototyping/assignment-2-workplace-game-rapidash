@@ -3,7 +3,7 @@ using System;
 
 public partial class Bell : Node3D
 {
-    [Export] public Plate targetPlate; // welke plate hoort bij deze bel
+    [Export] public Plate targetPlate;
 
     public void Interact(PlayerControl player)
     {

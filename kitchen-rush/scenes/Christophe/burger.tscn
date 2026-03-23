@@ -1,10 +1,20 @@
 [gd_scene format=3 uid="uid://bcosge2udxt07"]
 
 [ext_resource type="Script" uid="uid://burtd3al2kp6" path="res://scenes/Christophe/scripts/Ingredient.cs" id="1_nttsk"]
-[ext_resource type="PackedScene" uid="uid://byhqeefprvi0a" path="res://assets/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_burger_cooked.gltf" id="1_q54g4"]
+[ext_resource type="PackedScene" uid="uid://byhqeefprvi0a" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_burger_cooked.gltf" id="1_q54g4"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_nttsk"]
+height = 0.22128296
+radius = 0.3569336
 
 [node name="Node3D" type="Node3D" unique_id=1174694032]
 script = ExtResource("1_nttsk")
 Type = 2
 
 [node name="food_ingredient_burger_cooked" parent="." unique_id=459983160 instance=ExtResource("1_q54g4")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="food_ingredient_burger_cooked" unique_id=455556260]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="food_ingredient_burger_cooked/StaticBody3D" unique_id=933696601]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.097213745, 0)
+shape = SubResource("CylinderShape3D_nttsk")

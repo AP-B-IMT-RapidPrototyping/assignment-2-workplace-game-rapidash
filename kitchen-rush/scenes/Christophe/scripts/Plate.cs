@@ -56,4 +56,26 @@ public partial class Plate : Node3D
 
         return hasBunTop && hasBunBottom && hasPatty;
     }
+
+    public bool HasIngredients()
+    {
+        return ingredients.Count > 0;
+    }
+
+    public void ResetPlate()
+    {
+        // verwijder alle ingredient nodes uit de scene
+        foreach (var ing in ingredients)
+        {
+            if (IsInstanceValid(ing))
+            {
+                ing.QueueFree();
+            }
+        }
+
+        // maak lijst leeg
+        ingredients.Clear();
+
+        GD.Print("🧼 Plate is leeg gemaakt");
+    }
 }

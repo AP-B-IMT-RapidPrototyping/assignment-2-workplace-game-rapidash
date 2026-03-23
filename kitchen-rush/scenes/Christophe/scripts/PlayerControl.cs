@@ -62,6 +62,10 @@ public partial class PlayerControl : CharacterBody3D
         if (Input.IsActionJustPressed("interact") && _raycast.IsColliding())
         {
             var collider = _raycast.GetCollider();
+
+            if (collider == heldObject)
+                return;
+
             if (collider is Node node)
             {
                 Node current = node;
@@ -78,15 +82,30 @@ public partial class PlayerControl : CharacterBody3D
                         PlaceObjectOnPlate(plate);
                         break;
                     }
+
                     else if (current is Bell bell)
                     {
                         bell.Interact(this);
+                        break;
+                    }
+                    else if (current is Ingredient ingredient)
+                    {
+                        if (!HasObject())
+                        {
+                            GD.Print("🖐️ Ingredient opgepakt van grond");
+                            HoldObject(ingredient);
+                        }
                         break;
                     }
 
                     current = current.GetParent();
                 }
             }
+        }
+
+        if (Input.IsActionJustPressed("drop"))
+        {
+            DropObject();
         }
     }
 
@@ -137,9 +156,17 @@ public partial class PlayerControl : CharacterBody3D
         if (heldObject == null)
             return;
 
-        GetParent().AddChild(heldObject);
-        heldObject.GlobalTransform = HoldPoint.GlobalTransform;
+        // haal object uit handen
+        Node3D obj = heldObject;
         heldObject = null;
+
+        obj.GetParent()?.RemoveChild(obj);
+
+        // voeg terug toe aan wereld (zelfde parent als player)
+        GetParent().AddChild(obj);
+
+        // zet het object voor de speler
+        obj.GlobalTransform = HoldPoint.GlobalTransform;
     }
 
     public void PlaceObjectOnPlate(Plate plate)
