@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c7ebr88epy7al"]
 
-[ext_resource type="PackedScene" uid="uid://egct7btbn3ri" path="res://scenes/Aymane/Kitchen.tscn" id="1_rvslj"]
+[ext_resource type="PackedScene" uid="uid://egct7btbn3ri" path="res://scenes/Mohmad/Kitchen.tscn" id="1_rvslj"]
 [ext_resource type="PackedScene" uid="uid://ji5dy40s6720" path="res://scenes/Christophe/player.tscn" id="2_0bbpv"]
 
 [node name="Main" type="Node3D" unique_id=910306744]
