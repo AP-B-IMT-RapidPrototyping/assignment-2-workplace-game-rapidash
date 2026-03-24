@@ -5,7 +5,7 @@ public partial class ScoreKeeper : Node
     [Signal]
     public delegate void ScoreChangedEventHandler(int newScore);
 
-    private int _score = 100;
+    [Export] private int _score = 100;
 
     public override void _Ready()
     {
@@ -13,7 +13,7 @@ public partial class ScoreKeeper : Node
         //GD.Print("Start geld: ", _score);
     }
 
-    public void AddScore(int points)
+    public void AddMoney(int points)
     {
         _score += points;
         //GD.Print($"Score: {_score}");

@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://dibbx6q7kntrm"]
+
+[ext_resource type="PackedScene" uid="uid://0dj814qlaxiq" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_straight_B.gltf" id="1_ih1wq"]
+[ext_resource type="PackedScene" uid="uid://xm6h106rjgrb" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_bun.gltf" id="2_ib1dn"]
+[ext_resource type="PackedScene" uid="uid://dty3rva2ioyit" path="res://scenes/Christophe/Ingredients/bunBottom.tscn" id="3_nk3rl"]
+[ext_resource type="Script" uid="uid://d110k7wumefb2" path="res://scenes/Christophe/scripts/IngredientStation.cs" id="4_7kw2e"]
+[ext_resource type="PackedScene" uid="uid://cmk11jb6ncouf" path="res://scenes/Christophe/Ingredients/bunTop.tscn" id="5_ubqwo"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2qv1k"]
+size = Vector3(2.0357666, 1.0342407, 2.0011902)
+
+[node name="Node3D" type="Node3D" unique_id=426921651]
+
+[node name="kitchencounter_straight_B2" parent="." unique_id=26667339 instance=ExtResource("1_ih1wq")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="kitchencounter_straight_B2" unique_id=230145212]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="kitchencounter_straight_B2/StaticBody3D" unique_id=268015023]
+transform = Transform3D(0.9999701, 0, -4.7606363e-13, 0, 1, 0, 4.7606363e-13, 0, 0.9999701, -0.0011606214, 0.5015564, -0.014387606)
+shape = SubResource("BoxShape3D_2qv1k")
+
+[node name="food_ingredient_bun2" parent="." unique_id=1544903864 instance=ExtResource("2_ib1dn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3765064, 0.96266407, 0)
+
+[node name="bunBot" parent="." unique_id=1953542161 instance=ExtResource("3_nk3rl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6173215, 1.0202749, 0.5315939)
+script = ExtResource("4_7kw2e")
+IngredientScene = ExtResource("3_nk3rl")
+
+[node name="bunTop" parent="." unique_id=1121135010 instance=ExtResource("5_ubqwo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5244198, 1.0123007, -0.43787122)
+script = ExtResource("4_7kw2e")
+IngredientScene = ExtResource("5_ubqwo")

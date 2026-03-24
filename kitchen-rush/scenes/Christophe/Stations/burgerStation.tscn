@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://b8fjpro4isifm"]
+
+[ext_resource type="PackedScene" uid="uid://dvb6l6gyxbf2i" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/stove_multi.gltf" id="1_f583s"]
+[ext_resource type="Script" uid="uid://d110k7wumefb2" path="res://scenes/Christophe/scripts/IngredientStation.cs" id="2_cro4e"]
+[ext_resource type="PackedScene" uid="uid://bcosge2udxt07" path="res://scenes/Christophe/Ingredients/burger.tscn" id="3_5gqig"]
+[ext_resource type="PackedScene" uid="uid://cmbdajwavcwu2" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/pan_A.fbx" id="4_xvhcj"]
+[ext_resource type="PackedScene" uid="uid://bxen281fvc2v" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/food_ingredient_burger_uncooked.fbx" id="5_vd8ux"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tlgxg"]
+size = Vector3(2.0542603, 1.5413055, 2.1212769)
+
+[node name="Node3D" type="Node3D" unique_id=2094698931]
+
+[node name="stove_multi2" parent="." unique_id=1081826150 instance=ExtResource("1_f583s")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+script = ExtResource("2_cro4e")
+IngredientScene = ExtResource("3_5gqig")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="stove_multi2" unique_id=1438324874]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -10.991183, 0, 5.774057)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="stove_multi2/StaticBody3D" unique_id=830078659]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -5.7298374, 0.76703644, -10.976077)
+shape = SubResource("BoxShape3D_tlgxg")
+
+[node name="pan_A" parent="." unique_id=1162436300 instance=ExtResource("4_xvhcj")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0.4487478, 1.2626343, -0.46199048)
+
+[node name="food_ingredient_burger_uncooked" parent="." unique_id=126873071 instance=ExtResource("5_vd8ux")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.448019, 1.2626343, -0.46388528)

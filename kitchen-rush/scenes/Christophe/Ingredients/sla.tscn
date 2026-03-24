@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://rb5op7821fti"]
+
+[ext_resource type="Script" uid="uid://burtd3al2kp6" path="res://scenes/Christophe/scripts/Ingredient.cs" id="1_pu8h7"]
+[ext_resource type="PackedScene" uid="uid://bmotsnijtelh3" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_lettuce_slice.gltf" id="2_g63oc"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_1htat"]
+height = 0.10229492
+radius = 0.41015625
+
+[node name="Node3D" type="Node3D" unique_id=1728001100]
+script = ExtResource("1_pu8h7")
+Type = 5
+Cost = 2
+Height = 0.05
+
+[node name="food_ingredient_lettuce_slice2" parent="." unique_id=298799667 instance=ExtResource("2_g63oc")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="food_ingredient_lettuce_slice2" unique_id=223364910]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="food_ingredient_lettuce_slice2/StaticBody3D" unique_id=1883522126]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.004760742, 0)
+shape = SubResource("CylinderShape3D_1htat")

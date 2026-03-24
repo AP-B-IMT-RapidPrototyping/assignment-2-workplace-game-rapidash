@@ -22,6 +22,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 ScoreKeeper="*uid://dgljpwfmqgx6"
+OrderManager="*uid://cf3me5b1homsb"
 
 [dotnet]
 

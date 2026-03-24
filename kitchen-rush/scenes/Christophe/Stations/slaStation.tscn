@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://c7trjsllb46ac"]
+
+[ext_resource type="Script" uid="uid://d110k7wumefb2" path="res://scenes/Christophe/scripts/IngredientStation.cs" id="1_w7k7b"]
+[ext_resource type="PackedScene" uid="uid://rb5op7821fti" path="res://scenes/Christophe/Ingredients/sla.tscn" id="2_w7k7b"]
+[ext_resource type="PackedScene" uid="uid://0dj814qlaxiq" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_straight_B.gltf" id="3_6tucw"]
+[ext_resource type="PackedScene" uid="uid://cm3ksrma6otxd" path="res://assets/kenney_food-kit/Models/GLB format/cutting-board-japanese.glb" id="4_ryv0g"]
+[ext_resource type="PackedScene" uid="uid://bkifivkpjho41" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_lettuce_chopped.gltf" id="6_hdx7t"]
+[ext_resource type="PackedScene" uid="uid://dmaman1r3ibbb" path="res://assets/kenney_food-kit/Models/GLB format/cooking-knife.glb" id="6_tayg8"]
+[ext_resource type="PackedScene" uid="uid://bmotsnijtelh3" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_lettuce_slice.gltf" id="7_w7k7b"]
+[ext_resource type="Script" uid="uid://burtd3al2kp6" path="res://scenes/Christophe/scripts/Ingredient.cs" id="8_jorsj"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gb0xj"]
+size = Vector3(2.0357666, 1.0342407, 2.0011902)
+
+[node name="Node3D" type="Node3D" unique_id=274535376]
+script = ExtResource("1_w7k7b")
+IngredientScene = ExtResource("2_w7k7b")
+
+[node name="kitchencounter_straight_B2" parent="." unique_id=26667339 instance=ExtResource("3_6tucw")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="kitchencounter_straight_B2" unique_id=1095757276]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="kitchencounter_straight_B2/StaticBody3D" unique_id=1613002857]
+transform = Transform3D(0.9999701, 0, -4.7606363e-13, 0, 1, 0, 4.7606363e-13, 0, 0.9999701, -0.0011606214, 0.5015564, -0.014387606)
+shape = SubResource("BoxShape3D_gb0xj")
+
+[node name="cutting-board-japanese2" parent="." unique_id=123511061 instance=ExtResource("4_ryv0g")]
+transform = Transform3D(1.3444953, 0, 0, 0, 1, 0, 0, 0, 1.6163512, 0.3301031, 0.98914504, 0.007861778)
+
+[node name="cooking-knife2" parent="." unique_id=936248210 instance=ExtResource("6_tayg8")]
+transform = Transform3D(1.2765467, 0, 0, 0, 1.2765467, 0, 0, 0, 1.2765467, 0.39380395, 1.006862, -0.8358907)
+
+[node name="food_ingredient_lettuce_chopped2" parent="." unique_id=577856199 instance=ExtResource("6_hdx7t")]
+transform = Transform3D(-3.3644767e-08, 0, 0.76970255, 0, 0.76970255, 0, -0.76970255, 0, -3.3644767e-08, -0.48289186, 1.0083845, 0.005285954)
+
+[node name="food_ingredient_lettuce_slice2" parent="." unique_id=298799667 instance=ExtResource("7_w7k7b")]
+transform = Transform3D(0.77, 0, 0, 0, 0.77, 0, 0, 0, 0.77, 0.3232962, 1.0886424, -0.06583974)
+script = ExtResource("8_jorsj")
+Type = 5
+Cost = 2

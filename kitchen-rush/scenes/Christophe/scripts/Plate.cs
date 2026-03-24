@@ -16,10 +16,19 @@ public partial class Plate : Node3D
             return;
         }
 
+        float yOffset = 0f;
+
+        // bereken hoogte van bestaande ingrediënten (ZONDER de nieuwe)
+        foreach (var ing in ingredients)
+        {
+            yOffset += ing.Height;
+        }
+
+        // voeg nu pas toe aan lijst
         ingredients.Add(ingredient);
+
         AddChild(ingredient);
 
-        float yOffset = ingredients.Count * stackHeight;
         ingredient.Position = new Vector3(0, yOffset, 0);
         ingredient.Rotation = Vector3.Zero;
 
@@ -89,5 +98,25 @@ public partial class Plate : Node3D
         }
 
         return total;
+    }
+    public bool MatchesOrder(OrderData order)
+    {
+        // aantal moet exact gelijk zijn
+        if (ingredients.Count != order.RequiredIngredients.Count)
+            return false;
+
+        // maak kopie van order lijst
+        List<IngredientType> required = new List<IngredientType>(order.RequiredIngredients);
+
+        foreach (var ing in ingredients)
+        {
+            if (!required.Contains(ing.Type))
+                return false;
+
+            // verwijder zodat duplicates correct werken
+            required.Remove(ing.Type);
+        }
+
+        return required.Count == 0;
     }
 }

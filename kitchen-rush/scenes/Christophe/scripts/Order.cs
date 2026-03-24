@@ -4,12 +4,11 @@ using System;
 public partial class Order : Node3D
 {
     [Export] public Plate targetPlate;
-
-    [Export] public int sellPrice = 15; // prijs van volledige burger
+    [Export] public int sellPrice = 15;
 
     public void Interact(PlayerControl player)
     {
-        GD.Print("🔔 Bestelling verwerken");
+        GD.Print("Bestelling verwerken");
 
         if (targetPlate == null)
         {
@@ -23,26 +22,46 @@ public partial class Order : Node3D
             return;
         }
 
-        // 🔹 kosten berekenen
-        int cost = targetPlate.GetTotalCost();
+        var orderManager = GetNode<OrderManager>("/root/OrderManager");
+        var orders = orderManager.GetOrders();
 
-        // 🔹 winst berekenen
-        int profit = sellPrice - cost;
-
-        GD.Print($"Kost: {cost} | Verkoop: {sellPrice} | Winst: {profit}");
-
-        // 🔹 ScoreKeeper ophalen (autoload)
         var score = GetNode<ScoreKeeper>("/root/ScoreKeeper");
 
-        // 🔹 geld aanpassen
-        score.AddScore(profit);
+        int cost = targetPlate.GetTotalCost();
+        bool foundMatch = false;
 
-        // 🔹 TODO: later -> gerecht naar klant sturen
-        // player.HoldObject(targetPlate); // (nu nog niet nodig)
+        foreach (var order in orders)
+        {
+            if (targetPlate.MatchesOrder(order))
+            {
+                //GD.Print("Correcte bestelling!");
 
-        // 🔹 plate leegmaken
+                int profit = sellPrice - cost;
+
+                GD.Print($"Kost: {cost} | Verkoop: {sellPrice} | Winst: {profit}");
+
+                score.AddMoney(profit);
+
+                orders.Remove(order);
+
+                orderManager.UpdateUI();
+
+                foundMatch = true;
+                break;
+            }
+        }
+
+        if (!foundMatch)
+        {
+            //GD.Print("Foute bestelling!");
+
+            score.AddMoney(-cost);
+
+            GD.Print($"Verlies: -{cost}");
+        }
+
         targetPlate.ResetPlate();
 
-        GD.Print("Plate geleegd en geld verwerkt!");
+        GD.Print("Plate geleegd!");
     }
 }

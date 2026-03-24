@@ -1,0 +1,296 @@
+[gd_scene format=3 uid="uid://coy2d1mnwkcky"]
+
+[ext_resource type="PackedScene" uid="uid://uewan6hdnthw" path="res://scenes/Christophe/table.tscn" id="2_25srl"]
+[ext_resource type="PackedScene" uid="uid://bwwhjg31p3yn" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/wall.gltf" id="5_c5poc"]
+[ext_resource type="PackedScene" uid="uid://b5tkgkbt14lq" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/shelf_papertowel.fbx" id="7_7aoei"]
+[ext_resource type="PackedScene" uid="uid://dyfstdhfokh8a" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/wall_window_open.gltf" id="8_cdted"]
+[ext_resource type="PackedScene" uid="uid://cbop5ar6wchrc" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/floor_kitchen.gltf" id="9_qcn2v"]
+[ext_resource type="PackedScene" uid="uid://drjlj6wy048yg" path="res://scenes/Christophe/stations.tscn" id="9_x2mbc"]
+[ext_resource type="PackedScene" uid="uid://biyd8gpvf5kw4" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/kitchencounter_outercorner.fbx" id="9_xvr54"]
+[ext_resource type="PackedScene" uid="uid://ji5dy40s6720" path="res://scenes/Christophe/player.tscn" id="10_7aoei"]
+[ext_resource type="PackedScene" uid="uid://nfj3jwwh0r5l" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/KayKit_Restaurant_Bits_1.0_FREE/Assets/fbx/extractorhood.fbx" id="11_3jqc5"]
+[ext_resource type="PackedScene" uid="uid://dauqv5fseuv5r" path="res://scenes/Christophe/tableWFood.tscn" id="12_3jqc5"]
+[ext_resource type="PackedScene" uid="uid://bwjy8mnqgjakk" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/fridge_A.gltf" id="12_snece"]
+[ext_resource type="PackedScene" uid="uid://co7kwi30hg7ti" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencabinet.gltf" id="13_4bui7"]
+[ext_resource type="PackedScene" uid="uid://cew2fbohxtamb" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/plate.gltf" id="14_d6xsk"]
+[ext_resource type="Script" uid="uid://ejg8q12ulqel" path="res://scenes/Christophe/scripts/Plate.cs" id="15_25srl"]
+[ext_resource type="Script" uid="uid://bye07miitxidd" path="res://scenes/Christophe/scripts/Order.cs" id="15_defb7"]
+[ext_resource type="PackedScene" uid="uid://coal2od8pcoha" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/wall_orderwindow.gltf" id="16_defb7"]
+[ext_resource type="PackedScene" uid="uid://qgok1neb6qx0" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_sink.gltf" id="17_jv0tu"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_mbcyj"]
+points = PackedVector3Array(1.8997653, 4, 0.25000003, 1.9996085, 3.899765, 0.13669726, 1.8997653, 4, -0.25000045, -1.9001571, 4, 0.25000003, 1.8997653, 0, 0.25000003, 1.9996085, 3.899765, -0.13674662, 1.9996085, 0.09984338, 0.13669726, 1.8997653, 0, -0.25000045, -1.9001571, 4, -0.25000045, -2.0000005, 3.899765, 0.13669726, -1.9001571, 0, 0.25000003, 1.9996085, 0.09984338, -0.13674662, -1.9001571, 0, -0.25000045, -2.0000005, 3.899765, -0.13674662, -2.0000005, 0.09984338, 0.13669726, -2.0000005, 0.09984338, -0.13674662)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_psp1i"]
+points = PackedVector3Array(1.8997653, 4, 0.25000003, 1.9996085, 3.899765, 0.13669726, 1.8997653, 4, -0.25000045, -1.9001571, 4, 0.25000003, 1.8997653, 0, 0.25000003, 1.9996085, 3.899765, -0.13674662, 1.9996085, 0.09984338, 0.13669726, 1.8997653, 0, -0.25000045, -1.9001571, 4, -0.25000045, -2.0000005, 3.899765, 0.13669726, -1.9001571, 0, 0.25000003, 1.9996085, 0.09984338, -0.13674662, -1.9001571, 0, -0.25000045, -2.0000005, 3.899765, -0.13674662, -2.0000005, 0.09984338, 0.13669726, -2.0000005, 0.09984338, -0.13674662)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_w3dxo"]
+points = PackedVector3Array(1.8997653, 4, 0.25000003, 1.8997653, 0, 0.25000003, 1.9996085, 3.899765, 0.13669726, 1.8997653, 4, -0.25000045, -1.9001571, 4, 0.25000003, 1.8997653, 0, -0.25000045, 1.9996085, 0.09984338, 0.13669726, -1.9001571, 0, 0.25000003, 1.9996085, 3.899765, -0.13674662, -1.9001571, 4, -0.25000045, -2.0000005, 3.899765, 0.13669726, 1.9996085, 0.09984338, -0.13674662, -1.9001571, 0, -0.25000045, -2.0000005, 0.09984338, 0.13669726, -2.0000005, 3.899765, -0.13674662, -2.0000005, 0.09984338, -0.13674662)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_cuqh1"]
+points = PackedVector3Array(1.8997653, 4, 0.25000003, 1.8997653, 0, 0.25000003, 1.9996085, 3.899765, 0.13669726, 1.8997653, 4, -0.25000045, -1.9001571, 4, 0.25000003, 1.8997653, 0, -0.25000045, 1.9996085, 0.09984338, 0.13669726, -1.9001571, 0, 0.25000003, 1.9996085, 3.899765, -0.13674662, -1.9001571, 4, -0.25000045, -2.0000005, 3.899765, 0.13669726, 1.9996085, 0.09984338, -0.13674662, -1.9001571, 0, -0.25000045, -2.0000005, 0.09984338, 0.13669726, -2.0000005, 3.899765, -0.13674662, -2.0000005, 0.09984338, -0.13674662)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ge2wk"]
+points = PackedVector3Array(1.8997653, 4, 0.25000003, 1.9996085, 3.899765, 0.13669726, 1.8997653, 4, -0.25000045, -1.9001571, 4, 0.25000003, 1.8997653, 0, 0.25000003, 1.9996085, 3.899765, -0.13674662, 1.9996085, 0.09984338, 0.13669726, 1.8997653, 0, -0.25000045, -1.9001571, 4, -0.25000045, -2.0000005, 3.899765, 0.13669726, -1.9001571, 0, 0.25000003, 1.9996085, 0.09984338, -0.13674662, -1.9001571, 0, -0.25000045, -2.0000005, 3.899765, -0.13674662, -2.0000005, 0.09984338, 0.13669726, -2.0000005, 0.09984338, -0.13674662)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_724sc"]
+points = PackedVector3Array(1.8997653, 4, 0.25000003, 1.9996085, 3.899765, 0.13669726, 1.8997653, 4, -0.25000045, -1.9001571, 4, 0.25000003, 1.8997653, 0, 0.25000003, 1.9996085, 3.899765, -0.13674662, 1.9996085, 0.09984338, 0.13669726, 1.8997653, 0, -0.25000045, -1.9001571, 4, -0.25000045, -2.0000005, 3.899765, 0.13669726, -1.9001571, 0, 0.25000003, 1.9996085, 0.09984338, -0.13674662, -1.9001571, 0, -0.25000045, -2.0000005, 3.899765, -0.13674662, -2.0000005, 0.09984338, 0.13669726, -2.0000005, 0.09984338, -0.13674662)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_87bic"]
+size = Vector3(25.5513, 1, 24.310272)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jdh6n"]
+size = Vector3(2.1176758, 2.2841797, 1.9258423)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_3i1dt"]
+points = PackedVector3Array(0.9498825, 4, 0.74991316, 0.85982776, 3.899961, 0.90993136, 1, 3.9498825, 0.799989, 0.9498825, 4, 0.049973812, -0.9500783, 4, 0.74991316, 0.85982776, 3.8598278, 0.9499104, -0.8600235, 3.899961, 0.90993136, 1, 3.9498825, 0, 0.8999609, 3.8598278, 0.90993136, 1, 2, 0.799989, -0.9500783, 4, 0.049973812, -1, 3.9498825, 0.799989, 0.14996088, 2.3498435, 1.041903, 0.85982776, 2.1399765, 0.9499104, -0.8600235, 3.8598278, 0.9499104, 1, 2, 0, -1, 3.9498825, 0, 0.8999609, 2.1399765, 0.90993136, 0.85982776, 2.0998435, 0.90993136, -1, 2, 0.799989, -0.9001566, 3.8598278, 0.90993136, 0.14996088, 2.2909162, 1.0240552, -0.15015662, 2.3498435, 1.041903, -0.8600235, 2.1399765, 0.9499104, -1, 2, 0, -0.8600235, 2.0998435, 0.90993136, -0.9001566, 2.1399765, 0.90993136, -0.15015662, 2.2909162, 1.0240552)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_lvvf4"]
+points = PackedVector3Array(1, 0.9498393, 0.99992967, -1, 0.9498393, 0.99992967, -0.00019574165, 0.54986984, 1.041903, 1, 0.84984696, 0.99992967, 1, 0.99992365, 0.9499614, -1, 0.84984696, 0.99992967, -1, 0.99992365, 0.9499614, -0.00019574165, 0.24989274, 1.041903, 0.85982776, 0.13984823, 0.9499614, 1, 0, 0.7998568, 1, 0.99992365, -1, 0.031127691, 1.8014498, -0.34001923, 0.031127691, 1.7783475, -0.22369307, -1, 0, 0.7998568, -0.8600235, 0.13984823, 0.9499614, -0.031323433, 1.7783475, -0.22369307, -0.031323433, 1.8014498, -0.34001923, -1, 0.99992365, -1, -0.00019574165, 0.19081436, 1.0239143, 0.85982776, 0.099992365, 0.90998685, 1, 0, -1, 0.031127691, 1.6138098, -0.6210407, 0.031127691, 1.7123914, -0.55508256, 0.031127691, 1.7783475, -0.45654517, -0.8600235, 0.099992365, 0.90998685, -1, 0, -1, -0.031323433, 1.7783475, -0.45654517, -0.031323433, 1.7123914, -0.55508256, -0.031323433, 1.6138098, -0.6210407)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7aoei"]
+size = Vector3(1.9215088, 0.8253174, 0.6904907)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3jqc5"]
+size = Vector3(2.017212, 2.0091553, 2.0960693)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qh6fj"]
+size = Vector3(17.07225, 1, 2.1031494)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_defb7"]
+size = Vector3(1.6644287, 0.18330383, 1.6539307)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jgecu"]
+size = Vector3(4.027466, 4.496582, 0.61242676)
+
+[node name="MainScene" type="Node3D" unique_id=739600251]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1943136873]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Tables and Chairs" type="Node3D" parent="." unique_id=304444058]
+transform = Transform3D(1, 0, 0, 0, 1.507097, 0, 0, 0, 1, 2.042842, 0.5320537, 5.8960238)
+
+[node name="Node3D" parent="Tables and Chairs" unique_id=773000034 instance=ExtResource("12_3jqc5")]
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 6, 0, 1.5)
+
+[node name="Node3D2" parent="Tables and Chairs" unique_id=1841458356 instance=ExtResource("12_3jqc5")]
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 14, 0, 1.5)
+
+[node name="Node3D3" parent="Tables and Chairs" unique_id=2143221107 instance=ExtResource("2_25srl")]
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 6, 0, 6)
+
+[node name="Node3D4" parent="Tables and Chairs" unique_id=756759599 instance=ExtResource("2_25srl")]
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 14, 0, 6)
+
+[node name="Node3D5" parent="Tables and Chairs" unique_id=1306359138 instance=ExtResource("12_3jqc5")]
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 20, 0, 1.5)
+
+[node name="Node3D6" parent="Tables and Chairs" unique_id=271891825 instance=ExtResource("2_25srl")]
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 20, 0, 6)
+
+[node name="Walls" type="Node3D" parent="." unique_id=2079215084]
+
+[node name="wall9" parent="Walls" unique_id=1517808833 instance=ExtResource("5_c5poc")]
+transform = Transform3D(-2.010724e-07, 0, -1.066, 0, 1.7050002, 0, 4.6, 0, -4.6596345e-08, 27.199, 0, 13.343)
+
+[node name="wall" parent="Walls/wall9" index="0" unique_id=137065020]
+transform = Transform3D(1.4246675, 0, -1.7763568e-15, 0, 0.7999996, 0, 1.1368684e-13, 0, 0.99999964, -2.094798, -0.19146562, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Walls/wall9/wall" index="0" unique_id=676494611]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/wall9/wall/StaticBody3D" unique_id=1255842451]
+shape = SubResource("ConvexPolygonShape3D_mbcyj")
+
+[node name="wall7" parent="Walls" unique_id=2053428989 instance=ExtResource("5_c5poc")]
+transform = Transform3D(8.711592, 0, 0, 0, 1.6000001, 0, 0, 0, 1, 12.130001, -3.469447e-18, -7.9999995)
+
+[node name="wall" parent="Walls/wall7" index="0" unique_id=137065020]
+transform = Transform3D(0.80368125, 0, 0, 0, 0.79999995, 0, 0, 0, 1, 0.3661418, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Walls/wall7/wall" index="0" unique_id=1510516735]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/wall7/wall/StaticBody3D" unique_id=788930352]
+shape = SubResource("ConvexPolygonShape3D_psp1i")
+
+[node name="wall_window_open2" parent="Walls" unique_id=2045464942 instance=ExtResource("8_cdted")]
+transform = Transform3D(1, 0, -2.9605947e-15, 0, 1.6, 0, 2.9605947e-15, 0, 1, 5.992112, -3.469447e-18, 16.150814)
+
+[node name="wall_window_open" parent="Walls/wall_window_open2" index="0" unique_id=2030570496]
+transform = Transform3D(0.99999976, 0, 0, 0, 0.79999995, 0, -2.1175824e-22, 0, 0.9999998, -1, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Walls/wall_window_open2/wall_window_open" index="0" unique_id=2063293089]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/wall_window_open2/wall_window_open/StaticBody3D" unique_id=655795296]
+shape = SubResource("ConvexPolygonShape3D_w3dxo")
+
+[node name="wall_window_open3" parent="Walls" unique_id=844954339 instance=ExtResource("8_cdted")]
+transform = Transform3D(1, 0, -2.9605947e-15, 0, 1.6, 0, 2.9605947e-15, 0, 1, 25.000004, -3.469447e-18, 16.149223)
+
+[node name="wall_window_open" parent="Walls/wall_window_open3" index="0" unique_id=2030570496]
+transform = Transform3D(1, 0, 6.352747e-22, 0, 0.8000001, 0, -6.352747e-22, 0, 1, 0.2080288, 0, 0.03616333)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Walls/wall_window_open3/wall_window_open" index="0" unique_id=339771413]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/wall_window_open3/wall_window_open/StaticBody3D" unique_id=1295359182]
+shape = SubResource("ConvexPolygonShape3D_cuqh1")
+
+[node name="wall14" parent="Walls" unique_id=481252876 instance=ExtResource("5_c5poc")]
+transform = Transform3D(5.430203, 0, 0, 0, 1.6000001, 0, 0, 0, 0.7001096, 12.296055, -3.469447e-18, 16.172071)
+
+[node name="wall" parent="Walls/wall14" index="0" unique_id=137065020]
+transform = Transform3D(0.8148232, 0, 0, 0, 0.79999995, 0, 0, 0, 1, 0.5033095, 0, -0.07499695)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Walls/wall14/wall" index="0" unique_id=291602592]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/wall14/wall/StaticBody3D" unique_id=1849335136]
+shape = SubResource("ConvexPolygonShape3D_ge2wk")
+
+[node name="wall8" parent="Walls" unique_id=401964369 instance=ExtResource("5_c5poc")]
+transform = Transform3D(-2.983734e-07, 0, -1.0001017, 0, 1.6001627, 0, 6.8259883, 0, -4.3715833e-08, 2.4317446, 0, 18.749056)
+
+[node name="wall" parent="Walls/wall8" index="0" unique_id=137065020]
+transform = Transform3D(1.1385, 0, 0, 0, 0.8000001, 0, 2.2737368e-13, 0, 1, -2.2424576, 0, -0.0721848)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Walls/wall8/wall" index="0" unique_id=967429334]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/wall8/wall/StaticBody3D" unique_id=1501535722]
+shape = SubResource("ConvexPolygonShape3D_724sc")
+
+[node name="Floor" type="Node3D" parent="." unique_id=1258883502]
+
+[node name="floor_kitchen16" parent="Floor" unique_id=1857506625 instance=ExtResource("9_qcn2v")]
+transform = Transform3D(2.0900002, 0, 0, 0, 1, 0, 0, 0, 2, 15.3, 0, 12)
+
+[node name="floor_kitchen17" parent="Floor" unique_id=1777837516 instance=ExtResource("9_qcn2v")]
+transform = Transform3D(2.0900002, 0, 0, 0, 1, 0, 0, 0, 2, 15.3, 0, 4)
+
+[node name="floor_kitchen25" parent="Floor" unique_id=1091227938 instance=ExtResource("9_qcn2v")]
+transform = Transform3D(2.0900002, 0, 0, 0, 1, 0, 0, 0, 2, 15.3, 0, -4)
+
+[node name="floor_kitchen18" parent="Floor" unique_id=1735798112 instance=ExtResource("9_qcn2v")]
+transform = Transform3D(2.0900002, 0, 0, 0, 1, 0, 0, 0, 2, 7, 0, 4)
+
+[node name="floor_kitchen26" parent="Floor" unique_id=565381342 instance=ExtResource("9_qcn2v")]
+transform = Transform3D(2.0900002, 0, 0, 0, 1, 0, 0, 0, 2, 7, 0, -4)
+
+[node name="floor_kitchen19" parent="Floor" unique_id=1549092352 instance=ExtResource("9_qcn2v")]
+transform = Transform3D(2.0900002, 0, 0, 0, 1, 0, 0, 0, 2, 7, 0, 12)
+
+[node name="floor_kitchen13" parent="Floor" unique_id=49892961 instance=ExtResource("9_qcn2v")]
+transform = Transform3D(1.9000001, 0, 0, 0, 1, 0, 0, 0, 2, 23.2, 0, 4)
+
+[node name="floor_kitchen24" parent="Floor" unique_id=751563835 instance=ExtResource("9_qcn2v")]
+transform = Transform3D(1.9000001, 0, 0, 0, 1, 0, 0, 0, 2, 23.2, 0, -4)
+
+[node name="floor_kitchen11" parent="Floor" unique_id=890412536 instance=ExtResource("9_qcn2v")]
+transform = Transform3D(1.9000001, 0, 0, 0, 1, 0, 0, 0, 2, 23.2, 0, 12)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Floor" unique_id=1816804728]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor/StaticBody3D" unique_id=1447791415]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.743328, 0, 4.2981415)
+shape = SubResource("BoxShape3D_87bic")
+
+[node name="Kitchen meubels" type="Node3D" parent="." unique_id=365589796]
+
+[node name="fridge_A2" parent="Kitchen meubels" unique_id=24522879 instance=ExtResource("12_snece")]
+transform = Transform3D(1.1384662, 0, 0, 0, 1.2758932, 0, 0, 0, 1.2367578, 19.535, 0.3, -6.389)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Kitchen meubels/fridge_A2" unique_id=1428865120]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Kitchen meubels/fridge_A2/StaticBody3D" unique_id=761383992]
+transform = Transform3D(1, 0, 0, 0, 0.9999996, 0, 0, 0, 0.99999976, -0.04027939, 1.3464104, 0.06259155)
+shape = SubResource("BoxShape3D_jdh6n")
+
+[node name="kitchencabinet2" parent="Kitchen meubels" unique_id=1911588038 instance=ExtResource("13_4bui7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.333945, 2.4663613, -7.5587106)
+
+[node name="kitchencabinet" parent="Kitchen meubels/kitchencabinet2" index="0" unique_id=1896590681]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 6.000001, -1, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Kitchen meubels/kitchencabinet2/kitchencabinet" index="0" unique_id=1566289419]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Kitchen meubels/kitchencabinet2/kitchencabinet/StaticBody3D" unique_id=157304203]
+shape = SubResource("ConvexPolygonShape3D_3i1dt")
+
+[node name="kitchencounter_sink2" parent="Kitchen meubels" unique_id=735203744 instance=ExtResource("17_jv0tu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.922352, 0.3, -3.05927)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Kitchen meubels/kitchencounter_sink2/kitchencounter_sink" parent_id_path=PackedInt32Array(735203744, 963287449) index="0" unique_id=1147839945]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Kitchen meubels/kitchencounter_sink2/kitchencounter_sink/StaticBody3D" unique_id=468759186]
+shape = SubResource("ConvexPolygonShape3D_lvvf4")
+
+[node name="shelf_papertowel" parent="Kitchen meubels" unique_id=844340923 instance=ExtResource("7_7aoei")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 26.92601, 2.7727582, -5.064247)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Kitchen meubels/shelf_papertowel" unique_id=1956071393]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Kitchen meubels/shelf_papertowel/StaticBody3D" unique_id=291707860]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.058898926, -0.22845459, 0.28671265)
+shape = SubResource("BoxShape3D_7aoei")
+
+[node name="extractorhood" parent="Kitchen meubels" unique_id=759457482 instance=ExtResource("11_3jqc5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.3907743, 1.122541, -7.7499995)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Kitchen meubels/extractorhood" unique_id=1137941192]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.7877402, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Kitchen meubels/extractorhood/StaticBody3D" unique_id=483575197]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0060424805, 0.1942749, 0.54803467)
+shape = SubResource("BoxShape3D_3jqc5")
+
+[node name="Node3D6" parent="Kitchen meubels" unique_id=1003602578 instance=ExtResource("9_x2mbc")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 3.6999998, 0.29999998, -1)
+
+[node name="counter" type="Node3D" parent="Kitchen meubels" unique_id=2092616076]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7537384, 0, 0)
+
+[node name="kitchencounter_outercorner" parent="Kitchen meubels/counter" unique_id=344161486 instance=ExtResource("9_xvr54")]
+transform = Transform3D(7.9819837, 0, 0, 0, 1, 0, 0, 0, 1, 18.199999, 0.5, 0.9)
+
+[node name="kitchencounter_outercorner2" parent="Kitchen meubels/counter" unique_id=1211906337 instance=ExtResource("9_xvr54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.889652, 0.5, 0.9)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Kitchen meubels/counter" unique_id=1429193770]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Kitchen meubels/counter/StaticBody3D" unique_id=2122592849]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.3890457, 1.0718291, 0.8502611)
+shape = SubResource("BoxShape3D_qh6fj")
+
+[node name="Player" parent="." unique_id=468757 instance=ExtResource("10_7aoei")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -1)
+
+[node name="plate" parent="." unique_id=1870635703 instance=ExtResource("14_d6xsk")]
+transform = Transform3D(1.0715951, 0, 0, 0, 1.0715951, 0, 0, 0, 1.0715951, 11.380297, 1.5684683, 0.81467044)
+script = ExtResource("15_25srl")
+stackHeight = 0.1
+
+[node name="StaticBody3D" type="StaticBody3D" parent="plate" unique_id=3513395]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="plate/StaticBody3D" unique_id=1988694824]
+transform = Transform3D(1.0000002, 0, 0, 0, 1.0000002, 0, 0, 0, 1.0000002, 0.17743015, 0.06729913, 0.10321236)
+shape = SubResource("BoxShape3D_defb7")
+
+[node name="wall_orderwindow2" parent="plate" unique_id=804611409 node_paths=PackedStringArray("targetPlate") instance=ExtResource("16_defb7")]
+transform = Transform3D(1.0000002, 0, 0, 0, 1.1114547, 0, 0, 0, 1.0000002, -6.176645, -1.1201714, 0.18316114)
+script = ExtResource("15_defb7")
+targetPlate = NodePath("..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="plate/wall_orderwindow2" unique_id=1159669939]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="plate/wall_orderwindow2/StaticBody3D" unique_id=1501220573]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.033266068, 1.748291, 0.02301097)
+shape = SubResource("BoxShape3D_jgecu")
+
+[editable path="Walls/wall9"]
+[editable path="Walls/wall7"]
+[editable path="Walls/wall_window_open2"]
+[editable path="Walls/wall_window_open3"]
+[editable path="Walls/wall14"]
+[editable path="Walls/wall8"]
+[editable path="Kitchen meubels/kitchencabinet2"]
+[editable path="Kitchen meubels/kitchencounter_sink2"]

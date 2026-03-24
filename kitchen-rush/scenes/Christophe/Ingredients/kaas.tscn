@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://d16i14pmy6gyy"]
+
+[ext_resource type="Script" uid="uid://burtd3al2kp6" path="res://scenes/Christophe/scripts/Ingredient.cs" id="1_7a0sp"]
+[ext_resource type="PackedScene" uid="uid://byap6j0js50fx" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_cheese_slice.gltf" id="2_jlpoo"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_i7qhw"]
+height = 0.13342285
+radius = 0.41455078
+
+[node name="Node3D" type="Node3D" unique_id=53711472]
+script = ExtResource("1_7a0sp")
+Type = 3
+Cost = 2
+Height = 0.1
+
+[node name="food_ingredient_cheese_slice2" parent="." unique_id=970121878 instance=ExtResource("2_jlpoo")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="food_ingredient_cheese_slice2" unique_id=219339989]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="food_ingredient_cheese_slice2/StaticBody3D" unique_id=1266916308]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.020202637, 0)
+shape = SubResource("CylinderShape3D_i7qhw")
