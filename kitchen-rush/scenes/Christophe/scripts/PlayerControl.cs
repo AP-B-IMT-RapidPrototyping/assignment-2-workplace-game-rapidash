@@ -63,25 +63,49 @@ public partial class PlayerControl : CharacterBody3D
         {
             var collider = _raycast.GetCollider();
 
+            if (collider == heldObject)
+                return;
+
             if (collider is Node node)
             {
                 Node current = node;
 
-                // Loop omhoog in de tree tot we Stove vinden
                 while (current != null)
                 {
-                    GD.Print("Check: ", current, " | Type: ", current.GetType());
-
-                    if (current is Stove stove)
+                    if (current is IngredientStation stove)
                     {
-                        GD.Print("🔥 STOVE GEVONDEN!");
                         stove.Interact(this);
+                        break;
+                    }
+                    else if (current is Plate plate)
+                    {
+                        PlaceObjectOnPlate(plate);
+                        break;
+                    }
+
+                    else if (current is Bell bell)
+                    {
+                        bell.Interact(this);
+                        break;
+                    }
+                    else if (current is Ingredient ingredient)
+                    {
+                        if (!HasObject())
+                        {
+                            GD.Print("🖐️ Ingredient opgepakt van grond");
+                            HoldObject(ingredient);
+                        }
                         break;
                     }
 
                     current = current.GetParent();
                 }
             }
+        }
+
+        if (Input.IsActionJustPressed("drop"))
+        {
+            DropObject();
         }
     }
 
@@ -124,7 +148,7 @@ public partial class PlayerControl : CharacterBody3D
         obj.Rotation = Vector3.Zero;
         obj.Scale = Vector3.One;              // of pas aan naar de juiste grootte
 
-        GD.Print("🎉 Object in handen: ", obj.Name);
+        GD.Print("Object in handen: ", obj.Name);
     }
 
     public void DropObject()
@@ -132,8 +156,31 @@ public partial class PlayerControl : CharacterBody3D
         if (heldObject == null)
             return;
 
-        GetParent().AddChild(heldObject);
-        heldObject.GlobalTransform = HoldPoint.GlobalTransform;
+        // haal object uit handen
+        Node3D obj = heldObject;
         heldObject = null;
+
+        obj.GetParent()?.RemoveChild(obj);
+
+        // voeg terug toe aan wereld (zelfde parent als player)
+        GetParent().AddChild(obj);
+
+        // zet het object voor de speler
+        obj.GlobalTransform = HoldPoint.GlobalTransform;
+    }
+
+    public void PlaceObjectOnPlate(Plate plate)
+    {
+        if (!HasObject()) return;
+
+        // pak het object dat de speler vasthoudt
+        Node3D obj = heldObject;
+        
+        // verwijder uit de handen
+        heldObject = null; // belangrijk, zodat HasObject() false wordt
+        obj.GetParent()?.RemoveChild(obj);
+
+        // voeg toe aan plate
+        plate.PlaceIngredient(obj);
     }
 }

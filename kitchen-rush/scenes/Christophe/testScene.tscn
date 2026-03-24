@@ -2,9 +2,28 @@
 
 [ext_resource type="PackedScene" uid="uid://ji5dy40s6720" path="res://scenes/Christophe/player.tscn" id="1_418kg"]
 [ext_resource type="PackedScene" uid="uid://cqeo8swb0ipyb" path="res://scenes/Christophe/prototype_floor.tscn" id="2_on2uo"]
-[ext_resource type="PackedScene" uid="uid://dvb6l6gyxbf2i" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/stove_multi.gltf" id="3_q603m"]
-[ext_resource type="Script" uid="uid://d110k7wumefb2" path="res://scenes/Christophe/scripts/Stove.cs" id="4_6fevo"]
+[ext_resource type="PackedScene" uid="uid://dvb6l6gyxbf2i" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/stove_multi.gltf" id="3_q603m"]
+[ext_resource type="Script" uid="uid://d110k7wumefb2" path="res://scenes/Christophe/scripts/IngredientStation.cs" id="4_6fevo"]
 [ext_resource type="PackedScene" uid="uid://bcosge2udxt07" path="res://scenes/Christophe/burger.tscn" id="5_6fevo"]
+[ext_resource type="PackedScene" uid="uid://iumwfx2qgkns" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_outercorner.gltf" id="6_gvobu"]
+[ext_resource type="PackedScene" uid="uid://cew2fbohxtamb" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/plate.gltf" id="7_f3154"]
+[ext_resource type="Script" uid="uid://ejg8q12ulqel" path="res://scenes/Christophe/scripts/Plate.cs" id="8_f3154"]
+[ext_resource type="PackedScene" uid="uid://0dj814qlaxiq" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_straight_B.gltf" id="9_kwrwh"]
+[ext_resource type="PackedScene" uid="uid://bntypvhiffotx" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_straight_decorated.gltf" id="10_pbfj5"]
+[ext_resource type="PackedScene" uid="uid://xm6h106rjgrb" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_bun.gltf" id="11_pbfj5"]
+[ext_resource type="PackedScene" uid="uid://dty3rva2ioyit" path="res://scenes/Christophe/bunBottom.tscn" id="12_ffjm2"]
+[ext_resource type="PackedScene" uid="uid://cmk11jb6ncouf" path="res://scenes/Christophe/bunTop.tscn" id="13_i80h5"]
+[ext_resource type="PackedScene" uid="uid://coal2od8pcoha" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/wall_orderwindow.gltf" id="14_i80h5"]
+[ext_resource type="Script" uid="uid://bye07miitxidd" path="res://scenes/Christophe/scripts/Order.cs" id="15_gudv0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ffjm2"]
+size = Vector3(2.1051636, 1.6883545, 2.0634766)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pbfj5"]
+size = Vector3(2.0357666, 1.5186768, 2.0011902)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_eodyn"]
+size = Vector3(2.0578613, 1.5102539, 2.0256348)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1gcxa"]
 albedo_color = Color(1, 0, 0, 1)
@@ -16,7 +35,40 @@ material = SubResource("StandardMaterial3D_1gcxa")
 [sub_resource type="BoxShape3D" id="BoxShape3D_q603m"]
 size = Vector3(2.1345215, 1.7626343, 2.5960693)
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_kwrwh"]
+size = Vector3(1.0410156, 0.25543213, 1.2717285)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gudv0"]
+size = Vector3(4.182129, 4.496582, 1)
+
 [node name="TestScene" type="Node3D" unique_id=1441735256]
+
+[node name="kitchencounter_straight_decorated2" parent="." unique_id=1913478220 instance=ExtResource("10_pbfj5")]
+transform = Transform3D(-4.3711363e-08, 0, 0.99999946, 0, 1, 0, -0.99999946, 0, -4.3711363e-08, -5.7266235, 0.21687365, -15.450206)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="kitchencounter_straight_decorated2" unique_id=1846583411]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="kitchencounter_straight_decorated2/StaticBody3D" unique_id=1214527387]
+transform = Transform3D(1, 0, 2.719462e-07, 0, 1, 0, -2.719462e-07, 0, 1, 0.029921532, 0.34417725, 0.018068314)
+shape = SubResource("BoxShape3D_ffjm2")
+
+[node name="kitchencounter_straight_B2" parent="." unique_id=322912256 instance=ExtResource("9_kwrwh")]
+transform = Transform3D(-4.3711385e-08, 0, 0.99999994, 0, 1, 0, -0.99999994, 0, -4.3711385e-08, -5.7452106, 0.21687365, -13.293987)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="kitchencounter_straight_B2" unique_id=31498540]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="kitchencounter_straight_B2/StaticBody3D" unique_id=2052793643]
+transform = Transform3D(0.9999738, 0, -4.156675e-13, 0, 1, 0, 4.156675e-13, 0, 0.9999738, -0.0011606216, 0.25933838, -0.014387608)
+shape = SubResource("BoxShape3D_pbfj5")
+
+[node name="kitchencounter_outercorner2" parent="." unique_id=1759696981 instance=ExtResource("6_gvobu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 2.261315, 0.32385254, -11.263355)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="kitchencounter_outercorner2" unique_id=1917244366]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="kitchencounter_outercorner2/StaticBody3D" unique_id=99610682]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.028198242, 0.25512695, -0.026977539)
+shape = SubResource("BoxShape3D_eodyn")
 
 [node name="Dec" type="Node3D" parent="." unique_id=923015911]
 
@@ -42,7 +94,7 @@ shadow_enabled = true
 [node name="stove_multi2" parent="." unique_id=1552971719 instance=ExtResource("3_q603m")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -5.7740574, 0, -10.991183)
 script = ExtResource("4_6fevo")
-BurgerScene = ExtResource("5_6fevo")
+IngredientScene = ExtResource("5_6fevo")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="stove_multi2" unique_id=1339262334]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -10.991183, 0, 5.774057)
@@ -50,3 +102,36 @@ transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -10.
 [node name="CollisionShape3D" type="CollisionShape3D" parent="stove_multi2/StaticBody3D" unique_id=207944938]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -5.9672337, 0.38131714, -11.016208)
 shape = SubResource("BoxShape3D_q603m")
+
+[node name="plate" parent="." unique_id=1064995413 instance=ExtResource("7_f3154")]
+transform = Transform3D(1.0715951, 0, 0, 0, 1.0715951, 0, 0, 0, 1.0715951, 1.9892063, 1.3939846, -11.328984)
+script = ExtResource("8_f3154")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="plate" unique_id=1905905898]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="plate/StaticBody3D" unique_id=905478383]
+transform = Transform3D(1.0000002, 0, 0, 0, 1.0000002, 0, 0, 0, 1.0000002, -0.020507813, 0.10336316, 0.08239937)
+shape = SubResource("BoxShape3D_kwrwh")
+
+[node name="food_ingredient_bun2" parent="." unique_id=464861531 instance=ExtResource("11_pbfj5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.402585, 1.2355504, -13.272621)
+
+[node name="bunBot" parent="." unique_id=1953542161 instance=ExtResource("12_ffjm2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2396636, 1.2355504, -12.783004)
+script = ExtResource("4_6fevo")
+IngredientScene = ExtResource("12_ffjm2")
+
+[node name="bunTop" parent="." unique_id=1121135010 instance=ExtResource("13_i80h5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.227518, 1.2355504, -13.803579)
+script = ExtResource("4_6fevo")
+IngredientScene = ExtResource("13_i80h5")
+
+[node name="wall_orderwindow2" parent="." unique_id=548584783 instance=ExtResource("14_i80h5")]
+transform = Transform3D(-0.15345147, 0, -0.9881562, 0, 1, 0, 0.9881562, 0, -0.15345147, 2.4993591, 0.25, -8.091721)
+script = ExtResource("15_gudv0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="wall_orderwindow2" unique_id=442285784]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="wall_orderwindow2/StaticBody3D" unique_id=1213427316]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.11059761, 1.748291, -1.1920929e-07)
+shape = SubResource("BoxShape3D_gudv0")
