@@ -83,9 +83,9 @@ public partial class PlayerControl : CharacterBody3D
                         break;
                     }
 
-                    else if (current is Bell bell)
+                    else if (current is Order order)
                     {
-                        bell.Interact(this);
+                        order.Interact(this);
                         break;
                     }
                     else if (current is Ingredient ingredient)
@@ -182,5 +182,13 @@ public partial class PlayerControl : CharacterBody3D
 
         // voeg toe aan plate
         plate.PlaceIngredient(obj);
+    }
+
+    public int Money = 0;
+
+    public void AddMoney(int amount)
+    {
+        Money += amount;
+        //GD.Print("Geld: ", Money);
     }
 }

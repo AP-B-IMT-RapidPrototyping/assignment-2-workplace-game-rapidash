@@ -2,18 +2,18 @@
 
 [ext_resource type="PackedScene" uid="uid://ji5dy40s6720" path="res://scenes/Christophe/player.tscn" id="1_418kg"]
 [ext_resource type="PackedScene" uid="uid://cqeo8swb0ipyb" path="res://scenes/Christophe/prototype_floor.tscn" id="2_on2uo"]
-[ext_resource type="PackedScene" uid="uid://dvb6l6gyxbf2i" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/stove_multi.gltf" id="3_q603m"]
+[ext_resource type="PackedScene" uid="uid://dvb6l6gyxbf2i" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/stove_multi.gltf" id="3_q603m"]
 [ext_resource type="Script" uid="uid://d110k7wumefb2" path="res://scenes/Christophe/scripts/IngredientStation.cs" id="4_6fevo"]
 [ext_resource type="PackedScene" uid="uid://bcosge2udxt07" path="res://scenes/Christophe/burger.tscn" id="5_6fevo"]
-[ext_resource type="PackedScene" uid="uid://iumwfx2qgkns" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_outercorner.gltf" id="6_gvobu"]
-[ext_resource type="PackedScene" uid="uid://cew2fbohxtamb" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/plate.gltf" id="7_f3154"]
+[ext_resource type="PackedScene" uid="uid://iumwfx2qgkns" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_outercorner.gltf" id="6_gvobu"]
+[ext_resource type="PackedScene" uid="uid://cew2fbohxtamb" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/plate.gltf" id="7_f3154"]
 [ext_resource type="Script" uid="uid://ejg8q12ulqel" path="res://scenes/Christophe/scripts/Plate.cs" id="8_f3154"]
-[ext_resource type="PackedScene" uid="uid://0dj814qlaxiq" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_straight_B.gltf" id="9_kwrwh"]
-[ext_resource type="PackedScene" uid="uid://bntypvhiffotx" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_straight_decorated.gltf" id="10_pbfj5"]
-[ext_resource type="PackedScene" uid="uid://xm6h106rjgrb" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_bun.gltf" id="11_pbfj5"]
+[ext_resource type="PackedScene" uid="uid://0dj814qlaxiq" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_straight_B.gltf" id="9_kwrwh"]
+[ext_resource type="PackedScene" uid="uid://bntypvhiffotx" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_straight_decorated.gltf" id="10_pbfj5"]
+[ext_resource type="PackedScene" uid="uid://xm6h106rjgrb" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_bun.gltf" id="11_pbfj5"]
 [ext_resource type="PackedScene" uid="uid://dty3rva2ioyit" path="res://scenes/Christophe/bunBottom.tscn" id="12_ffjm2"]
 [ext_resource type="PackedScene" uid="uid://cmk11jb6ncouf" path="res://scenes/Christophe/bunTop.tscn" id="13_i80h5"]
-[ext_resource type="PackedScene" uid="uid://coal2od8pcoha" path="res://scenes/Mohmad/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/wall_orderwindow.gltf" id="14_i80h5"]
+[ext_resource type="PackedScene" uid="uid://coal2od8pcoha" path="res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/wall_orderwindow.gltf" id="14_i80h5"]
 [ext_resource type="Script" uid="uid://bye07miitxidd" path="res://scenes/Christophe/scripts/Order.cs" id="15_gudv0"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ffjm2"]
@@ -126,9 +126,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.227518, 1.2355504, -13.803
 script = ExtResource("4_6fevo")
 IngredientScene = ExtResource("13_i80h5")
 
-[node name="wall_orderwindow2" parent="." unique_id=548584783 instance=ExtResource("14_i80h5")]
+[node name="wall_orderwindow2" parent="." unique_id=548584783 node_paths=PackedStringArray("targetPlate") instance=ExtResource("14_i80h5")]
 transform = Transform3D(-0.15345147, 0, -0.9881562, 0, 1, 0, 0.9881562, 0, -0.15345147, 2.4993591, 0.25, -8.091721)
 script = ExtResource("15_gudv0")
+targetPlate = NodePath("../plate")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="wall_orderwindow2" unique_id=442285784]
 

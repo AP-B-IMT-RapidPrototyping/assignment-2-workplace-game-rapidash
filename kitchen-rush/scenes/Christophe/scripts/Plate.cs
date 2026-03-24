@@ -12,7 +12,7 @@ public partial class Plate : Node3D
         // Zorg dat het ingredient een Ingredient script heeft
         if (!(ingredientNode is Ingredient ingredient))
         {
-            GD.Print("❌ Node is geen ingredient: ", ingredientNode.Name);
+            GD.Print("Node is geen ingredient: ", ingredientNode.Name);
             return;
         }
 
@@ -76,6 +76,18 @@ public partial class Plate : Node3D
         // maak lijst leeg
         ingredients.Clear();
 
-        GD.Print("🧼 Plate is leeg gemaakt");
+        GD.Print("Plate is leeg gemaakt");
+    }
+
+    public int GetTotalCost()
+    {
+        int total = 0;
+
+        foreach (var ing in ingredients)
+        {
+            total += ing.Cost;
+        }
+
+        return total;
     }
 }

@@ -88,24 +88,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bouta\\.nuget\\packages\\": {}
+    "C:\\Users\\Christophe\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bouta\\Documents\\AP\\Rapid\\assignment-2-workplace-game-rapidash\\kitchen-rush\\Kitchen Rush.csproj",
+      "projectUniqueName": "C:\\Users\\Christophe\\Desktop\\AP\\B_IT&ImTech\\Different Git\\Rapid Prototyping\\assignment-2-workplace-game-rapidash\\kitchen-rush\\Kitchen Rush.csproj",
       "projectName": "Kitchen Rush",
-      "projectPath": "C:\\Users\\bouta\\Documents\\AP\\Rapid\\assignment-2-workplace-game-rapidash\\kitchen-rush\\Kitchen Rush.csproj",
-      "packagesPath": "C:\\Users\\bouta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bouta\\Documents\\AP\\Rapid\\assignment-2-workplace-game-rapidash\\kitchen-rush\\.godot\\mono\\temp\\obj\\",
+      "projectPath": "C:\\Users\\Christophe\\Desktop\\AP\\B_IT&ImTech\\Different Git\\Rapid Prototyping\\assignment-2-workplace-game-rapidash\\kitchen-rush\\Kitchen Rush.csproj",
+      "packagesPath": "C:\\Users\\Christophe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Christophe\\Desktop\\AP\\B_IT&ImTech\\Different Git\\Rapid Prototyping\\assignment-2-workplace-game-rapidash\\kitchen-rush\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\bouta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Christophe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -124,7 +132,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -157,26 +165,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

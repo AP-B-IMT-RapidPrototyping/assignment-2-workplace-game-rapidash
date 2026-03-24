@@ -3,7 +3,27 @@
 [ext_resource type="PackedScene" uid="uid://ji5dy40s6720" path="res://scenes/Christophe/player.tscn" id="2_0bbpv"]
 [ext_resource type="PackedScene" uid="uid://u745aawgderb" path="res://scenes/kitchen.tscn" id="2_rvslj"]
 
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rvslj"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_0bbpv"]
+sky_material = SubResource("ProceduralSkyMaterial_rvslj")
+
+[sub_resource type="Environment" id="Environment_rarhs"]
+background_mode = 2
+sky = SubResource("Sky_0bbpv")
+tonemap_mode = 2
+glow_enabled = true
+
 [node name="Main" type="Node3D" unique_id=910306744]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=432722035]
+environment = SubResource("Environment_rarhs")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=33467826]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
 
 [node name="Player" parent="." unique_id=1055635860 instance=ExtResource("2_0bbpv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.153475, 3.201727, -1.3415205)

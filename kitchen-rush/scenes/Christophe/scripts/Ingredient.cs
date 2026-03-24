@@ -14,4 +14,6 @@ public enum IngredientType
 public partial class Ingredient : Node3D
 {
     [Export] public IngredientType Type;
+
+    [Export] public int Cost = 1; // kost van dit ingredient (instelbaar in inspector)
 }

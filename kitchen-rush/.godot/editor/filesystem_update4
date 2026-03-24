@@ -1,7 +1,14 @@
-res://scenes/Aymane/Main menu.tscn
-res://scenes/Aymane/play.gd
-res://scenes/Aymane/settings.gd
-res://scenes/Aymane/exit.gd
 res://scenes/Christophe/scripts/PlayerControl.cs
-res://scenes/kitchen.tscn
 res://scenes/Main.tscn
+res://scenes/Christophe/scripts/Order.cs
+res://scenes/Christophe/scripts/Plate.cs
+res://scenes/Christophe/scripts/Ingredient.cs
+res://scenes/Christophe/scripts/IngredientStation.cs
+res://scenes/Christophe/player.tscn
+res://MeshLibraries/prototype-kit.tres
+res://scenes/Christophe/scripts/ScoreKeeper.cs
+res://scenes/Christophe/Score.tscn
+res://scenes/Christophe/Money.cs
+res://scenes/Christophe/scripts/Money.cs
+res://scenes/Christophe/testScene.tscn
+res://scenes/Christophe/burger.tscn

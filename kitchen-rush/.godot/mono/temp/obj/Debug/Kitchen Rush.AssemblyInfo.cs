@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kitchen Rush")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c470dca3182e4c13872a71124f15dc2a4d373cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b804f70e9896d0f9d3f1b0fc40d06f6fc31044a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kitchen Rush")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kitchen Rush")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
