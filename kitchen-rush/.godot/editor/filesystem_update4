@@ -1,3 +1,7 @@
-res://scenes/Main.tscn
+res://scenes/Aymane/Main menu.tscn
+res://scenes/Aymane/play.gd
+res://scenes/Aymane/settings.gd
+res://scenes/Aymane/exit.gd
+res://scenes/Christophe/scripts/PlayerControl.cs
 res://scenes/kitchen.tscn
-res://scenes/Christophe/player.tscn
+res://scenes/Main.tscn

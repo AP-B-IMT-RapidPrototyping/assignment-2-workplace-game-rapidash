@@ -1,0 +1,82 @@
+[gd_scene format=3 uid="uid://cs3sbm6hox205"]
+
+[ext_resource type="Script" uid="uid://6ld5pfurpqu0" path="res://scenes/Aymane/play.gd" id="1_0xcga"]
+[ext_resource type="Script" uid="uid://bgqaar750pb2g" path="res://scenes/Aymane/settings.gd" id="2_6s38s"]
+[ext_resource type="Script" uid="uid://dsma51u6hypep" path="res://scenes/Aymane/exit.gd" id="3_6s38s"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_yihgg"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_7n80f"]
+sky_material = SubResource("ProceduralSkyMaterial_yihgg")
+
+[sub_resource type="Environment" id="Environment_0xcga"]
+background_mode = 2
+sky = SubResource("Sky_7n80f")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="TextMesh" id="TextMesh_yihgg"]
+text = "Play"
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7n80f"]
+size = Vector3(0.33104706, 0.16745949, 0.050060272)
+
+[sub_resource type="TextMesh" id="TextMesh_0xcga"]
+text = "Settings"
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_b8th5"]
+size = Vector3(0.6288986, 0.1725769, 0.063446045)
+
+[sub_resource type="TextMesh" id="TextMesh_6s38s"]
+text = "Exit"
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2pnan"]
+size = Vector3(0.29725647, 0.15008545, 0.05444336)
+
+[node name="MainMenu" type="Node3D" unique_id=2114175346]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=732133405]
+environment = SubResource("Environment_0xcga")
+
+[node name="Menu" type="Node3D" parent="." unique_id=1127174493]
+transform = Transform3D(0.3917251, 0.17832293, -0.6743533, 0, 0.7734159, 0.20451859, 0.6975324, -0.10014383, 0.378708, -0.85855067, 0.1808748, 0.019342214)
+
+[node name="Play" type="MeshInstance3D" parent="Menu" unique_id=1650348517]
+transform = Transform3D(1, 0, 0, 0, 0.9438529, -0.33036613, 0, 0.33036613, 0.9438529, -0.009000003, 0.47561273, 1.6763806e-08)
+mesh = SubResource("TextMesh_yihgg")
+script = ExtResource("1_0xcga")
+
+[node name="Area3D" type="Area3D" parent="Menu/Play" unique_id=1171902835]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Menu/Play/Area3D" unique_id=1095236363]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0034675598, -0.023589134, -0.00084114075)
+shape = SubResource("BoxShape3D_7n80f")
+
+[node name="Settings" type="MeshInstance3D" parent="Menu" unique_id=1764122268]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.29440948, -0.01665029)
+mesh = SubResource("TextMesh_0xcga")
+script = ExtResource("2_6s38s")
+
+[node name="Area3D" type="Area3D" parent="Menu/Settings" unique_id=1461315265]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Menu/Settings/Area3D" unique_id=1894208875]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0049934387, -0.025375366, -0.00093078613)
+shape = SubResource("BoxShape3D_b8th5")
+
+[node name="Exit" type="MeshInstance3D" parent="Menu" unique_id=455199564]
+transform = Transform3D(1, 0, 0, 0, 0.92315656, 0.3844242, 0, -0.3844242, 0.92315656, 0, 0.1058034, -1.8626451e-09)
+mesh = SubResource("TextMesh_6s38s")
+script = ExtResource("3_6s38s")
+
+[node name="Area3D" type="Area3D" parent="Menu/Exit" unique_id=1436286632]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Menu/Exit/Area3D" unique_id=531643798]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0023422241, -0.0051574707, 0.00061035156)
+shape = SubResource("BoxShape3D_2pnan")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=713546498]
+transform = Transform3D(0.71630156, 0.20110075, -0.6681846, 0, 0.9575714, 0.28819633, 0.69779086, -0.20643547, 0.68590987, -1.211853, 0.4941994, 0.1885519)
+
+[connection signal="input_event" from="Menu/Play/Area3D" to="Menu/Play" method="_on_input_event"]

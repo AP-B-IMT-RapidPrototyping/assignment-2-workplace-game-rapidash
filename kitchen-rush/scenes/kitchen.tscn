@@ -447,13 +447,13 @@ transform = Transform3D(1.6611712, 0, 0, 0, 1, 0, 0, 0, 3.918749, 25.461117, -9.
 transform = Transform3D(1.6611712, 0, 0, 0, 1, 0, 0, 0, 3.918749, 25.451561, -9.536743e-07, 4.1975975)
 
 [node name="floor_kitchen_small14" parent="Floor" unique_id=485954594 instance=ExtResource("18_7nt27")]
-transform = Transform3D(1.3562434, 0, 0, 0, 0.9999995, 0, 0, 0, 4.3493495, -1.471592, -4.7683716e-07, 3.6287842)
+transform = Transform3D(1.3562434, 0, 0, 0, 0.9999995, 0, 0, 0, 4.3493495, -1.471592, -4.7683716e-07, 4.4394984)
 
 [node name="floor_kitchen_small15" parent="Floor" unique_id=2051731382 instance=ExtResource("18_7nt27")]
-transform = Transform3D(1.3562434, 0, 0, 0, 0.9999995, 0, 0, 0, 4.3493495, -1.5048208, -4.7683716e-07, 12.221683)
+transform = Transform3D(1.3562434, 0, 0, 0, 0.9999995, 0, 0, 0, 4.3493495, -1.5048208, -4.7683716e-07, 13.088994)
 
 [node name="floor_kitchen_small16" parent="Floor" unique_id=1560808761 instance=ExtResource("18_7nt27")]
-transform = Transform3D(1.3562434, 0, 0, 0, 0.9999995, 0, 0, 0, 3.701836, -1.5815544, -4.7683716e-07, 20.261324)
+transform = Transform3D(1.3562434, 0, 0, 0, 0.9999995, 0, 0, 0, 3.2589152, -1.5815544, -4.7683716e-07, 20.556925)
 
 [node name="floor_kitchen_small17" parent="Floor" unique_id=1853378091 instance=ExtResource("18_7nt27")]
 transform = Transform3D(1.791414, 0, 0, 0, 1.1414309, 0, 0, 0, 2.2564733, 28.853546, -0.39276814, 1.093914)
