@@ -26,7 +26,7 @@ transform = Transform3D(0.67, 0, 0, 0, 0.67, 0, 0, 0, 0.67, 0, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_pr81o")
 
 [node name="chair_A5" parent="." unique_id=1961697201 instance=ExtResource("2_pr81o")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -1.2, 0, 0)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -1.1, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="chair_A5/chair_A" parent_id_path=PackedInt32Array(1961697201, 1872053408) index="0" unique_id=438383186]
 
@@ -34,7 +34,7 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -1.2
 shape = SubResource("ConvexPolygonShape3D_i1cei")
 
 [node name="chair_A6" parent="." unique_id=1360511598 instance=ExtResource("2_pr81o")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1.2, 0, 0)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1.1, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="chair_A6/chair_A" parent_id_path=PackedInt32Array(1360511598, 1872053408) index="0" unique_id=592861785]
 
