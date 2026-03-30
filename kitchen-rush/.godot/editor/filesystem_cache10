@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1774873154
+::res://::1774874171
 main_menu.gd::GDScript::-1::1774872816::0::1::::<>Control<><>0<>0<><>::
 main_menu.tscn::PackedScene::5659518207463154326::1774872936::0::1::::<><><>0<>0<><>::uid://bveqnppvj3x0d::::res://scenes/Aymane/foto keuken_20260329_181543.png<>uid://c6twnodnh1kjx::::res://main_menu.gd
 ::res://assets/::1774816899
@@ -1498,7 +1498,7 @@ OrdersLabel.cs::CSharpScript::4146047131443183088::1774872816::0::1::::<>Label<>
 Plate.cs::CSharpScript::299758889286579147::1774872816::0::1::::<>Node3D<><>0<>0<><>::
 PlayerControl.cs::CSharpScript::7398834824387414774::1774372998::0::1::::<>CharacterBody3D<><>0<>0<><>::
 RepLabel.cs::CSharpScript::2085218986685518920::1774872816::0::1::::<>Label<><>0<>0<><>::
-ReputationManager.cs::CSharpScript::-1::1774872816::0::1::::<>Node<><>0<>0<><>::
+ReputationManager.cs::CSharpScript::8478787781482441826::1774872816::0::1::::<>Node<><>0<>0<><>::
 Score.cs::CSharpScript::5585738762309364500::1774872816::0::1::::<>Label<><>0<>0<><>::
 ScoreKeeper.cs::CSharpScript::223637578583830053::1774872816::0::1::::<>Node<><>0<>0<><>::
 ::res://scenes/Christophe/Stations/::1774432897
@@ -1508,5 +1508,6 @@ kaasStation.tscn::PackedScene::1442416909818568168::1774432897::0::1::::<><><>0<
 orderStation.tscn::PackedScene::3512797012939102519::1774432897::0::1::::<><><>0<>0<><>::uid://coal2od8pcoha::::res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/wall_orderwindow.gltf<>uid://bye07miitxidd::::res://scenes/Christophe/scripts/Order.cs
 slaStation.tscn::PackedScene::7059156765068000918::1774432897::0::1::::<><><>0<>0<><>::uid://d110k7wumefb2::::res://scenes/Christophe/scripts/IngredientStation.cs<>uid://rb5op7821fti::::res://scenes/Christophe/Ingredients/sla.tscn<>uid://0dj814qlaxiq::::res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_straight_B.gltf<>uid://cm3ksrma6otxd::::res://assets/kenney_food-kit/Models/GLB format/cutting-board-japanese.glb<>uid://bkifivkpjho41::::res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_lettuce_chopped.gltf<>uid://dmaman1r3ibbb::::res://assets/kenney_food-kit/Models/GLB format/cooking-knife.glb<>uid://bmotsnijtelh3::::res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_lettuce_slice.gltf<>uid://burtd3al2kp6::::res://scenes/Christophe/scripts/Ingredient.cs
 tomaatStation.tscn::PackedScene::6530186318181311289::1774432897::0::1::::<><><>0<>0<><>::uid://0dj814qlaxiq::::res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/kitchencounter_straight_B.gltf<>uid://cm3ksrma6otxd::::res://assets/kenney_food-kit/Models/GLB format/cutting-board-japanese.glb<>uid://d110k7wumefb2::::res://scenes/Christophe/scripts/IngredientStation.cs<>uid://bar0uujqc43am::::res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_tomato_slices.gltf<>uid://wugc3epgh82i::::res://scenes/Christophe/Ingredients/tomaat.tscn<>uid://dmaman1r3ibbb::::res://assets/kenney_food-kit/Models/GLB format/cooking-knife.glb<>uid://bj831158qd0at::::res://scenes/Aymane/KayKit_Restaurant_Bits_1.0_FREE/Assets/gltf/food_ingredient_tomato.gltf<>uid://burtd3al2kp6::::res://scenes/Christophe/scripts/Ingredient.cs
-::res://scenes/Mahdi/::1774872936
-main_scene.tscn::PackedScene::5225093001661602030::1774872936::0::1::::<><><>0<>0<><>::
+::res://scenes/Mahdi/::1774873991
+main_scene.tscn::PackedScene::5639886241772988323::1774873991::0::1::::<><><>0<>0<><>::
+Tutorialtrial.tscn::PackedScene::275134308742741827::1774873991::0::1::::<><><>0<>0<><>::uid://coy2d1mnwkcky::::res://scenes/Christophe/kitchen.tscn
