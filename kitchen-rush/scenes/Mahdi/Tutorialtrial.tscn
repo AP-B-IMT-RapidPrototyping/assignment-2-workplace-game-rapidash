@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://d6jolxcsydct"]
+
+[ext_resource type="PackedScene" uid="uid://coy2d1mnwkcky" path="res://scenes/Christophe/kitchen.tscn" id="1_7pmk7"]
+[ext_resource type="PackedScene" uid="uid://65rqx7x4t4xa" path="res://scenes/Mahdi/interact.tscn" id="2_ri7gx"]
+
+[node name="Tutorialtrial" type="Node3D" unique_id=37253777]
+
+[node name="MainScene" parent="." unique_id=739600251 instance=ExtResource("1_7pmk7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.860479, -2.3841858e-07, 0.8205581)
+
+[node name="Tutorial" type="Node3D" parent="." unique_id=1203757549]
+
+[node name="interact" parent="Tutorial" unique_id=183446749 instance=ExtResource("2_ri7gx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.7972355, 2.5918078, 1.7454093)
