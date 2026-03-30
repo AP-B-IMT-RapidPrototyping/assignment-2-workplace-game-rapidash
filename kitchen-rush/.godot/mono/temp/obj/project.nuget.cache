@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "y259yNy7FGM=",
+  "dgSpecHash": "M0AcOAw7t0o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Christophe\\Desktop\\AP\\B_ITImTech\\Different Git\\Rapid Prototyping\\assignment-2-workplace-game-rapidash\\kitchen-rush\\Kitchen Rush.csproj",
+  "projectFilePath": "C:\\IMT\\RapidPrototyping\\assignment-2-workplace-game-rapidash\\kitchen-rush\\Kitchen Rush.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Christophe\\.nuget\\packages\\godot.sourcegenerators\\4.6.1\\godot.sourcegenerators.4.6.1.nupkg.sha512",
-    "C:\\Users\\Christophe\\.nuget\\packages\\godotsharp\\4.6.1\\godotsharp.4.6.1.nupkg.sha512",
-    "C:\\Users\\Christophe\\.nuget\\packages\\godotsharpeditor\\4.6.1\\godotsharpeditor.4.6.1.nupkg.sha512"
+    "C:\\Users\\Elmah\\.nuget\\packages\\godot.sourcegenerators\\4.6.1\\godot.sourcegenerators.4.6.1.nupkg.sha512",
+    "C:\\Users\\Elmah\\.nuget\\packages\\godotsharp\\4.6.1\\godotsharp.4.6.1.nupkg.sha512",
+    "C:\\Users\\Elmah\\.nuget\\packages\\godotsharpeditor\\4.6.1\\godotsharpeditor.4.6.1.nupkg.sha512",
+    "C:\\Users\\Elmah\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\Elmah\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\Elmah\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512"
   ],
   "logs": []
 }
