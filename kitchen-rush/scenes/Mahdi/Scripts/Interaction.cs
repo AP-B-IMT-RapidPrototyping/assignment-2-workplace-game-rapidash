@@ -3,6 +3,10 @@ using System;
 
 public partial class Interaction : Node
 {
-    var orderManager = GetNode<OrderManager>("/root/OrderManager");
-    orderManager.StartTutorial();
+    OrderManager orderManager;
+    // orderManager.StartTutorial();
+
+    public Interaction() {
+        orderManager = GetNode<OrderManager>("/root/OrderManager");
+    }
 }

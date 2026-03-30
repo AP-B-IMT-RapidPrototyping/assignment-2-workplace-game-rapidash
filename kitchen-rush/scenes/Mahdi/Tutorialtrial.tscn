@@ -1,15 +1,7 @@
 [gd_scene format=3 uid="uid://d6jolxcsydct"]
 
 [ext_resource type="PackedScene" uid="uid://coy2d1mnwkcky" path="res://scenes/Christophe/kitchen.tscn" id="1_7pmk7"]
-
-[sub_resource type="TextMesh" id="TextMesh_7pmk7"]
-text = "Interact: D
-		|
-		v"
-font_size = 26
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7pmk7"]
-albedo_color = Color(1, 1, 0, 1)
+[ext_resource type="PackedScene" uid="uid://65rqx7x4t4xa" path="res://scenes/Mahdi/interact.tscn" id="2_ri7gx"]
 
 [node name="Tutorialtrial" type="Node3D" unique_id=37253777]
 
@@ -18,26 +10,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.860479, -2.3841858e-07, 0.
 
 [node name="Tutorial" type="Node3D" parent="." unique_id=1203757549]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Tutorial" unique_id=375338833]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.368442, 2.225516, -5.3832016)
-mesh = SubResource("TextMesh_7pmk7")
-skeleton = NodePath("../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_7pmk7")
-
-[node name="MeshInstance3D2" type="MeshInstance3D" parent="Tutorial" unique_id=826130510]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.373497, 2.225516, -5.3832016)
-mesh = SubResource("TextMesh_7pmk7")
-skeleton = NodePath("../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_7pmk7")
-
-[node name="MeshInstance3D3" type="MeshInstance3D" parent="Tutorial" unique_id=720935123]
-transform = Transform3D(-1.2183503, 0, 0, 0, 1, 0, 0, 0, 1, 10.504164, 2.225516, 0.097575784)
-mesh = SubResource("TextMesh_7pmk7")
-skeleton = NodePath("../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_7pmk7")
-
-[node name="MeshInstance3D4" type="MeshInstance3D" parent="Tutorial" unique_id=114413271]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.416007, 2.444876, -5.3832016)
-mesh = SubResource("TextMesh_7pmk7")
-skeleton = NodePath("../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_7pmk7")
+[node name="interact" parent="Tutorial" unique_id=183446749 instance=ExtResource("2_ri7gx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.7972355, 2.5918078, 1.7454093)
