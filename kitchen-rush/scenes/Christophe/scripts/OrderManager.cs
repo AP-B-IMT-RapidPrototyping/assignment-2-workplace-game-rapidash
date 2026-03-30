@@ -23,8 +23,19 @@ public partial class OrderManager : Node
 
     IngredientType[] extras = { IngredientType.Sla, IngredientType.Tomaat };
 
+    [Export] public float OrderLifetime = 20f; // tijd voor order verdwijnt
+    [Export] public int MaxFails = 3;
+
+    private int failCount = 0;
+
+    private bool tutorialActive = false;
+    private bool tutorialCompleted = false;
+
     public override void _Process(double delta)
     {
+        if (tutorialActive)
+            return;             //GEEN nieuwe orders tijdens tutorial
+
         float d = (float)delta;
 
         timer += d;
@@ -37,6 +48,8 @@ public partial class OrderManager : Node
             timer = 0f;
             TryAddOrder();
         }
+
+        CheckExpiredOrders();
     }
 
     private void TryAddOrder()
@@ -72,6 +85,8 @@ public partial class OrderManager : Node
         // top bun altijd
         order.RequiredIngredients.Add(IngredientType.BunTop);
 
+        order.SpawnTime = gameTime;
+
         return order;
     }
 
@@ -101,33 +116,107 @@ public partial class OrderManager : Node
 
         float interval;
 
-        if (gameTime < 20f)
+        if (gameTime < 30f)
         {
-            interval = 5f; // easy
+            interval = 6f; 
         }
-        else if (gameTime < 60f)
+        else if (gameTime < 90f)
         {
-            interval = 3f; // medium
+            interval = 4f;
         }
-        else if (gameTime < 120f)
+        else if (gameTime < 180f)
         {
-            interval = 2f; // hard
+            interval = 2.5f;
         }
         else
         {
-            interval = 1.2f; // VERY HARD
+            interval = 1.5f;
         }
 
-        interval -= rep * 0.05f;
+        // 🔹 REP maakt game sneller maar minder agressief
+        interval -= rep * 0.03f;
 
-        interval = Mathf.Max(interval, 0.8f);
-
-        GD.Print($"Interval: {interval:0.00} | Time: {gameTime:0}");
+        // minimum cap
+        interval = Mathf.Max(interval, 1.2f);
 
         return interval;
     }
     public float GetGameTime()
     {
         return gameTime;
+    }
+    public void StartTutorial()
+    {
+        tutorialActive = true;
+        tutorialCompleted = false;
+
+        orders.Clear();
+
+        var tutorialOrder = new OrderData();
+
+        tutorialOrder.RequiredIngredients.Add(IngredientType.BunBottom);
+        tutorialOrder.RequiredIngredients.Add(IngredientType.Burger);
+        tutorialOrder.RequiredIngredients.Add(IngredientType.Sla);
+        tutorialOrder.RequiredIngredients.Add(IngredientType.Tomaat);
+        tutorialOrder.RequiredIngredients.Add(IngredientType.BunTop);
+
+        orders.Add(tutorialOrder);
+
+        UpdateUI();
+
+        GD.Print("📘 Tutorial gestart");
+    }
+    public void CompleteTutorial()
+    {
+        tutorialActive = false;
+        tutorialCompleted = true;
+
+        orders.Clear();
+        UpdateUI();
+
+        GD.Print("✅ Tutorial voltooid");
+    }
+    public bool IsTutorialActive()
+    {
+        return tutorialActive;
+    }
+    private void CheckExpiredOrders()
+    {
+        var expiredOrders = new List<OrderData>();
+
+        foreach (var order in orders)
+        {
+            float timeAlive = gameTime - order.SpawnTime;
+
+            if (timeAlive >= OrderLifetime)
+            {
+                expiredOrders.Add(order);
+            }
+        }
+
+        foreach (var order in expiredOrders)
+        {
+            orders.Remove(order);
+            failCount++;
+
+            GD.Print($"❌ Order verlopen! Fails: {failCount}/{MaxFails}");
+        }
+
+        if (expiredOrders.Count > 0)
+            UpdateUI();
+
+        // 💀 Game over check
+        if (failCount >= MaxFails)
+        {
+            GameOver();
+        }
+    }
+    private void GameOver()
+    {
+        GD.Print("💀 GAME OVER!");
+
+        GetTree().Paused = true;
+
+        // UI tonen
     }
 }

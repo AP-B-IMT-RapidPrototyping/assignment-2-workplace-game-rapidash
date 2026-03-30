@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://clts20810hosb"]
 
-[ext_resource type="Script" path="res://scenes/Christophe/scripts/Score.cs" id="1_8cl3v"]
+[ext_resource type="Script" uid="uid://clt1kiloigsme" path="res://scenes/Christophe/scripts/Score.cs" id="1_8cl3v"]
 [ext_resource type="Script" path="res://scenes/Christophe/scripts/OrdersLabel.cs" id="2_3kxo8"]
 [ext_resource type="Script" path="res://scenes/Christophe/scripts/RepLabel.cs" id="3_cwfyh"]
 
