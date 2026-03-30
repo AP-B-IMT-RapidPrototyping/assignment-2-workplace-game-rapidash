@@ -263,7 +263,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.3890457, 1.0718291, 0.85026
 shape = SubResource("BoxShape3D_qh6fj")
 
 [node name="Player" parent="." unique_id=468757 instance=ExtResource("10_7aoei")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -1)
+transform = Transform3D(-4.3711385e-08, 0, -0.99999994, 0, 1, 0, 0.99999994, 0, -4.3711385e-08, 3.8231468, 0, -2.5677478)
 
 [node name="plate" parent="." unique_id=1870635703 instance=ExtResource("14_d6xsk")]
 transform = Transform3D(1.0715951, 0, 0, 0, 1.0715951, 0, 0, 0, 1.0715951, 11.380297, 1.5684683, -0.7487632)

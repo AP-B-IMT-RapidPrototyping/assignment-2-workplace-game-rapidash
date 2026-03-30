@@ -13,7 +13,10 @@ public partial class ReputationManager : Node
     public void AddRep(int amount)
     {
         _rep += amount;
+
+        // 🔹 clamp naar minimum 0
+        _rep = Mathf.Max(_rep, 0);
+
         EmitSignal(SignalName.ReputationChanged, _rep);
-        GD.Print("⭐ REP: ", _rep);
     }
 }

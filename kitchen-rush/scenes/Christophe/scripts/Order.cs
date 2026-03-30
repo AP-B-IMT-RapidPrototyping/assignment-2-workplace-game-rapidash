@@ -23,49 +23,47 @@ public partial class Order : Node3D
         }
 
         var orderManager = GetNode<OrderManager>("/root/OrderManager");
+        
+        // check tutorial
+        bool isTutorial = orderManager.IsTutorialActive();
+
         var orders = orderManager.GetOrders();
         var score = GetNode<ScoreKeeper>("/root/ScoreKeeper");
         var repManager = GetNode<ReputationManager>("/root/ReputationManager");
 
-        bool matched = false;
-
         foreach (var orderData in orders)
         {
             // 🔹 Correcte bestelling check
-            if (targetPlate.MatchesOrder(orderData, failOnExtraIngredients: false))
+            if (targetPlate.MatchesOrder(orderData, false))
             {
-                GD.Print("Correcte bestelling!");
+                GD.Print("✅ Correcte bestelling!");
 
-                int rep = repManager.GetRep();
-                float multiplier = GetScoreMultiplier(rep);
-                int finalPoints = Mathf.RoundToInt(basePoints * multiplier);
+                if (!isTutorial)
+                {
+                    int rep = repManager.GetRep();
+                    float multiplier = GetScoreMultiplier(rep);
+                    int finalPoints = Mathf.RoundToInt(basePoints * multiplier);
 
-                GD.Print($"REP: {rep} | Score multiplier: x{multiplier}");
-                score.AddScore(finalPoints);
+                    score.AddScore(finalPoints);
 
-                // REP gain gebaseerd op tijd
-                float currentTime = orderManager.GetGameTime();
-                float timeTaken = currentTime - orderData.SpawnTime;
-                int repGain = timeTaken < 5f ? 3 : timeTaken < 10f ? 2 : 1;
-                repManager.AddRep(repGain);
-                GD.Print($"REP +{repGain} | Tijd: {timeTaken:0.0}s");
+                    float currentTime = orderManager.GetGameTime();
+                    float timeTaken = currentTime - orderData.SpawnTime;
 
-                // Verwijder order uit lijst en update UI
+                    int repGain = timeTaken < 5f ? 3 : timeTaken < 10f ? 2 : 1;
+                    repManager.AddRep(repGain);
+                }
+                else
+                {
+                    GD.Print("📘 Tutorial voltooid!");
+
+                    orderManager.CompleteTutorial();
+                }
+
                 orders.Remove(orderData);
                 orderManager.UpdateUI();
 
-                matched = true;
                 break;
             }
-        }
-
-        // 🔹 Foute bestelling
-        if (!matched)
-        {
-            GD.Print("Foute bestelling!");
-            // REP gaat omlaag
-            repManager.AddRep(-1);
-            GD.Print("REP -1 voor foute bestelling");
         }
 
         // Plate altijd resetten
