@@ -4,6 +4,8 @@ public class OrderData
 {
     public List<IngredientType> RequiredIngredients = new List<IngredientType>();
 
+    public float SpawnTime; // 🔥 wanneer order gemaakt is
+
     public string GetDisplayText()
     {
         string text = "";

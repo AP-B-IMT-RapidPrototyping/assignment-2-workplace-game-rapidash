@@ -4,12 +4,12 @@ using System.Collections.Generic;
 
 public partial class Plate : Node3D
 {
-    private List<Ingredient> ingredients = new List<Ingredient>(); // lijst van ingredients
+    private List<Ingredient> ingredients = new List<Ingredient>();
+
     [Export] public float stackHeight = 0.2f;
 
     public void PlaceIngredient(Node3D ingredientNode)
     {
-        // Zorg dat het ingredient een Ingredient script heeft
         if (!(ingredientNode is Ingredient ingredient))
         {
             GD.Print("Node is geen ingredient: ", ingredientNode.Name);
@@ -17,16 +17,10 @@ public partial class Plate : Node3D
         }
 
         float yOffset = 0f;
-
-        // bereken hoogte van bestaande ingrediënten (ZONDER de nieuwe)
         foreach (var ing in ingredients)
-        {
             yOffset += ing.Height;
-        }
 
-        // voeg nu pas toe aan lijst
         ingredients.Add(ingredient);
-
         AddChild(ingredient);
 
         ingredient.Position = new Vector3(0, yOffset, 0);
@@ -35,88 +29,41 @@ public partial class Plate : Node3D
         GD.Print("Ingredient geplaatst op plate: ", ingredient.Name, " | Type: ", ingredient.Type);
     }
 
-    public List<Ingredient> GetIngredients()
-    {
-        return ingredients;
-    }
+    public List<Ingredient> GetIngredients() => ingredients;
 
-    // Optioneel: check of burger compleet is
-    public bool IsBurgerComplete()
-    {
-        bool hasBunTop = false;
-        bool hasBunBottom = false;
-        bool hasPatty = false;
-
-        foreach (var ing in ingredients)
-        {
-            switch (ing.Type)
-            {
-                case IngredientType.BunTop:
-                    hasBunTop = true;
-                    break;
-                case IngredientType.BunBottom:
-                    hasBunBottom = true;
-                    break;
-                case IngredientType.Burger:
-                    hasPatty = true;
-                    break;
-            }
-        }
-
-        return hasBunTop && hasBunBottom && hasPatty;
-    }
-
-    public bool HasIngredients()
-    {
-        return ingredients.Count > 0;
-    }
+    public bool HasIngredients() => ingredients.Count > 0;
 
     public void ResetPlate()
     {
-        // verwijder alle ingredient nodes uit de scene
         foreach (var ing in ingredients)
         {
             if (IsInstanceValid(ing))
-            {
                 ing.QueueFree();
-            }
         }
-
-        // maak lijst leeg
         ingredients.Clear();
-
         GD.Print("Plate is leeg gemaakt");
     }
 
-    public int GetTotalCost()
+    // 🔹 Verbeterde MatchesOrder
+    // failOnExtraIngredients = false -> extra toppings zijn ok
+    public bool MatchesOrder(OrderData order, bool failOnExtraIngredients = false)
     {
-        int total = 0;
-
-        foreach (var ing in ingredients)
-        {
-            total += ing.Cost;
-        }
-
-        return total;
-    }
-    public bool MatchesOrder(OrderData order)
-    {
-        // aantal moet exact gelijk zijn
-        if (ingredients.Count != order.RequiredIngredients.Count)
-            return false;
-
-        // maak kopie van order lijst
         List<IngredientType> required = new List<IngredientType>(order.RequiredIngredients);
 
         foreach (var ing in ingredients)
         {
             if (!required.Contains(ing.Type))
-                return false;
-
-            // verwijder zodat duplicates correct werken
-            required.Remove(ing.Type);
+            {
+                if (failOnExtraIngredients)
+                    return false; // extra ingredient mag niet
+            }
+            else
+            {
+                required.Remove(ing.Type); // correct ingredient verwijderd uit lijst
+            }
         }
 
+        // check of alle vereiste ingredients aanwezig zijn
         return required.Count == 0;
     }
 }

@@ -94,11 +94,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Christophe\\Desktop\\AP\\B_IT&ImTech\\Different Git\\Rapid Prototyping\\assignment-2-workplace-game-rapidash\\kitchen-rush\\Kitchen Rush.csproj",
+      "projectUniqueName": "C:\\Users\\Christophe\\Desktop\\AP\\B_ITImTech\\Different Git\\Rapid Prototyping\\assignment-2-workplace-game-rapidash\\kitchen-rush\\Kitchen Rush.csproj",
       "projectName": "Kitchen Rush",
-      "projectPath": "C:\\Users\\Christophe\\Desktop\\AP\\B_IT&ImTech\\Different Git\\Rapid Prototyping\\assignment-2-workplace-game-rapidash\\kitchen-rush\\Kitchen Rush.csproj",
+      "projectPath": "C:\\Users\\Christophe\\Desktop\\AP\\B_ITImTech\\Different Git\\Rapid Prototyping\\assignment-2-workplace-game-rapidash\\kitchen-rush\\Kitchen Rush.csproj",
       "packagesPath": "C:\\Users\\Christophe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Christophe\\Desktop\\AP\\B_IT&ImTech\\Different Git\\Rapid Prototyping\\assignment-2-workplace-game-rapidash\\kitchen-rush\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "C:\\Users\\Christophe\\Desktop\\AP\\B_ITImTech\\Different Git\\Rapid Prototyping\\assignment-2-workplace-game-rapidash\\kitchen-rush\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

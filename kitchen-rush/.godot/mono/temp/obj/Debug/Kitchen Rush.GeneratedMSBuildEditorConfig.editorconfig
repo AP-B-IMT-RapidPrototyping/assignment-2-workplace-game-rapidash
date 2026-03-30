@@ -1,7 +1,7 @@
 is_global = true
 build_property.GodotDisabledSourceGenerators = 
-build_property.GodotProjectDir = C:\Users\Christophe\Desktop\AP\B_IT&ImTech\Different Git\Rapid Prototyping\assignment-2-workplace-game-rapidash\kitchen-rush\
-build_property.GodotProjectDirBase64 = QzpcVXNlcnNcQ2hyaXN0b3BoZVxEZXNrdG9wXEFQXEJfSVQmSW1UZWNoXERpZmZlcmVudCBHaXRcUmFwaWQgUHJvdG90eXBpbmdcYXNzaWdubWVudC0yLXdvcmtwbGFjZS1nYW1lLXJhcGlkYXNoXGtpdGNoZW4tcnVzaFw=
+build_property.GodotProjectDir = C:\Users\Christophe\Desktop\AP\B_ITImTech\Different Git\Rapid Prototyping\assignment-2-workplace-game-rapidash\kitchen-rush\
+build_property.GodotProjectDirBase64 = QzpcVXNlcnNcQ2hyaXN0b3BoZVxEZXNrdG9wXEFQXEJfSVRJbVRlY2hcRGlmZmVyZW50IEdpdFxSYXBpZCBQcm90b3R5cGluZ1xhc3NpZ25tZW50LTItd29ya3BsYWNlLWdhbWUtcmFwaWRhc2hca2l0Y2hlbi1ydXNoXA==
 build_property.GodotSourceGenerators = 
 build_property.IsGodotToolsProject = 
 build_property.TargetFramework = net8.0
@@ -15,7 +15,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KitchenRush
-build_property.ProjectDir = C:\Users\Christophe\Desktop\AP\B_IT&ImTech\Different Git\Rapid Prototyping\assignment-2-workplace-game-rapidash\kitchen-rush\
+build_property.ProjectDir = C:\Users\Christophe\Desktop\AP\B_ITImTech\Different Git\Rapid Prototyping\assignment-2-workplace-game-rapidash\kitchen-rush\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0

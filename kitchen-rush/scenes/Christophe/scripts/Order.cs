@@ -4,7 +4,7 @@ using System;
 public partial class Order : Node3D
 {
     [Export] public Plate targetPlate;
-    [Export] public int sellPrice = 15;
+    [Export] public int basePoints = 10; // basis score voor correcte bestelling
 
     public void Interact(PlayerControl player)
     {
@@ -24,44 +24,59 @@ public partial class Order : Node3D
 
         var orderManager = GetNode<OrderManager>("/root/OrderManager");
         var orders = orderManager.GetOrders();
-
         var score = GetNode<ScoreKeeper>("/root/ScoreKeeper");
+        var repManager = GetNode<ReputationManager>("/root/ReputationManager");
 
-        int cost = targetPlate.GetTotalCost();
-        bool foundMatch = false;
+        bool matched = false;
 
-        foreach (var order in orders)
+        foreach (var orderData in orders)
         {
-            if (targetPlate.MatchesOrder(order))
+            // 🔹 Correcte bestelling check
+            if (targetPlate.MatchesOrder(orderData, failOnExtraIngredients: false))
             {
-                //GD.Print("Correcte bestelling!");
+                GD.Print("Correcte bestelling!");
 
-                int profit = sellPrice - cost;
+                int rep = repManager.GetRep();
+                float multiplier = GetScoreMultiplier(rep);
+                int finalPoints = Mathf.RoundToInt(basePoints * multiplier);
 
-                GD.Print($"Kost: {cost} | Verkoop: {sellPrice} | Winst: {profit}");
+                GD.Print($"REP: {rep} | Score multiplier: x{multiplier}");
+                score.AddScore(finalPoints);
 
-                score.AddMoney(profit);
+                // REP gain gebaseerd op tijd
+                float currentTime = orderManager.GetGameTime();
+                float timeTaken = currentTime - orderData.SpawnTime;
+                int repGain = timeTaken < 5f ? 3 : timeTaken < 10f ? 2 : 1;
+                repManager.AddRep(repGain);
+                GD.Print($"REP +{repGain} | Tijd: {timeTaken:0.0}s");
 
-                orders.Remove(order);
-
+                // Verwijder order uit lijst en update UI
+                orders.Remove(orderData);
                 orderManager.UpdateUI();
 
-                foundMatch = true;
+                matched = true;
                 break;
             }
         }
 
-        if (!foundMatch)
+        // 🔹 Foute bestelling
+        if (!matched)
         {
-            //GD.Print("Foute bestelling!");
-
-            score.AddMoney(-cost);
-
-            GD.Print($"Verlies: -{cost}");
+            GD.Print("Foute bestelling!");
+            // REP gaat omlaag
+            repManager.AddRep(-1);
+            GD.Print("REP -1 voor foute bestelling");
         }
 
+        // Plate altijd resetten
         targetPlate.ResetPlate();
+    }
 
-        GD.Print("Plate geleegd!");
+    private float GetScoreMultiplier(int rep)
+    {
+        if (rep < 5) return 1f;
+        if (rep < 10) return 1.5f;
+        if (rep < 20) return 2f;
+        return 3f;
     }
 }

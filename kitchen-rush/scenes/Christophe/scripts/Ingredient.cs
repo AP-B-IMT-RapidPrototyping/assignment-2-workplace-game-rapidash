@@ -6,7 +6,6 @@ public enum IngredientType
     BunTop,
     BunBottom,
     Burger,
-    Kaas,
     Tomaat,
     Sla
 }

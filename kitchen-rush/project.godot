@@ -23,6 +23,7 @@ config/icon="res://icon.svg"
 
 ScoreKeeper="*uid://dgljpwfmqgx6"
 OrderManager="*uid://cf3me5b1homsb"
+ReputationManager="*uid://ds2gnp1f4miso"
 
 [dotnet]
 

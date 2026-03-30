@@ -1,6 +1,6 @@
 using Godot;
 
-public partial class Money : Label
+public partial class Score : Label
 {
     public override void _Ready()
     {
@@ -9,8 +9,8 @@ public partial class Money : Label
         score.ScoreChanged += OnScoreChanged;
     }
 
-    private void OnScoreChanged(int money)
+    private void OnScoreChanged(int score)
     {
-        Text = $"Money: {money}$";
+        Text = $"🏆 {score}";
     }
 }

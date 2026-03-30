@@ -1,24 +1,19 @@
 [gd_scene format=3 uid="uid://drjlj6wy048yg"]
 
 [ext_resource type="PackedScene" uid="uid://dibbx6q7kntrm" path="res://scenes/Christophe/Stations/bunStation.tscn" id="1_2h6qy"]
-[ext_resource type="PackedScene" uid="uid://usynpre7653a" path="res://scenes/Christophe/Stations/kaasStation.tscn" id="2_hky1n"]
 [ext_resource type="PackedScene" uid="uid://c0bjhkcgbyeij" path="res://scenes/Christophe/Stations/tomaatStation.tscn" id="3_l6cfc"]
 [ext_resource type="PackedScene" uid="uid://c7trjsllb46ac" path="res://scenes/Christophe/Stations/slaStation.tscn" id="4_cf5al"]
 [ext_resource type="PackedScene" uid="uid://b8fjpro4isifm" path="res://scenes/Christophe/Stations/burgerStation.tscn" id="5_542u8"]
 
 [node name="Node3D6" type="Node3D" unique_id=1003602578]
 
-[node name="Node3D2" parent="." unique_id=426921651 instance=ExtResource("1_2h6qy")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.622, 0.2, -5.708)
+[node name="Patty" parent="." unique_id=426921651 instance=ExtResource("1_2h6qy")]
 
-[node name="Node3D3" parent="." unique_id=274535376 instance=ExtResource("2_hky1n")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.62, 0.2, -9.591)
+[node name="Burger" parent="." unique_id=2094698931 instance=ExtResource("5_542u8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3)
 
-[node name="Node3D" parent="." unique_id=1175686386 instance=ExtResource("3_l6cfc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.62, 0.2, -7.699)
+[node name="Sla" parent="." unique_id=447984323 instance=ExtResource("4_cf5al")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
 
-[node name="Node3D4" parent="." unique_id=447984323 instance=ExtResource("4_cf5al")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.62, 0.2, -11.567)
-
-[node name="Node3D5" parent="." unique_id=2094698931 instance=ExtResource("5_542u8")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.708542, 0.25, -3.7035332)
+[node name="Tomaat" parent="." unique_id=1175686386 instance=ExtResource("3_l6cfc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9)

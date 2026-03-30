@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://clts20810hosb"]
 
-[ext_resource type="Script" uid="uid://cljdrtqb5r5dq" path="res://scenes/Christophe/scripts/Money.cs" id="1_8cl3v"]
-[ext_resource type="Script" uid="uid://b0cm143gybwy7" path="res://scenes/Christophe/OrdersLabel.cs" id="2_3kxo8"]
+[ext_resource type="Script" path="res://scenes/Christophe/scripts/Money.cs" id="1_8cl3v"]
+[ext_resource type="Script" path="res://scenes/Christophe/OrdersLabel.cs" id="2_3kxo8"]
+[ext_resource type="Script" path="res://scenes/Christophe/RepLabel.cs" id="3_cwfyh"]
 
 [node name="HUD" type="Control" unique_id=369203475]
 layout_mode = 3
@@ -11,18 +12,18 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Money" type="Label" parent="." unique_id=1556236757]
+[node name="Score" type="Label" parent="." unique_id=1556236757]
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -144.0
-offset_top = 17.0
-offset_right = -82.0
-offset_bottom = 40.0
+offset_left = -181.0
+offset_top = 19.0
+offset_right = -119.0
+offset_bottom = 53.0
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 24
-text = "Money: 100$"
+text = "🏆"
 script = ExtResource("1_8cl3v")
 
 [node name="Orders" type="Label" parent="." unique_id=1703171906]
@@ -35,3 +36,17 @@ theme_override_font_sizes/font_size = 24
 text = "Orders:
 "
 script = ExtResource("2_3kxo8")
+
+[node name="Rep" type="Label" parent="." unique_id=1296332526]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -176.0
+offset_top = 52.0
+offset_right = -101.0
+offset_bottom = 86.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 24
+text = "Rep:    "
+script = ExtResource("3_cwfyh")

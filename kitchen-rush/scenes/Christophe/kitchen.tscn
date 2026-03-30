@@ -73,22 +73,22 @@ shadow_enabled = true
 transform = Transform3D(1, 0, 0, 0, 1.507097, 0, 0, 0, 1, 2.042842, 0.5320537, 5.8960238)
 
 [node name="Node3D" parent="Tables and Chairs" unique_id=773000034 instance=ExtResource("12_3jqc5")]
-transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 6, 0, 1.5)
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 6, 0, -0.045463562)
 
 [node name="Node3D2" parent="Tables and Chairs" unique_id=1841458356 instance=ExtResource("12_3jqc5")]
-transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 14, 0, 1.5)
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 14.000001, 0, -0.045463562)
 
 [node name="Node3D3" parent="Tables and Chairs" unique_id=2143221107 instance=ExtResource("2_25srl")]
-transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 6, 0, 6)
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 6, 0, 4.4545364)
 
 [node name="Node3D4" parent="Tables and Chairs" unique_id=756759599 instance=ExtResource("2_25srl")]
-transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 14, 0, 6)
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 14.000001, 0, 4.4545364)
 
 [node name="Node3D5" parent="Tables and Chairs" unique_id=1306359138 instance=ExtResource("12_3jqc5")]
-transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 20, 0, 1.5)
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 20, 0, -0.045463562)
 
 [node name="Node3D6" parent="Tables and Chairs" unique_id=271891825 instance=ExtResource("2_25srl")]
-transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 20, 0, 6)
+transform = Transform3D(1, 0, 0, 0, 0.6635273, 0, 0, 0, 1, 20, 0, 4.4545364)
 
 [node name="Walls" type="Node3D" parent="." unique_id=2079215084]
 
@@ -115,7 +115,7 @@ transform = Transform3D(0.80368125, 0, 0, 0, 0.79999995, 0, 0, 0, 1, 0.3661418, 
 shape = SubResource("ConvexPolygonShape3D_psp1i")
 
 [node name="wall_window_open2" parent="Walls" unique_id=2045464942 instance=ExtResource("8_cdted")]
-transform = Transform3D(1, 0, -2.9605947e-15, 0, 1.6, 0, 2.9605947e-15, 0, 1, 5.992112, -3.469447e-18, 16.150814)
+transform = Transform3D(1, 0, -2.9605947e-15, 0, 1.6, 0, 2.9605947e-15, 0, 1, 5.5626173, -3.469447e-18, 14.837572)
 
 [node name="wall_window_open" parent="Walls/wall_window_open2" index="0" unique_id=2030570496]
 transform = Transform3D(0.99999976, 0, 0, 0, 0.79999995, 0, -2.1175824e-22, 0, 0.9999998, -1, 0, 0)
@@ -126,7 +126,7 @@ transform = Transform3D(0.99999976, 0, 0, 0, 0.79999995, 0, -2.1175824e-22, 0, 0
 shape = SubResource("ConvexPolygonShape3D_w3dxo")
 
 [node name="wall_window_open3" parent="Walls" unique_id=844954339 instance=ExtResource("8_cdted")]
-transform = Transform3D(1, 0, -2.9605947e-15, 0, 1.6, 0, 2.9605947e-15, 0, 1, 25.000004, -3.469447e-18, 16.149223)
+transform = Transform3D(1, 0, -2.9605947e-15, 0, 1.6, 0, 2.9605947e-15, 0, 1, 24.868994, -3.469447e-18, 14.835981)
 
 [node name="wall_window_open" parent="Walls/wall_window_open3" index="0" unique_id=2030570496]
 transform = Transform3D(1, 0, 6.352747e-22, 0, 0.8000001, 0, -6.352747e-22, 0, 1, 0.2080288, 0, 0.03616333)
@@ -137,7 +137,7 @@ transform = Transform3D(1, 0, 6.352747e-22, 0, 0.8000001, 0, -6.352747e-22, 0, 1
 shape = SubResource("ConvexPolygonShape3D_cuqh1")
 
 [node name="wall14" parent="Walls" unique_id=481252876 instance=ExtResource("5_c5poc")]
-transform = Transform3D(5.430203, 0, 0, 0, 1.6000001, 0, 0, 0, 0.7001096, 12.296055, -3.469447e-18, 16.172071)
+transform = Transform3D(5.526425, 0, 0, 0, 1.6000001, 0, 0, 0, 0.7001096, 12.085468, -3.469447e-18, 14.8588295)
 
 [node name="wall" parent="Walls/wall14" index="0" unique_id=137065020]
 transform = Transform3D(0.8148232, 0, 0, 0, 0.79999995, 0, 0, 0, 1, 0.5033095, 0, -0.07499695)
@@ -148,7 +148,7 @@ transform = Transform3D(0.8148232, 0, 0, 0, 0.79999995, 0, 0, 0, 1, 0.5033095, 0
 shape = SubResource("ConvexPolygonShape3D_ge2wk")
 
 [node name="wall8" parent="Walls" unique_id=401964369 instance=ExtResource("5_c5poc")]
-transform = Transform3D(-2.983734e-07, 0, -1.0001017, 0, 1.6001627, 0, 6.8259883, 0, -4.3715833e-08, 2.4317446, 0, 18.749056)
+transform = Transform3D(-2.323632e-07, 0, -1.0001017, 0, 1.6001627, 0, 5.3158507, 0, -4.3715833e-08, 2.4317446, 0, 15.264074)
 
 [node name="wall" parent="Walls/wall8" index="0" unique_id=137065020]
 transform = Transform3D(1.1385, 0, 0, 0, 0.8000001, 0, 2.2737368e-13, 0, 1, -2.2424576, 0, -0.0721848)
@@ -156,6 +156,7 @@ transform = Transform3D(1.1385, 0, 0, 0, 0.8000001, 0, 2.2737368e-13, 0, 1, -2.2
 [node name="StaticBody3D" type="StaticBody3D" parent="Walls/wall8/wall" index="0" unique_id=967429334]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/wall8/wall/StaticBody3D" unique_id=1501535722]
+transform = Transform3D(1, 0, 0, 0, 1.0000001, 0, 0, 0, 1, 0.0029574633, 0, 0)
 shape = SubResource("ConvexPolygonShape3D_724sc")
 
 [node name="Floor" type="Node3D" parent="." unique_id=1258883502]
@@ -216,7 +217,7 @@ transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 6.000001, -1, 0)
 shape = SubResource("ConvexPolygonShape3D_3i1dt")
 
 [node name="kitchencounter_sink2" parent="Kitchen meubels" unique_id=735203744 instance=ExtResource("17_jv0tu")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.922352, 0.3, -3.05927)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.922352, 0.3, -3.6209016)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Kitchen meubels/kitchencounter_sink2/kitchencounter_sink" parent_id_path=PackedInt32Array(735203744, 963287449) index="0" unique_id=1147839945]
 
@@ -233,7 +234,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.058898926, -0.22845459, 0.
 shape = SubResource("BoxShape3D_7aoei")
 
 [node name="extractorhood" parent="Kitchen meubels" unique_id=759457482 instance=ExtResource("11_3jqc5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.3907743, 1.122541, -7.7499995)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.778793, 1.122541, -7.7499995)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Kitchen meubels/extractorhood" unique_id=1137941192]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.7877402, 0)
@@ -243,10 +244,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0060424805, 0.1942749, 0.5
 shape = SubResource("BoxShape3D_3jqc5")
 
 [node name="Node3D6" parent="Kitchen meubels" unique_id=1003602578 instance=ExtResource("9_x2mbc")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 3.6999998, 0.29999998, -1)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 7.787307, 0.29999998, -6.716382)
 
 [node name="counter" type="Node3D" parent="Kitchen meubels" unique_id=2092616076]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7537384, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7537384, 0, -1.4826608)
 
 [node name="kitchencounter_outercorner" parent="Kitchen meubels/counter" unique_id=344161486 instance=ExtResource("9_xvr54")]
 transform = Transform3D(7.9819837, 0, 0, 0, 1, 0, 0, 0, 1, 18.199999, 0.5, 0.9)
@@ -265,7 +266,7 @@ shape = SubResource("BoxShape3D_qh6fj")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, -1)
 
 [node name="plate" parent="." unique_id=1870635703 instance=ExtResource("14_d6xsk")]
-transform = Transform3D(1.0715951, 0, 0, 0, 1.0715951, 0, 0, 0, 1.0715951, 11.380297, 1.5684683, 0.81467044)
+transform = Transform3D(1.0715951, 0, 0, 0, 1.0715951, 0, 0, 0, 1.0715951, 11.380297, 1.5684683, -0.7487632)
 script = ExtResource("15_25srl")
 stackHeight = 0.1
 
