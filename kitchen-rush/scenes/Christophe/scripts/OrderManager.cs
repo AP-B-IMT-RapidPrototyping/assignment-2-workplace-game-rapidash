@@ -23,10 +23,11 @@ public partial class OrderManager : Node
 
     IngredientType[] extras = { IngredientType.Sla, IngredientType.Tomaat };
 
-    [Export] public float OrderLifetime = 20f; // tijd voor order verdwijnt
-    [Export] public int MaxFails = 3;
-
+    [Export] public float OrderLifetime = 35f; // tijd voor order verdwijnt
+    [Export] public int MaxFails = 5;
     private int failCount = 0;
+    [Signal]
+    public delegate void FailsChangedEventHandler(int fails);
 
     private bool tutorialActive = false;
     private bool tutorialCompleted = false;
@@ -34,13 +35,26 @@ public partial class OrderManager : Node
     public override void _Process(double delta)
     {
         if (tutorialActive)
-            return;             //GEEN nieuwe orders tijdens tutorial
+            return;
 
         float d = (float)delta;
 
         timer += d;
         gameTime += d;
 
+        // BEGINFASE
+        if (gameTime < 60f)
+        {
+            if (orders.Count == 0)
+            {
+                TryAddOrder();
+            }
+
+            CheckExpiredOrders();
+            return; 
+        }
+
+        // NORMALE GAME
         float currentInterval = GetCurrentInterval();
 
         if (timer >= currentInterval)
@@ -116,25 +130,25 @@ public partial class OrderManager : Node
 
         float interval;
 
-        if (gameTime < 30f)
+        if (gameTime < 80f)
         {
-            interval = 6f; 
+            interval = 10f; 
         }
-        else if (gameTime < 90f)
+        else if (gameTime < 120f)
         {
-            interval = 4f;
+            interval = 6f;
         }
         else if (gameTime < 180f)
         {
-            interval = 2.5f;
+            interval = 4f;
         }
         else
         {
-            interval = 1.5f;
+            interval = 2f;
         }
 
         // 🔹 REP maakt game sneller maar minder agressief
-        interval -= rep * 0.03f;
+        interval -= rep * 0.02f;
 
         // minimum cap
         interval = Mathf.Max(interval, 1.2f);
@@ -198,6 +212,8 @@ public partial class OrderManager : Node
         {
             orders.Remove(order);
             failCount++;
+
+            EmitSignal(SignalName.FailsChanged, failCount);
 
             GD.Print($"❌ Order verlopen! Fails: {failCount}/{MaxFails}");
         }

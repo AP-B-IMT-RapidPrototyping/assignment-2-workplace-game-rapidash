@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://clts20810hosb"]
 
 [ext_resource type="Script" uid="uid://clt1kiloigsme" path="res://scenes/Christophe/scripts/Score.cs" id="1_8cl3v"]
-[ext_resource type="Script" path="res://scenes/Christophe/scripts/OrdersLabel.cs" id="2_3kxo8"]
-[ext_resource type="Script" path="res://scenes/Christophe/scripts/RepLabel.cs" id="3_cwfyh"]
+[ext_resource type="Script" uid="uid://b7s4juafaej2u" path="res://scenes/Christophe/scripts/HUD.cs" id="1_g2ffp"]
+[ext_resource type="Script" uid="uid://b0cm143gybwy7" path="res://scenes/Christophe/scripts/OrdersLabel.cs" id="2_3kxo8"]
+[ext_resource type="Script" uid="uid://4yditm3btwno" path="res://scenes/Christophe/scripts/RepLabel.cs" id="3_cwfyh"]
+[ext_resource type="Script" uid="uid://4dkqjg84otx0" path="res://scenes/Christophe/Fails.cs" id="5_r3eq5"]
 
 [node name="HUD" type="Control" unique_id=369203475]
 layout_mode = 3
@@ -11,6 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_g2ffp")
 
 [node name="Score" type="Label" parent="." unique_id=1556236757]
 layout_mode = 1
@@ -23,7 +26,7 @@ offset_right = -119.0
 offset_bottom = 53.0
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 24
-text = "🏆"
+text = "🏆0"
 script = ExtResource("1_8cl3v")
 
 [node name="Orders" type="Label" parent="." unique_id=1703171906]
@@ -48,5 +51,32 @@ offset_right = -101.0
 offset_bottom = 86.0
 grow_horizontal = 0
 theme_override_font_sizes/font_size = 24
-text = "Rep:    "
+text = "Rep: 0"
 script = ExtResource("3_cwfyh")
+
+[node name="Timer" type="Label" parent="." unique_id=1292425446]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -37.0
+offset_top = 32.0
+offset_right = 37.0
+offset_bottom = 60.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 24
+text = "Timer"
+
+[node name="Fails" type="Label" parent="." unique_id=1433802105]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -53.5
+offset_top = 66.0
+offset_right = 47.5
+offset_bottom = 100.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 24
+text = "Fails: 0/5"
+script = ExtResource("5_r3eq5")
