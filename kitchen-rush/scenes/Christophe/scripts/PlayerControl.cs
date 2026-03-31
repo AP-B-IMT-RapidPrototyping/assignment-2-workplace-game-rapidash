@@ -92,7 +92,7 @@ public partial class PlayerControl : CharacterBody3D
                     {
                         if (!HasObject())
                         {
-                            GD.Print("🖐️ Ingredient opgepakt van grond");
+                            //GD.Print("🖐️ Ingredient opgepakt van grond");
                             HoldObject(ingredient);
                         }
                         break;
@@ -148,7 +148,7 @@ public partial class PlayerControl : CharacterBody3D
         obj.Rotation = Vector3.Zero;
         obj.Scale = Vector3.One;              // of pas aan naar de juiste grootte
 
-        GD.Print("Object in handen: ", obj.Name);
+        //GD.Print("Object in handen: ", obj.Name);
     }
 
     public void DropObject()

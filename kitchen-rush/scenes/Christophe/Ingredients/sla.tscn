@@ -9,8 +9,7 @@ radius = 0.41015625
 
 [node name="Node3D" type="Node3D" unique_id=1728001100]
 script = ExtResource("1_pu8h7")
-Type = 5
-Cost = 2
+Type = 3
 Height = 0.05
 
 [node name="food_ingredient_lettuce_slice2" parent="." unique_id=298799667 instance=ExtResource("2_g63oc")]

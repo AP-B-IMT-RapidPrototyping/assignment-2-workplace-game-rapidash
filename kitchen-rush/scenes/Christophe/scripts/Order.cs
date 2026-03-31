@@ -8,8 +8,6 @@ public partial class Order : Node3D
 
     public void Interact(PlayerControl player)
     {
-        GD.Print("Bestelling verwerken");
-
         if (targetPlate == null)
         {
             GD.Print("Geen plate gekoppeld!");
@@ -33,13 +31,15 @@ public partial class Order : Node3D
 
         foreach (var orderData in orders)
         {
+            GD.Print("Checking bestelling");
             // 🔹 Correcte bestelling check
             if (targetPlate.MatchesOrder(orderData, false))
             {
-                GD.Print("✅ Correcte bestelling!");
+                GD.Print("✅ Correcte bestelling! tutorial: " + isTutorial);
 
                 if (!isTutorial)
                 {
+                    GD.Print("calculating score");
                     int rep = repManager.GetRep();
                     float multiplier = GetScoreMultiplier(rep);
                     int finalPoints = Mathf.RoundToInt(basePoints * multiplier);

@@ -44,7 +44,7 @@ public partial class Plate : Node3D
         GD.Print("Plate is leeg gemaakt");
     }
 
-    // 🔹 Verbeterde MatchesOrder
+    // Verbeterde MatchesOrder
     // failOnExtraIngredients = false -> extra toppings zijn ok
     public bool MatchesOrder(OrderData order, bool failOnExtraIngredients = false)
     {
@@ -54,6 +54,8 @@ public partial class Plate : Node3D
         {
             if (!required.Contains(ing.Type))
             {
+                GD.Print(ing);
+
                 if (failOnExtraIngredients)
                     return false; // extra ingredient mag niet
             }

@@ -2,9 +2,10 @@ using System.Collections.Generic;
 
 public class OrderData
 {
-    public List<IngredientType> RequiredIngredients = new List<IngredientType>();
+    public int Id;
 
-    public float SpawnTime; // 🔥 wanneer order gemaakt is
+    public List<IngredientType> RequiredIngredients = new List<IngredientType>();
+    public float SpawnTime;
 
     public string GetDisplayText()
     {

@@ -4,7 +4,18 @@
 [ext_resource type="Script" uid="uid://b7s4juafaej2u" path="res://scenes/Christophe/scripts/HUD.cs" id="1_g2ffp"]
 [ext_resource type="Script" uid="uid://b0cm143gybwy7" path="res://scenes/Christophe/scripts/OrdersLabel.cs" id="2_3kxo8"]
 [ext_resource type="Script" uid="uid://4yditm3btwno" path="res://scenes/Christophe/scripts/RepLabel.cs" id="3_cwfyh"]
+[ext_resource type="Script" uid="uid://d20hli7k8v6cc" path="res://scenes/Christophe/OrdersPaper.cs" id="5_ci4vc"]
 [ext_resource type="Script" uid="uid://4dkqjg84otx0" path="res://scenes/Christophe/Fails.cs" id="5_r3eq5"]
+
+[sub_resource type="Theme" id="Theme_r3eq5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ci4vc"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.5115861, 0.51158607, 0.51158607, 1)
 
 [node name="HUD" type="Control" unique_id=369203475]
 layout_mode = 3
@@ -28,17 +39,6 @@ grow_horizontal = 0
 theme_override_font_sizes/font_size = 24
 text = "🏆0"
 script = ExtResource("1_8cl3v")
-
-[node name="Orders" type="Label" parent="." unique_id=1703171906]
-layout_mode = 0
-offset_left = 36.0
-offset_top = 24.0
-offset_right = 130.0
-offset_bottom = 95.0
-theme_override_font_sizes/font_size = 24
-text = "Orders:
-"
-script = ExtResource("2_3kxo8")
 
 [node name="Rep" type="Label" parent="." unique_id=1296332526]
 layout_mode = 1
@@ -80,3 +80,25 @@ grow_horizontal = 2
 theme_override_font_sizes/font_size = 24
 text = "Fails: 0/5"
 script = ExtResource("5_r3eq5")
+
+[node name="OrdersPaper" type="Panel" parent="." unique_id=1585902008]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 32.0
+offset_right = 171.0
+offset_bottom = 756.0
+theme = SubResource("Theme_r3eq5")
+theme_override_styles/panel = SubResource("StyleBoxFlat_ci4vc")
+script = ExtResource("5_ci4vc")
+
+[node name="Orders" type="Label" parent="OrdersPaper" unique_id=1703171906]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 15.0
+offset_right = 104.0
+offset_bottom = 86.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 16
+text = "Orders:"
+autowrap_mode = 3
+script = ExtResource("2_3kxo8")

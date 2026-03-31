@@ -23,14 +23,16 @@ public partial class OrderManager : Node
 
     IngredientType[] extras = { IngredientType.Sla, IngredientType.Tomaat };
 
-    [Export] public float OrderLifetime = 35f; // tijd voor order verdwijnt
-    [Export] public int MaxFails = 5;
+    [Export] public float OrderLifetime = 30f; // tijd voor order verdwijnt
+    [Export] public int MaxFails = 20;
     private int failCount = 0;
     [Signal]
     public delegate void FailsChangedEventHandler(int fails);
 
     private bool tutorialActive = false;
     private bool tutorialCompleted = false;
+
+    private int nextOrderId = 1;
 
     public override void _Process(double delta)
     {
@@ -79,21 +81,62 @@ public partial class OrderManager : Node
     {
         var order = new OrderData();
 
+        order.Id = nextOrderId;
+        nextOrderId++;
+
         // basis burger
         order.RequiredIngredients.Add(IngredientType.BunBottom);
-        order.RequiredIngredients.Add(IngredientType.Burger);
+        order.RequiredIngredients.Add(IngredientType.Burger); // basis patty
 
-        // kies random aantal extras
-        var extrasList = new List<IngredientType> { IngredientType.Sla, IngredientType.Tomaat };
         var rng = new Random();
-        int extrasToAdd = rng.Next(0, extrasList.Count + 1); // 0, 1 of 2 extras
 
-        // shuffle de extras en pak er extrasToAdd van
-        for (int i = 0; i < extrasToAdd; i++)
+        // bepaal aantal extras
+        int extraCount;
+
+        if (gameTime < 30f)
+            extraCount = 0;
+        else if (gameTime < 60)
+            extraCount = 1;
+        else if (gameTime < 120f)
         {
-            int index = rng.Next(extrasList.Count);
-            order.RequiredIngredients.Add(extrasList[index]);
-            extrasList.RemoveAt(index); // zodat geen duplicates
+            extraCount = 2;
+            MaxOrders = 3;
+        }
+        else
+            extraCount = 3;
+
+        var extrasList = new List<IngredientType>
+        {
+            IngredientType.Sla,
+            IngredientType.Tomaat,
+        };
+
+        // NA 2 MIN → extras + duplicates toegestaan
+        var allExtrasList = new List<IngredientType>
+        {
+            IngredientType.Sla,
+            IngredientType.Tomaat,
+            IngredientType.Burger // duplicaten nu toegestaan
+        };
+
+        // VOOR 2 MIN → geen duplicates
+        if (gameTime < 120f)
+        {
+            for (int i = 0; i < extraCount && extrasList.Count > 0; i++)
+            {
+                int index = rng.Next(extrasList.Count);
+                order.RequiredIngredients.Add(extrasList[index]);
+                extrasList.RemoveAt(index);
+            }
+        }
+        // NA 2 MIN → duplicates toegestaan
+        else
+        {
+            for (int i = 0; i < extraCount; i++)
+            {
+                int index = rng.Next(allExtrasList.Count);
+                order.RequiredIngredients.Add(allExtrasList[index]);
+            }
         }
 
         // top bun altijd
@@ -110,7 +153,7 @@ public partial class OrderManager : Node
 
         for (int i = 0; i < orders.Count; i++)
         {
-            text += $"Order {i + 1}:\n";
+            text += $"Order #{orders[i].Id}:\n";            
             text += orders[i].GetDisplayText();
             text += "\n";
         }
